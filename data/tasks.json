@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-21 18:43:02",
+  "update_time": "2026-07-21 18:51:20",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -182,47 +182,47 @@
       ],
       "daily_data": {
         "2026-07-22": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -356,42 +356,42 @@
       ],
       "daily_data": {
         "2026-07-20": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 2,
           "saturation": "low"
         },
         "2026-07-19": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-18": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 10.0,
+          "hours": 10,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -717,92 +717,92 @@
       ],
       "daily_data": {
         "2026-08-04": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-03": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-31": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-22": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 3,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 12.0,
+          "hours": 12,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-18": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -960,52 +960,52 @@
       ],
       "daily_data": {
         "2026-07-24": {
-          "hours": 16.0,
+          "hours": 16,
           "task_count": 2,
           "saturation": "overload"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 16.0,
+          "hours": 16,
           "task_count": 2,
           "saturation": "overload"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -1175,47 +1175,47 @@
       ],
       "daily_data": {
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 4,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -1421,47 +1421,47 @@
       ],
       "daily_data": {
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 3,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 3,
           "saturation": "busy"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -1607,47 +1607,47 @@
       ],
       "daily_data": {
         "2026-07-21": {
-          "hours": 16.0,
+          "hours": 16,
           "task_count": 2,
           "saturation": "overload"
         },
         "2026-07-20": {
-          "hours": 16.0,
+          "hours": 16,
           "task_count": 2,
           "saturation": "overload"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -1901,72 +1901,72 @@
       ],
       "daily_data": {
         "2026-07-18": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 3,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 3,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -2244,72 +2244,72 @@
       ],
       "daily_data": {
         "2026-07-20": {
-          "hours": 10.0,
+          "hours": 10,
           "task_count": 3,
           "saturation": "busy"
         },
         "2026-07-30": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 10.0,
+          "hours": 10,
           "task_count": 3,
           "saturation": "busy"
         },
         "2026-07-15": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-14": {
-          "hours": 16.0,
+          "hours": 16,
           "task_count": 4,
           "saturation": "overload"
         },
         "2026-07-13": {
-          "hours": 2.0,
+          "hours": 2,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -2635,72 +2635,72 @@
       ],
       "daily_data": {
         "2026-07-20": {
-          "hours": 24.5,
+          "hours": 24,
           "task_count": 8,
           "saturation": "overload"
         },
         "2026-08-11": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-10": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-15": {
-          "hours": 8.5,
+          "hours": 8,
           "task_count": 3,
-          "saturation": "busy"
+          "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 2,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -3206,107 +3206,107 @@
       ],
       "daily_data": {
         "2026-07-17": {
-          "hours": 15.0,
+          "hours": 15,
           "task_count": 5,
           "saturation": "overload"
         },
         "2026-07-24": {
-          "hours": 6.0,
+          "hours": 6,
           "task_count": 2,
           "saturation": "low"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 5,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 5,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 3,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 9.0,
+          "hours": 9,
           "task_count": 6,
           "saturation": "busy"
         },
         "2026-08-11": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-10": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-05": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-04": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-03": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-12": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -3716,72 +3716,72 @@
       ],
       "daily_data": {
         "2026-07-31": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 5,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 4,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 7,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 7,
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -3903,42 +3903,42 @@
       ],
       "daily_data": {
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 12.0,
+          "hours": 12,
           "task_count": 2,
           "saturation": "busy"
         },
         "2026-07-20": {
-          "hours": 4.0,
+          "hours": 4,
           "task_count": 1,
           "saturation": "low"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -4072,52 +4072,52 @@
       ],
       "daily_data": {
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-29": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }
@@ -4251,52 +4251,52 @@
       ],
       "daily_data": {
         "2026-07-24": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-23": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-22": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-20": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-17": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-16": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-15": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-14": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-07-13": {
-          "hours": 8.0,
+          "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         }

@@ -228,10 +228,11 @@ def process_tasks():
 
         # 按日期构建工时数据
         for date, hours in daily_hours[owner].items():
+            rounded_hours = round(hours)  # 四舍五入为整数
             member_data["daily_data"][date] = {
-                "hours": hours,
+                "hours": rounded_hours,
                 "task_count": daily_task_count[owner][date],
-                "saturation": calculate_saturation(hours)
+                "saturation": calculate_saturation(rounded_hours)
             }
 
         # 构建任务列表（按开始时间正序）
