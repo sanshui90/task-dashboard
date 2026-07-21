@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交付人力投入看板</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif;
+            background: #0a0e27;
+            color: #fff;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        /* 头部 */
+        .header {
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
+            border-bottom: 1px solid #3a3f5c;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .logo {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header-right {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .btn {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            color: #667eea;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+        }
+        
+        .update-time {
+            font-size: 13px;
+            color: #8b8bb7;
+        }
+        
+        /* 主内容区 */
+        .main-content {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            flex: 1;
+            overflow: hidden;
+        }
+        
+        /* 左侧热力图区域 */
+        .heatmap-section {
+            flex: 1;
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
+            border-radius: 12px;
+            border: 1px solid #3a3f5c;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .section-header {
+            background: rgba(102, 126, 234, 0.05);
+            border-bottom: 1px solid #3a3f5c;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-title::before {
+            content: '';
+            width: 3px;
+            height: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+        }
+        
+        .stats-badges {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .stat-badge {
+            background: rgba(42, 42, 90, 0.5);
+            border: 1px solid #3a3f5c;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .stat-number {
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        /* 周统计摘要 */
+        .week-summary {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 8px;
+            padding: 12px 20px;
+            background: rgba(42, 42, 90, 0.2);
+        }
+        
+        .week-stat-card {
+            background: rgba(42, 42, 90, 0.5);
+            border: 1px solid #3a3f5c;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .week-stat-card.last-week {
+            border-color: #607d8b;
+        }
+        
+        .week-stat-card.this-week {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            border-color: #667eea;
+        }
+        
+        .week-stat-card.future-week {
+            border-color: #4caf50;
+        }
+        
+        .week-label {
+            font-size: 11px;
+            color: #8b8bb7;
+            margin-bottom: 3px;
+        }
+        
+        .week-label.this-week {
+            color: #667eea;
+            font-weight: 600;
+        }
+        
+        .week-stat-number {
+            font-size: 20px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .week-dates {
+            font-size: 9px;
+            color: #6b6b9b;
+            margin-top: 3px;
+        }
+        
+        /* 热力图 */
+        .heatmap-chart {
+            padding: 12px 20px;
+            flex: 1;
+            overflow-y: auto;
+        }
+        
+        .chart-header {
+            display: flex;
+            background: rgba(42, 42, 90, 0.3);
+            border-radius: 10px 10px 0 0;
+            border: 1px solid #3a3f5c;
+            border-bottom: none;
+        }
+        
+        .chart-cell {
+            flex: 1;
+            padding: 10px 8px;
+            text-align: center;
+            border-right: 1px solid #3a3f5c;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .chart-cell:first-child {
+            width: 120px;
+            flex: none;
+            border-right: 1px solid #3a3f5c;
+        }
+        
+        .chart-cell:last-child {
+            border-right: none;
+        }
+        
+        .chart-cell.last-week {
+            color: #90a4ae;
+        }
+        
+        .chart-cell.this-week {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            color: #667eea;
+        }
+        
+        .chart-cell.future-week {
+            color: #66bb6a;
+        }
+        
+        .chart-dates {
+            font-size: 11px;
+            font-weight: 400;
+            opacity: 0.6;
+            margin-top: 3px;
+        }
+        
+        .chart-body {
+            border: 1px solid #3a3f5c;
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .member-row {
+            display: flex;
+            border-bottom: 1px solid #3a3f5c;
+            transition: all 0.3s;
+        }
+        
+        .member-row:hover {
+            background: rgba(102, 126, 234, 0.05);
+        }
+        
+        .member-row:last-child {
+            border-bottom: none;
+        }
+        
+        .member-row.selected {
+            background: rgba(102, 126, 234, 0.1);
+        }
+        
+        .member-cell {
+            width: 120px;
+            padding: 10px 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-right: 1px solid #3a3f5c;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .member-cell:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+        
+        .member-avatar {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        
+        .member-name {
+            font-size: 13px;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .week-cell {
+            flex: 1;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 6px;
+            border-right: 1px solid #3a3f5c;
+        }
+        
+        .week-cell:last-child {
+            border-right: none;
+        }
+        
+        .day-cell {
+            aspect-ratio: 1;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .day-cell:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+        
+        /* 饱和度颜色 - 基于工时 */
+        .saturation-idle {
+            background: rgba(33, 33, 60, 0.8);
+            border: 1px solid #3a3f5c;
+            color: #6b6b9b;
+        }
+        
+        .saturation-idle .hours {
+            color: #8b8bb7;
+        }
+        
+        .saturation-normal {
+            background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
+            border: 1px solid #66bb6a;
+            color: white;
+        }
+        
+        .saturation-busy {
+            background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+            border: 1px solid #ff9800;
+            color: white;
+        }
+        
+        .saturation-overload {
+            background: linear-gradient(135deg, #ef5350 0%, #c62828 100%);
+            border: 1px solid #ef5350;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(239, 83, 80, 0); }
+        }
+        
+        .day-hours {
+            font-size: 11px;
+            opacity: 0.8;
+        }
+        
+        .day-count {
+            font-size: 10px;
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: rgba(0,0,0,0.3);
+            padding: 2px 5px;
+            border-radius: 8px;
+        }
+        
+        /* 图例 */
+        .legend-bar {
+            padding: 15px 20px;
+            background: rgba(42, 42, 90, 0.3);
+            border-top: 1px solid #3a3f5c;
+        }
+        
+        .legend-items {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 24px;
+            height: 24px;
+            border-radius: 5px;
+        }
+        
+        .legend-label {
+            font-size: 12px;
+            color: #b0b0d0;
+        }
+        
+        .legend-detail {
+            font-size: 10px;
+            color: #8b8bb7;
+            margin-top: 2px;
+        }
+        
+        /* 右侧任务明细区域 */
+        .detail-section {
+            width: 400px;
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
+            border-radius: 12px;
+            border: 1px solid #3a3f5c;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .detail-header {
+            background: rgba(102, 126, 234, 0.05);
+            border-bottom: 1px solid #3a3f5c;
+            padding: 12px 20px;
+        }
+        
+        .member-info-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .member-avatar-large {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .member-info-text h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .member-stats-text {
+            font-size: 13px;
+            color: #8b8bb7;
+        }
+        
+        .task-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+        }
+        
+        .task-filters {
+            padding: 15px 20px;
+            background: rgba(42, 42, 90, 0.3);
+            border-bottom: 1px solid #3a3f5c;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .filter-btn {
+            background: rgba(102, 126, 234, 0.1);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            color: #667eea;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn:hover {
+            background: rgba(102, 126, 234, 0.2);
+        }
+        
+        .filter-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: #667eea;
+            color: white;
+        }
+        
+        .task-item {
+            background: rgba(42, 42, 90, 0.5);
+            border: 1px solid #3a3f5c;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .task-item:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.3);
+            transform: translateX(5px);
+        }
+        
+        .task-item.selected {
+            background: rgba(102, 126, 234, 0.15);
+            border-color: #667eea;
+        }
+        
+        .task-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .task-title {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.4;
+            flex: 1;
+            margin-right: 10px;
+        }
+        
+        .task-status {
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .status-done {
+            background: rgba(76, 175, 80, 0.2);
+            color: #66bb6a;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+        
+        .status-overdue {
+            background: rgba(239, 83, 80, 0.2);
+            color: #ef5350;
+            border: 1px solid rgba(239, 83, 80, 0.3);
+        }
+        
+        .status-pending {
+            background: rgba(255, 152, 0, 0.2);
+            color: #ff9800;
+            border: 1px solid rgba(255, 152, 0, 0.3);
+        }
+        
+        .status-in-progress {
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        .task-body {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .task-meta-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+        
+        .task-meta-label {
+            color: #8b8bb7;
+        }
+        
+        .task-meta-value {
+            color: #b0b0d0;
+            font-weight: 500;
+        }
+        
+        .task-effort-bar {
+            background: rgba(42, 42, 90, 0.8);
+            height: 6px;
+            border-radius: 3px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        
+        .task-effort-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s;
+        }
+        
+        .empty-state {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #6b6b9b;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            opacity: 0.3;
+        }
+        
+        .empty-text {
+            font-size: 14px;
+        }
+        
+        .empty-hint {
+            font-size: 12px;
+            margin-top: 8px;
+            opacity: 0.6;
+        }
+        
+        /* 滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(42, 42, 90, 0.3);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">📊</div>
+                <h1>交付人力投入看板</h1>
+            </div>
+            <div class="header-right">
+                <span class="update-time" id="updateTime">更新时间: --</span>
+                <button class="btn" onclick="exportReport()">📥 导出报告</button>
+                <button class="btn-primary btn" onclick="refreshData()">🔄 刷新数据</button>
+            </div>
+        </div>
+        
+        <!-- 主内容 -->
+        <div class="main-content">
+            <!-- 左侧热力图 -->
+            <div class="heatmap-section">
+                <div class="section-header">
+                    <div class="section-title">团队成员任务饱和度热力图</div>
+                    <div class="stats-badges" id="statsBadges">
+                        <!-- 动态填充 -->
+                    </div>
+                </div>
+                
+                <!-- 周统计 -->
+                <div class="week-summary" id="weekSummary">
+                    <!-- 动态填充 -->
+                </div>
+                
+                <!-- 热力图 -->
+                <div class="heatmap-chart">
+                    <div class="chart-header" id="chartHeader">
+                        <div class="chart-cell">成员</div>
+                        <!-- 动态填充周标题 -->
+                    </div>
+                    
+                    <div class="chart-body" id="chartBody">
+                        <!-- 动态填充成员数据 -->
+                    </div>
+                </div>
+                
+                <!-- 图例 -->
+                <div class="legend-bar">
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <div class="legend-color saturation-idle"></div>
+                            <div>
+                                <div class="legend-label">不饱和</div>
+                                <div class="legend-detail">&lt; 8小时</div>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color saturation-normal"></div>
+                            <div>
+                                <div class="legend-label">正常</div>
+                                <div class="legend-detail">= 8小时</div>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color saturation-busy"></div>
+                            <div>
+                                <div class="legend-label">繁忙</div>
+                                <div class="legend-detail">&gt; 8小时</div>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color saturation-overload"></div>
+                            <div>
+                                <div class="legend-label">过载</div>
+                                <div class="legend-detail">&gt;&gt; 8小时</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 右侧任务明细 -->
+            <div class="detail-section">
+                <div class="detail-header">
+                    <div class="member-info-header">
+                        <div class="member-avatar-large" id="detailAvatar">?</div>
+                        <div class="member-info-text">
+                            <h3 id="detailTitle">请选择成员</h3>
+                            <div class="member-stats-text" id="detailStats">
+                                点击左侧成员查看任务详情
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="task-filters" id="taskFilters">
+                    <span style="font-size: 13px; color: #8b8bb7;">筛选：</span>
+                    <button class="filter-btn active" onclick="filterByStatus('all')">全部任务</button>
+                    <button class="filter-btn" onclick="filterByStatus('overdue')">超时未关闭</button>
+                    <button class="filter-btn" onclick="filterByStatus('pending')">待处理</button>
+                    <button class="filter-btn" onclick="filterByStatus('done')">已关闭</button>
+                </div>
+                
+                <div class="task-list" id="taskList">
+                    <div class="empty-state">
+                        <div class="empty-icon">📋</div>
+                        <div class="empty-text">请点击左侧成员查看任务详情</div>
+                        <div class="empty-hint">点击成员名称或热力图中的日期格子</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 全局数据
+        let appData = null;
+        let selectedMember = null;
+        let currentStatusFilter = 'all'; // 当前状态筛选
+        let currentWeekFilter = null; // 当前周筛选
+        
+        // 加载数据
+        async function loadData() {
+            try {
+                const response = await fetch('data/tasks.json');
+                appData = await response.json();
+                renderDashboard();
+            } catch (error) {
+                console.error('加载数据失败:', error);
+                alert('加载数据失败，请确保 data/tasks.json 文件存在');
+            }
+        }
+        
+        // 渲染看板
+        function renderDashboard() {
+            if (!appData) return;
+            
+            // 更新时间
+            document.getElementById('updateTime').textContent = `更新时间: ${appData.update_time}`;
+            
+            // 渲染统计徽章
+            renderStatsBadges();
+            
+            // 渲染周统计
+            renderWeekSummary();
+            
+            // 渲染热力图
+            renderHeatmap();
+        }
+        
+        // 渲染统计徽章
+        function renderStatsBadges() {
+            const statusMap = {
+                'done': '已关闭',
+                'overdue': '超时未关闭',
+                'pending': '待处理',
+                'in_progress': '进行中'
+            };
+            
+            let html = `<div class="stat-badge">总任务: <span class="stat-number">${appData.summary.total_tasks}</span></div>`;
+            
+            for (const [status, count] of Object.entries(appData.summary.by_status)) {
+                html += `<div class="stat-badge">${statusMap[status] || status}: <span class="stat-number">${count}</span></div>`;
+            }
+            
+            document.getElementById('statsBadges').innerHTML = html;
+        }
+        
+        // 渲染周统计
+        function renderWeekSummary() {
+            const thisMonday = new Date(appData.date_range.this_monday);
+            const weeks = [];
+            
+            for (let i = -1; i <= 4; i++) {
+                const monday = new Date(thisMonday);
+                monday.setDate(monday.getDate() + i * 7);
+                
+                const friday = new Date(monday);
+                friday.setDate(friday.getDate() + 4);
+                
+                const weekKey = monday.toISOString().split('T')[0];
+                const taskCount = appData.summary.by_week[weekKey] || 0;
+                
+                let label = '';
+                let cardClass = '';
+                
+                if (i === -1) {
+                    label = '上周';
+                    cardClass = 'last-week';
+                } else if (i === 0) {
+                    label = '本周';
+                    cardClass = 'this-week';
+                } else {
+                    label = `下${i === 1 ? '' : i}周`;
+                    cardClass = 'future-week';
+                }
+                
+                weeks.push({
+                    label,
+                    cardClass,
+                    taskCount,
+                    dates: `${formatDate(monday)} ~ ${formatDate(friday)}`
+                });
+            }
+            
+            let html = '';
+            for (const week of weeks) {
+                html += `
+                    <div class="week-stat-card ${week.cardClass}">
+                        <div class="week-label ${week.cardClass === 'this-week' ? 'this-week' : ''}">${week.label}</div>
+                        <div class="week-stat-number">${week.taskCount}</div>
+                        <div class="week-dates">${week.dates}</div>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('weekSummary').innerHTML = html;
+        }
+        
+        // 渲染热力图
+        function renderHeatmap() {
+            const thisMonday = new Date(appData.date_range.this_monday);
+            
+            // 渲染周标题
+            let headerHtml = '<div class="chart-cell">成员</div>';
+            
+            for (let i = -1; i <= 4; i++) {
+                const monday = new Date(thisMonday);
+                monday.setDate(monday.getDate() + i * 7);
+                
+                const friday = new Date(monday);
+                friday.setDate(friday.getDate() + 4);
+                
+                let label = '';
+                let cellClass = '';
+                
+                if (i === -1) {
+                    label = '上周';
+                    cellClass = 'last-week';
+                } else if (i === 0) {
+                    label = '本周';
+                    cellClass = 'this-week';
+                } else {
+                    label = `下${i === 1 ? '' : i}周`;
+                    cellClass = 'future-week';
+                }
+                
+                const weekKey = monday.toISOString().split('T')[0];
+                
+                headerHtml += `
+                    <div class="chart-cell ${cellClass}" style="cursor: pointer;" onclick="filterByWeek('${weekKey}')">
+                        ${label}
+                        <div class="chart-dates">${formatDate(monday)}~${formatDate(friday)}</div>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('chartHeader').innerHTML = headerHtml;
+            
+            // 渲染成员行
+            let bodyHtml = '';
+            
+            for (const member of appData.members) {
+                bodyHtml += `<div class="member-row">`;
+                bodyHtml += `
+                    <div class="member-cell" onclick="selectMember('${member.name}')">
+                        <div class="member-avatar">${member.avatar}</div>
+                        <div class="member-name">${member.name}</div>
+                    </div>
+                `;
+                
+                // 渲染每周数据
+                for (let i = -1; i <= 4; i++) {
+                    const monday = new Date(thisMonday);
+                    monday.setDate(monday.getDate() + i * 7);
+                    
+                    bodyHtml += `<div class="week-cell">`;
+                    
+                    // 渲染每天的格子（周一到周五）
+                    for (let d = 0; d < 5; d++) {
+                        const date = new Date(monday);
+                        date.setDate(date.getDate() + d);
+                        const dateStr = date.toISOString().split('T')[0];
+                        
+                        const dayData = member.daily_data[dateStr] || { hours: 0, task_count: 0, saturation: 'idle' };
+                        const dayNames = ['一', '二', '三', '四', '五'];
+                        
+                        bodyHtml += `
+                            <div class="day-cell saturation-${dayData.saturation}" 
+                                 title="${dateStr} (周${dayNames[d]}): ${dayData.hours}小时 - ${getSaturationText(dayData.saturation)}"
+                                 onclick="showDayTasks('${member.name}', '${dateStr}')">
+                                <div>${dayNames[d]}</div>
+                                <div class="day-hours">${dayData.hours}h</div>
+                                <div class="day-count">${dayData.task_count}</div>
+                            </div>
+                        `;
+                    }
+                    
+                    bodyHtml += `</div>`;
+                }
+                
+                bodyHtml += `</div>`;
+            }
+            
+            document.getElementById('chartBody').innerHTML = bodyHtml;
+        }
+        
+        // 选择成员
+        function selectMember(memberName) {
+            selectedMember = appData.members.find(m => m.name === memberName);
+            
+            if (!selectedMember) return;
+            
+            // 重置筛选
+            currentWeekFilter = null;
+            currentStatusFilter = 'all';
+            
+            // 更新按钮状态
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector('.filter-btn[onclick="filterByStatus(\'all\')"]')?.classList.add('active');
+            
+            // 更新选中状态
+            document.querySelectorAll('.member-row').forEach(row => {
+                row.classList.remove('selected');
+            });
+            event.target.closest('.member-row').classList.add('selected');
+            
+            // 更新详情标题
+            document.getElementById('detailAvatar').textContent = selectedMember.avatar;
+            document.getElementById('detailTitle').textContent = `${selectedMember.name} - 任务列表`;
+            
+            // 统计任务状态
+            const statusCount = {
+                done: 0,
+                overdue: 0,
+                pending: 0,
+                in_progress: 0
+            };
+            
+            for (const task of selectedMember.tasks) {
+                statusCount[task.status]++;
+            }
+            
+            document.getElementById('detailStats').textContent = 
+                `总任务: ${selectedMember.task_count} | 已关闭: ${statusCount.done} | 待处理: ${statusCount.pending} | 超时未关闭: ${statusCount.overdue}`;
+            
+            // 渲染任务列表
+            renderTaskList(selectedMember.tasks);
+        }
+        
+        // 按状态筛选
+        function filterByStatus(status) {
+            currentStatusFilter = status;
+            
+            // 更新按钮状态
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // 找到对应的按钮并激活
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                const onclickAttr = btn.getAttribute('onclick');
+                if (onclickAttr && onclickAttr.includes(`'${status}'`)) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // 如果已选择成员，重新渲染任务列表
+            if (selectedMember) {
+                renderTaskList(selectedMember.tasks);
+            }
+        }
+        
+        // 按周筛选
+        function filterByWeek(weekKey) {
+            currentWeekFilter = weekKey;
+            
+            // 如果已选择成员，重新渲染任务列表
+            if (selectedMember) {
+                renderTaskList(selectedMember.tasks);
+            } else {
+                alert('请先选择一个成员');
+            }
+        }
+        
+        // 渲染任务列表
+        function renderTaskList(tasks) {
+            const statusMap = {
+                'done': { text: '已关闭', class: 'status-done' },
+                'overdue': { text: '超时未关闭', class: 'status-overdue' },
+                'pending': { text: '待处理', class: 'status-pending' },
+                'in_progress': { text: '进行中', class: 'status-in-progress' }
+            };
+            
+            // 应用筛选
+            let filteredTasks = [...tasks];
+            
+            // 状态筛选
+            if (currentStatusFilter !== 'all') {
+                filteredTasks = filteredTasks.filter(t => t.status === currentStatusFilter);
+            }
+            
+            // 周筛选
+            if (currentWeekFilter) {
+                filteredTasks = filteredTasks.filter(t => {
+                    if (!t.begin) return false;
+                    const taskDate = new Date(t.begin);
+                    const monday = new Date(currentWeekFilter);
+                    const friday = new Date(monday);
+                    friday.setDate(friday.getDate() + 4);
+                    
+                    return taskDate >= monday && taskDate <= friday;
+                });
+            }
+            
+            if (filteredTasks.length === 0) {
+                document.getElementById('taskList').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📋</div>
+                        <div class="empty-text">没有符合条件的任务</div>
+                        <div class="empty-hint">尝试调整筛选条件</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            let html = '';
+            
+            for (const task of filteredTasks) {
+                const statusInfo = statusMap[task.status] || { text: task.status, class: '' };
+                const dayNames = ['日', '一', '二', '三', '四', '五', '六'];
+                const taskDate = task.begin ? new Date(task.begin) : null;
+                const dayName = taskDate ? ` (周${dayNames[taskDate.getDay()]})` : '';
+                
+                const progress = task.effort > 0 ? Math.min(100, (task.effort_completed / task.effort) * 100) : 0;
+                
+                html += `
+                    <div class="task-item">
+                        <div class="task-header">
+                            <div class="task-title">${task.name}</div>
+                            <div class="task-status ${statusInfo.class}">${statusInfo.text}</div>
+                        </div>
+                        <div class="task-body">
+                            <div class="task-meta-item">
+                                <span class="task-meta-label">计划日期</span>
+                                <span class="task-meta-value">${task.begin || '--'}${dayName}</span>
+                            </div>
+                            <div class="task-meta-item">
+                                <span class="task-meta-label">预估工时</span>
+                                <span class="task-meta-value">${task.effort} 小时</span>
+                            </div>
+                            <div class="task-effort-bar">
+                                <div class="task-effort-fill" style="width: ${progress}%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('taskList').innerHTML = html;
+        }
+        
+        // 显示某天的任务
+        function showDayTasks(memberName, dateStr) {
+            const member = appData.members.find(m => m.name === memberName);
+            if (!member) return;
+            
+            const dayTasks = member.tasks.filter(t => t.begin === dateStr);
+            
+            if (dayTasks.length === 0) {
+                alert(`${memberName} 在 ${dateStr} 没有任务`);
+                return;
+            }
+            
+            selectMember(memberName);
+        }
+        
+        // 辅助函数
+        function formatDate(date) {
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${month}-${day}`;
+        }
+        
+        function getSaturationText(saturation) {
+            const map = {
+                'idle': '不饱和',
+                'normal': '正常',
+                'busy': '繁忙',
+                'overload': '过载'
+            };
+            return map[saturation] || saturation;
+        }
+        
+        // 导出报告
+        function exportReport() {
+            alert('导出功能开发中...');
+        }
+        
+        // 刷新数据
+        async function refreshData() {
+            const btn = event.target;
+            btn.textContent = '🔄 刷新中...';
+            
+            try {
+                // 调用 Python 脚本更新数据
+                // 这里需要后端支持，暂时只重新加载 JSON
+                await loadData();
+                btn.textContent = '🔄 刷新数据';
+                alert('数据已更新');
+            } catch (error) {
+                btn.textContent = '🔄 刷新数据';
+                alert('刷新失败: ' + error.message);
+            }
+        }
+        
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

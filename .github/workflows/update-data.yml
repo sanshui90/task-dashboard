@@ -1,0 +1,45 @@
+name: Update TAPD Data
+
+on:
+  schedule:
+    # 每小时运行一次（UTC 时间，北京时间需要 -8 小时）
+    - cron: '0 * * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Update TAPD data
+      env:
+        TAPD_API_TOKEN: ${{ secrets.TAPD_API_TOKEN }}
+      run: |
+        cd scripts
+        python3 fetch_tapd_tasks.py
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/tasks.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update TAPD data - $(date '+%Y-%m-%d %H:%M:%S')"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
