@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-21 18:20:44",
+  "update_time": "2026-07-21 18:43:02",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -184,7 +184,7 @@
         "2026-07-22": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-21": {
           "hours": 8.0,
@@ -194,7 +194,7 @@
         "2026-07-24": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-20": {
           "hours": 8.0,
@@ -358,17 +358,17 @@
         "2026-07-20": {
           "hours": 4.0,
           "task_count": 2,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-19": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-18": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-17": {
           "hours": 8.0,
@@ -759,12 +759,12 @@
         "2026-07-23": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-22": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-21": {
           "hours": 8.0,
@@ -2286,7 +2286,7 @@
         "2026-07-13": {
           "hours": 2.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-17": {
           "hours": 8.0,
@@ -3213,7 +3213,7 @@
         "2026-07-24": {
           "hours": 6.0,
           "task_count": 2,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-23": {
           "hours": 8.0,
@@ -3915,7 +3915,7 @@
         "2026-07-20": {
           "hours": 4.0,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "low"
         },
         "2026-07-17": {
           "hours": 8.0,

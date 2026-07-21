@@ -144,7 +144,7 @@
         }
         
         .week-dates {
-            font-size: 10px;
+            font-size: 9px;
             color: #6b6b9b;
             margin-top: 3px;
         }
@@ -299,12 +299,14 @@
         
         /* 饱和度颜色 - 基于工时 */
         .saturation-idle {
-            background: rgba(33, 33, 60, 0.8);
+            background: rgba(33, 33, 60, 0.5);
             border: 1px solid #3a3f5c;
             color: #6b6b9b;
         }
         
-        .saturation-idle .hours {
+        .saturation-low {
+            background: rgba(107, 107, 155, 0.3);
+            border: 1px solid #6b6b9b;
             color: #8b8bb7;
         }
         
@@ -333,7 +335,7 @@
         }
         
         .day-hours {
-            font-size: 10px;
+            font-size: 9px;
             font-weight: 500;
         }
         
@@ -376,7 +378,7 @@
         }
         
         .legend-detail {
-            font-size: 10px;
+            font-size: 9px;
             color: #8b8bb7;
             margin-top: 2px;
         }
@@ -502,7 +504,7 @@
         .task-status {
             padding: 3px 8px;
             border-radius: 10px;
-            font-size: 10px;
+            font-size: 9px;
             font-weight: 600;
             white-space: nowrap;
         }
@@ -656,29 +658,36 @@
                         <div class="legend-item">
                             <div class="legend-color saturation-idle"></div>
                             <div>
+                                <div class="legend-label">无任务</div>
+                                <div class="legend-detail">0h</div>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color saturation-low"></div>
+                            <div>
                                 <div class="legend-label">不饱和</div>
-                                <div class="legend-detail">&lt; 8小时</div>
+                                <div class="legend-detail">&lt; 8h</div>
                             </div>
                         </div>
                         <div class="legend-item">
                             <div class="legend-color saturation-normal"></div>
                             <div>
                                 <div class="legend-label">正常</div>
-                                <div class="legend-detail">= 8小时</div>
+                                <div class="legend-detail">= 8h</div>
                             </div>
                         </div>
                         <div class="legend-item">
                             <div class="legend-color saturation-busy"></div>
                             <div>
                                 <div class="legend-label">繁忙</div>
-                                <div class="legend-detail">&gt; 8小时</div>
+                                <div class="legend-detail">8-12h</div>
                             </div>
                         </div>
                         <div class="legend-item">
                             <div class="legend-color saturation-overload"></div>
                             <div>
                                 <div class="legend-label">过载</div>
-                                <div class="legend-detail">&gt;&gt; 8小时</div>
+                                <div class="legend-detail">&gt; 12h</div>
                             </div>
                         </div>
                     </div>

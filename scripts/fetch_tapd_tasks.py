@@ -93,13 +93,15 @@ def fetch_tasks(workspace_id, start_date, end_date):
 def calculate_saturation(hours):
     """计算饱和度状态"""
     if hours == 0:
-        return "idle"  # 不饱和
-    elif hours <= 8:
-        return "normal"  # 正常
+        return "idle"  # 无颜色
+    elif hours < 8:
+        return "low"  # 灰色（不饱和）
+    elif hours == 8:
+        return "normal"  # 绿色（正常）
     elif hours <= 12:
-        return "busy"  # 繁忙
+        return "busy"  # 黄色（繁忙）
     else:
-        return "overload"  # 过载
+        return "overload"  # 红色（过载）
 
 def determine_task_status(task, current_date):
     """判断任务状态"""
