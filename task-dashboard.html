@@ -408,16 +408,6 @@
             opacity: 0.8;
         }
         
-        .day-count {
-            font-size: 10px;
-            position: absolute;
-            bottom: 2px;
-            right: 2px;
-            background: rgba(0,0,0,0.3);
-            padding: 2px 5px;
-            border-radius: 8px;
-        }
-        
         /* 图例 */
         .legend-bar {
             padding: 15px 20px;
@@ -607,13 +597,19 @@
         .task-body {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
         }
         
-        .task-meta-item {
+        .task-meta-row {
             display: flex;
-            justify-content: space-between;
+            gap: 20px;
             font-size: 12px;
+        }
+        
+        .task-meta-item-inline {
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
         
         .task-meta-label {
@@ -836,16 +832,17 @@
         // 渲染统计徽章
         function renderStatsBadges() {
             const statusMap = {
-                'done': '已关闭',
-                'overdue': '超时未关闭',
-                'pending': '待处理',
-                'in_progress': '进行中'
+                'done': { text: '已关闭', color: '#66bb6a' },
+                'overdue': { text: '超时未关闭', color: '#ef5350' },
+                'pending': { text: '待处理', color: '#ff9800' },
+                'in_progress': { text: '进行中', color: '#667eea' }
             };
             
             let html = `<div class="stat-badge">总任务: <span class="stat-number">${appData.summary.total_tasks}</span></div>`;
             
             for (const [status, count] of Object.entries(appData.summary.by_status)) {
-                html += `<div class="stat-badge">${statusMap[status] || status}: <span class="stat-number">${count}</span></div>`;
+                const statusInfo = statusMap[status] || { text: status, color: '#667eea' };
+                html += `<div class="stat-badge" style="cursor: pointer;" onclick="showAllTasksByStatus('${status}')">${statusInfo.text}: <span class="stat-number" style="color: ${statusInfo.color};">${count}</span></div>`;
             }
             
             document.getElementById('statsBadges').innerHTML = html;
@@ -972,11 +969,10 @@
                         
                         bodyHtml += `
                             <div class="day-cell saturation-${dayData.saturation}" 
-                                 title="${dateStr} (周${dayNames[d]}): ${dayData.hours}小时 - ${getSaturationText(dayData.saturation)}"
+                                 title="${dateStr} (周${dayNames[d]}): ${dayData.hours}小时, ${dayData.task_count}个任务 - ${getSaturationText(dayData.saturation)}"
                                  onclick="showDayTasks('${member.name}', '${dateStr}')">
                                 <div>${dayNames[d]}</div>
                                 <div class="day-hours">${dayData.hours}h</div>
-                                <div class="day-count">${dayData.task_count}</div>
                             </div>
                         `;
                     }
@@ -1071,6 +1067,52 @@
             }
         }
         
+        // 显示所有指定状态的任务
+        function showAllTasksByStatus(status) {
+            // 收集所有成员的该状态任务
+            let allTasks = [];
+            for (const member of appData.members) {
+                const memberTasks = member.tasks.filter(t => t.status === status);
+                allTasks = allTasks.concat(memberTasks.map(t => ({...t, ownerName: member.name})));
+            }
+            
+            if (allTasks.length === 0) {
+                alert('没有找到该状态的任务');
+                return;
+            }
+            
+            // 按开始时间排序
+            allTasks.sort((a, b) => (a.begin || '').localeCompare(b.begin || ''));
+            
+            // 重置筛选
+            selectedMember = null;
+            currentWeekFilter = null;
+            currentStatusFilter = status;
+            
+            // 更新按钮状态
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelectorAll('.member-row').forEach(row => {
+                row.classList.remove('selected');
+            });
+            
+            // 更新标题
+            const statusMap = {
+                'done': '已关闭',
+                'overdue': '超时未关闭',
+                'pending': '待处理',
+                'in_progress': '进行中'
+            };
+            
+            document.getElementById('detailAvatar').textContent = '📋';
+            document.getElementById('detailTitle').textContent = `全部成员 - ${statusMap[status] || status}`;
+            document.getElementById('detailStats').textContent = `共 ${allTasks.length} 个任务`;
+            
+            // 渲染任务列表
+            renderTaskList(allTasks);
+        }
+        
         // 渲染任务列表
         function renderTaskList(tasks) {
             const statusMap = {
@@ -1122,6 +1164,9 @@
                 
                 const progress = task.effort > 0 ? Math.min(100, (task.effort_completed / task.effort) * 100) : 0;
                 
+                // 如果有 ownerName（从全局统计点击），显示负责人
+                const ownerHtml = task.ownerName ? `<span class="task-meta-value" style="color: #667eea;">${task.ownerName}</span>` : '';
+                
                 html += `
                     <div class="task-item">
                         <div class="task-header">
@@ -1129,13 +1174,16 @@
                             <div class="task-status ${statusInfo.class}">${statusInfo.text}</div>
                         </div>
                         <div class="task-body">
-                            <div class="task-meta-item">
-                                <span class="task-meta-label">计划日期</span>
-                                <span class="task-meta-value">${task.begin || '--'}${dayName}</span>
-                            </div>
-                            <div class="task-meta-item">
-                                <span class="task-meta-label">预估工时</span>
-                                <span class="task-meta-value">${task.effort} 小时</span>
+                            <div class="task-meta-row">
+                                ${ownerHtml ? `<div class="task-meta-item-inline"><span class="task-meta-label">👤</span>${ownerHtml}</div>` : ''}
+                                <div class="task-meta-item-inline">
+                                    <span class="task-meta-label">📅</span>
+                                    <span class="task-meta-value">${task.begin || '--'}${dayName}</span>
+                                </div>
+                                <div class="task-meta-item-inline">
+                                    <span class="task-meta-label">⏱️</span>
+                                    <span class="task-meta-value">${task.effort}h</span>
+                                </div>
                             </div>
                             <div class="task-effort-bar">
                                 <div class="task-effort-fill" style="width: ${progress}%;"></div>
