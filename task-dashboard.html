@@ -27,77 +27,6 @@
             overflow: hidden;
         }
         
-        /* 头部 */
-        .header {
-            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
-            border-bottom: 1px solid #3a3f5c;
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-        
-        .logo {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-        }
-        
-        .header h1 {
-            font-size: 20px;
-            font-weight: 600;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .header-right {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-        
-        .btn {
-            background: rgba(102, 126, 234, 0.1);
-            border: 1px solid rgba(102, 126, 234, 0.3);
-            color: #667eea;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        }
-        
-        .btn:hover {
-            background: rgba(102, 126, 234, 0.2);
-            border-color: #667eea;
-            transform: translateY(-2px);
-        }
-        
-        .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            color: white;
-        }
-        
-        .update-time {
-            font-size: 13px;
-            color: #8b8bb7;
-        }
-        
         /* 主内容区 */
         .main-content {
             display: flex;
@@ -413,6 +342,14 @@
             padding: 15px 20px;
             background: rgba(42, 42, 90, 0.3);
             border-top: 1px solid #3a3f5c;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .update-time-left {
+            font-size: 12px;
+            color: #6b6b9b;
         }
         
         .legend-items {
@@ -684,25 +621,12 @@
 </head>
 <body>
     <div class="container">
-        <!-- 头部 -->
-        <div class="header">
-            <div class="header-left">
-                <div class="logo">📊</div>
-                <h1>交付人力投入看板</h1>
-            </div>
-            <div class="header-right">
-                <span class="update-time" id="updateTime">更新时间: --</span>
-                <button class="btn" onclick="exportReport()">📥 导出报告</button>
-                <button class="btn-primary btn" onclick="refreshData()">🔄 刷新数据</button>
-            </div>
-        </div>
-        
         <!-- 主内容 -->
         <div class="main-content">
             <!-- 左侧热力图 -->
             <div class="heatmap-section">
                 <div class="section-header">
-                    <div class="section-title">团队成员任务饱和度热力图</div>
+                    <div class="section-title">业务二组交付人力投入看板</div>
                     <div class="stats-badges" id="statsBadges">
                         <!-- 动态填充 -->
                     </div>
@@ -727,6 +651,7 @@
                 
                 <!-- 图例 -->
                 <div class="legend-bar">
+                    <div class="update-time-left" id="updateTime">更新时间: --</div>
                     <div class="legend-items">
                         <div class="legend-item">
                             <div class="legend-color saturation-idle"></div>
@@ -797,7 +722,7 @@
         // 全局数据
         let appData = null;
         let selectedMember = null;
-        let currentStatusFilter = 'all'; // 当前状态筛选
+        let currentStatusFilter = 'overdue'; // 默认显示超时未关闭
         let currentWeekFilter = null; // 当前周筛选
         
         // 加载数据
@@ -1251,7 +1176,14 @@
         }
         
         // 页面加载时初始化
-        document.addEventListener('DOMContentLoaded', loadData);
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData().then(() => {
+                // 默认显示超时未关闭的任务
+                setTimeout(() => {
+                    showAllTasksByStatus('overdue');
+                }, 100);
+            });
+        });
     </script>
 </body>
 </html>
