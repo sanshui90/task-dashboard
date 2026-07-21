@@ -283,7 +283,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
@@ -333,8 +333,8 @@
         }
         
         .day-hours {
-            font-size: 11px;
-            opacity: 0.8;
+            font-size: 13px;
+            font-weight: 600;
         }
         
         /* 图例 */
@@ -890,13 +890,11 @@
                         const dateStr = date.toISOString().split('T')[0];
                         
                         const dayData = member.daily_data[dateStr] || { hours: 0, task_count: 0, saturation: 'idle' };
-                        const dayNames = ['一', '二', '三', '四', '五'];
                         
                         bodyHtml += `
                             <div class="day-cell saturation-${dayData.saturation}" 
-                                 title="${dateStr} (周${dayNames[d]}): ${dayData.hours}小时, ${dayData.task_count}个任务 - ${getSaturationText(dayData.saturation)}"
+                                 title="${dateStr}: ${dayData.hours}小时, ${dayData.task_count}个任务"
                                  onclick="showDayTasks('${member.name}', '${dateStr}')">
-                                <div>${dayNames[d]}</div>
                                 <div class="day-hours">${dayData.hours}h</div>
                             </div>
                         `;
