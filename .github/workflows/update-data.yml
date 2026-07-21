@@ -6,16 +6,19 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch: # 支持手动触发
 
+permissions:
+  contents: write  # 授予写权限
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
         
@@ -31,15 +34,10 @@ jobs:
         cd scripts
         python3 fetch_tapd_tasks.py
         
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/tasks.json
         git diff --quiet && git diff --staged --quiet || git commit -m "Update TAPD data - $(date '+%Y-%m-%d %H:%M:%S')"
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        git push
