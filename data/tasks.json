@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-22 10:42:15",
+  "update_time": "2026-07-22 13:34:06",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -1992,7 +1992,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 30,
+      "task_count": 34,
       "tasks": [
         {
           "id": "1165152329001221895",
@@ -2211,23 +2211,71 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001222248",
-          "name": "【东证期货五期】企微管家测试环境升级25.12+定制适配  ",
-          "status": "overdue",
-          "begin": "2026-07-21",
-          "due": "2026-07-21",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001221683",
+          "id": "1165152329001222936",
+          "name": "【中航证券26年维保】企微管家私有化维保 问题处理",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001202131",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222935",
+          "name": "【财信吉祥人寿一期】企微管家开发/测试环境部署 问题处理",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001213562",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222934",
+          "name": "【天府证券一期】【P1】客户画像（20人天）测试问题处理",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001198120",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222933",
+          "name": "【重庆农商行三期】【P10】新增智能话术功能(3人天) 测试",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220483",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
           "id": "1165152329001222249",
           "name": "【东证期货五期】企微管家测试环境升级25.12+定制适配",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-22",
           "due": "2026-07-22",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001221683",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222248",
+          "name": "【东证期货五期】企微管家测试环境升级25.12+定制适配  ",
+          "status": "pending",
+          "begin": "2026-07-23",
+          "due": "2026-07-23",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001221683",
@@ -2356,6 +2404,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-22": {
+          "hours": 10,
+          "task_count": 5,
+          "saturation": "busy"
+        },
         "2026-07-28": {
           "hours": 16,
           "task_count": 2,
@@ -2377,9 +2430,9 @@
           "saturation": "normal"
         },
         "2026-07-21": {
-          "hours": 18,
-          "task_count": 5,
-          "saturation": "overload"
+          "hours": 10,
+          "task_count": 4,
+          "saturation": "busy"
         },
         "2026-07-20": {
           "hours": 10,
@@ -2391,10 +2444,10 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-07-22": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+        "2026-07-23": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-07-16": {
           "hours": 10,
@@ -2430,18 +2483,13 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-07-23": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 41,
+      "task_count": 45,
       "tasks": [
         {
           "id": "1165152329001221885",
@@ -2684,13 +2732,61 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001221480",
-          "name": "【天府证券一期】【P1】业务标签同步企业微信（20人天），功能测试",
-          "status": "pending",
+          "id": "1165152329001222932",
+          "name": "【财信吉祥人寿一期】企微管家开发/测试环境部署，测试环境提测，25.12基线其他项目bug复测",
+          "status": "done",
           "begin": "2026-07-22",
           "due": "2026-07-22",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.5,
+          "effort_completed": 2.5,
+          "story_id": "1165152329001213562",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001222931",
+          "name": "【天府证券一期】企微管家私有化生产环境部署（30人天），压测脚本调试",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001189024",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001222930",
+          "name": "【天府证券一期】【P1】客户画像（20人天），资产、持仓、360画像问题跟进及复测",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001198120",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001222929",
+          "name": "【广发期货】产品库，有基金从业资格的营销人员才能推介基金产品（8人天），测试报告输出",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001207339",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001221480",
+          "name": "【天府证券一期】【P1】业务标签同步企业微信（20人天），功能测试",
+          "status": "done",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001205102",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2937,6 +3033,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-22": {
+          "hours": 8,
+          "task_count": 5,
+          "saturation": "normal"
+        },
         "2026-07-21": {
           "hours": 9,
           "task_count": 5,
@@ -3013,11 +3114,6 @@
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-22": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4630,16 +4726,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 296,
+    "total_tasks": 304,
     "by_status": {
-      "pending": 95,
-      "done": 171,
-      "overdue": 30
+      "done": 181,
+      "pending": 94,
+      "overdue": 29
     },
     "by_week": {
+      "2026-07-20": 100,
       "2026-07-27": 33,
       "2026-08-03": 17,
-      "2026-07-20": 92,
       "2026-07-13": 147,
       "2026-08-10": 7
     }
