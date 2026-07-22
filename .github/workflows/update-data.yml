@@ -36,6 +36,7 @@ jobs:
     - name: Update TAPD data
       env:
         TAPD_API_TOKEN: ${{ secrets.TAPD_API_TOKEN }}
+        OUTPUT_FILE: ${{ github.workspace }}/data/tasks.json
       run: |
         cd scripts
         python3 fetch_tapd_tasks.py

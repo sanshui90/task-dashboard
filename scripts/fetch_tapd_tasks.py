@@ -268,8 +268,9 @@ def main():
     # 处理任务数据
     output_data = process_tasks()
 
-    # 输出 JSON 文件
-    output_file = os.path.expanduser("~/.openclaw/workspace/data/tasks.json")
+    # 输出 JSON 文件（优先使用环境变量指定路径，兼容 GitHub Actions）
+    default_output = os.path.expanduser("~/.openclaw/workspace/data/tasks.json")
+    output_file = os.environ.get("OUTPUT_FILE", default_output)
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
     with open(output_file, 'w', encoding='utf-8') as f:
