@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-22 09:09:56",
+  "update_time": "2026-07-22 05:07:38",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -1224,7 +1224,7 @@
     {
       "name": "时光;",
       "avatar": "时",
-      "task_count": 16,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001221902",
@@ -1395,6 +1395,18 @@
           "owner": "时光;"
         },
         {
+          "id": "1165152329001222875",
+          "name": "【国投证券二期】AI合规质检合并到2512pgsql基线-AI合规质检配合客户生产验证",
+          "status": "pending",
+          "begin": "2026-07-22",
+          "due": "2026-07-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001212515",
+          "workspace_id": "65152329",
+          "owner": "时光;"
+        },
+        {
           "id": "1165152329001219412",
           "name": "【国投证券】安全问题处理支持-输出部署架构&内部沟通讨论",
           "status": "pending",
@@ -1420,6 +1432,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-07-21": {
           "hours": 8,
           "task_count": 1,
@@ -1975,7 +1992,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 26,
+      "task_count": 30,
       "tasks": [
         {
           "id": "1165152329001221895",
@@ -2254,6 +2271,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001222881",
+          "name": "【方正证券三期】企微管家信创需求测试环境适配升级 定制内容适配",
+          "status": "pending",
+          "begin": "2026-07-28",
+          "due": "2026-07-28",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001219712",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001221088",
           "name": "【财信吉祥人寿一期】客户认证及360画像同步 辅助认证功能开发",
           "status": "pending",
@@ -2278,6 +2307,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001222880",
+          "name": "【方正证券三期】企微管家信创需求测试环境适配升级 定制内容适配",
+          "status": "pending",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001219712",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001222308",
           "name": "【中邮证券三期】【信创】测试环境企微管家私有化-前端适配",
           "status": "pending",
@@ -2288,9 +2329,53 @@
           "story_id": "1165152329001210905",
           "workspace_id": "65152329",
           "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222878",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
+          "status": "pending",
+          "begin": "2026-07-31",
+          "due": "2026-07-31",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220823",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222879",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
+          "status": "pending",
+          "begin": "2026-08-03",
+          "due": "2026-08-03",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220823",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
         }
       ],
       "daily_data": {
+        "2026-07-28": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-07-30": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-08-03": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-07-31": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-07-21": {
           "hours": 18,
           "task_count": 5,
@@ -2300,11 +2385,6 @@
           "hours": 10,
           "task_count": 3,
           "saturation": "busy"
-        },
-        "2026-07-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-07-29": {
           "hours": 8,
@@ -2342,11 +2422,6 @@
           "saturation": "normal"
         },
         "2026-07-24": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-28": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2972,7 +3047,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 41,
+      "task_count": 40,
       "tasks": [
         {
           "id": "1165152329001222418",
@@ -3251,18 +3326,6 @@
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001221612",
-          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-测试环境域名接入",
-          "status": "overdue",
-          "begin": "2026-07-17",
-          "due": "2026-07-17",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001210905",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
           "id": "1165152329001222477",
           "name": "【江海证券一期】企微管家私有化-测试环境部署-测试环境部署",
           "status": "overdue",
@@ -3469,9 +3532,9 @@
       ],
       "daily_data": {
         "2026-07-17": {
-          "hours": 15,
-          "task_count": 5,
-          "saturation": "overload"
+          "hours": 7,
+          "task_count": 4,
+          "saturation": "low"
         },
         "2026-07-24": {
           "hours": 6,
@@ -4567,17 +4630,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 292,
+    "total_tasks": 296,
     "by_status": {
+      "pending": 95,
       "done": 171,
-      "pending": 90,
-      "overdue": 31
+      "overdue": 30
     },
     "by_week": {
-      "2026-07-20": 91,
-      "2026-08-03": 16,
-      "2026-07-27": 30,
-      "2026-07-13": 148,
+      "2026-07-27": 33,
+      "2026-08-03": 17,
+      "2026-07-20": 92,
+      "2026-07-13": 147,
       "2026-08-10": 7
     }
   }
