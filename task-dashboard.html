@@ -750,11 +750,21 @@
         function renderDashboard() {
             if (!appData) return;
             
-            // 更新时间 - 转换为北京时间
-            const updateTime = new Date(appData.update_time);
-            const beijingTime = new Date(updateTime.getTime() + 8 * 60 * 60 * 1000);
-            const formattedTime = beijingTime.toISOString().replace('T', ' ').substring(0, 19);
-            document.getElementById('updateTime').textContent = `更新时间: ${formattedTime} (北京时间)`;
+            // 更新时间 - 数据文件中的时间是 UTC，转换为北京时间
+            const updateTimeStr = appData.update_time + 'Z'; // 添加 Z 表示 UTC 时间
+            const updateTime = new Date(updateTimeStr);
+            const options = {
+                year: 'numeric',
+                month: '2-digit', 
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false,
+                timeZone: 'Asia/Shanghai'
+            };
+            const beijingTime = updateTime.toLocaleString('zh-CN', options).replace(/\//g, '-');
+            document.getElementById('updateTime').textContent = `更新时间: ${beijingTime} (北京时间)`;
             
             // 渲染统计徽章
             renderStatsBadges();
