@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-23 10:48:07",
+  "update_time": "2026-07-23 03:10:15",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -2101,6 +2101,30 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001221090",
+          "name": "【重庆农商行三期】【P10】新增非营销类任务维护功能(6人天) 功能联调",
+          "status": "done",
+          "begin": "2026-07-13",
+          "due": "2026-07-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001220478",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001218963",
+          "name": "【天府证券一期】【P1】客户画像（20人天）功能联调",
+          "status": "done",
+          "begin": "2026-07-13",
+          "due": "2026-07-13",
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001198120",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001221955",
           "name": "【重庆农商行三期】【P10】新增任务创建情况明细统计(13人天) 功能联调",
           "status": "done",
@@ -2121,30 +2145,6 @@
           "effort": 4.0,
           "effort_completed": 4.0,
           "story_id": "1165152329001213050",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001221090",
-          "name": "【重庆农商行三期】【P10】新增非营销类任务维护功能(6人天) 功能联调",
-          "status": "done",
-          "begin": "2026-07-14",
-          "due": "2026-07-14",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001220478",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001218963",
-          "name": "【天府证券一期】【P1】客户画像（20人天）功能联调",
-          "status": "done",
-          "begin": "2026-07-14",
-          "due": "2026-07-14",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001198120",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2571,14 +2571,14 @@
           "saturation": "busy"
         },
         "2026-07-14": {
-          "hours": 16,
-          "task_count": 4,
-          "saturation": "overload"
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-07-13": {
-          "hours": 2,
-          "task_count": 1,
-          "saturation": "low"
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
         },
         "2026-07-17": {
           "hours": 8,
