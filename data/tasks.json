@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-23 03:10:15",
+  "update_time": "2026-07-23 05:08:13",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -231,7 +231,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 13,
+      "task_count": 14,
       "tasks": [
         {
           "id": "1165152329001221953",
@@ -354,6 +354,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001222999",
+          "name": "【无锡农商行一期】P2_管户&线索自动认证支持",
+          "status": "done",
+          "begin": "2026-07-21",
+          "due": "2026-07-21",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001218624",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001222969",
           "name": "烟台银行-ka会话存档生产环境部署-生产试运营支持",
           "status": "done",
@@ -391,14 +403,14 @@
         }
       ],
       "daily_data": {
-        "2026-07-22": {
+        "2026-07-21": {
           "hours": 6,
           "task_count": 2,
           "saturation": "low"
         },
-        "2026-07-21": {
-          "hours": 4,
-          "task_count": 1,
+        "2026-07-22": {
+          "hours": 6,
+          "task_count": 2,
           "saturation": "low"
         },
         "2026-07-20": {
@@ -2461,18 +2473,6 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001222308",
-          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-前端适配",
-          "status": "pending",
-          "begin": "2026-08-04",
-          "due": "2026-08-04",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001210905",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
           "id": "1165152329001222268",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.9】吉意保业务系统打通（10人天）前端技术支持",
           "status": "pending",
@@ -2505,6 +2505,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222308",
+          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-前端适配",
+          "status": "pending",
+          "begin": "2026-08-07",
+          "due": "2026-08-07",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210905",
           "workspace_id": "65152329",
           "owner": "云燕;"
         }
@@ -2550,10 +2562,15 @@
           "task_count": 3,
           "saturation": "busy"
         },
+        "2026-08-07": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-08-04": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
         },
         "2026-07-23": {
           "hours": 8,
@@ -4847,14 +4864,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 312,
+    "total_tasks": 313,
     "by_status": {
-      "done": 188,
+      "done": 189,
       "pending": 85,
       "overdue": 39
     },
     "by_week": {
-      "2026-07-20": 106,
+      "2026-07-20": 107,
       "2026-07-27": 31,
       "2026-08-03": 21,
       "2026-07-13": 147,
