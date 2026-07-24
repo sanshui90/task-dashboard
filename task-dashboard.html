@@ -162,6 +162,10 @@
             border-radius: 10px 10px 0 0;
             border: 1px solid #3a3f5c;
             border-bottom: none;
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
         }
         
         .chart-cell {
@@ -177,6 +181,10 @@
             width: 120px;
             flex: none;
             border-right: 1px solid #3a3f5c;
+            position: sticky;
+            left: 0;
+            z-index: 25;
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
         }
         
         .chart-cell:last-child {
@@ -236,6 +244,10 @@
             border-right: 1px solid #3a3f5c;
             cursor: pointer;
             transition: all 0.3s;
+            position: sticky;
+            left: 0;
+            z-index: 15;
+            background: linear-gradient(135deg, #1a1f3a 0%, #252b4a 100%);
         }
         
         .member-cell:hover {
