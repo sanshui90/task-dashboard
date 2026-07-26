@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-25 13:32:15",
+  "update_time": "2026-07-26 00:31:58",
   "date_range": {
     "start": "2026-07-13",
     "end": "2026-08-23",
@@ -998,7 +998,7 @@
         {
           "id": "1165152329001222771",
           "name": "【财信吉祥人寿一期】客户360画像 - 家庭档案",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-07-25",
           "due": "2026-07-25",
           "effort": 8.0,
@@ -7509,9 +7509,9 @@
   "summary": {
     "total_tasks": 492,
     "by_status": {
-      "pending": 171,
+      "pending": 170,
       "done": 315,
-      "overdue": 6
+      "overdue": 7
     },
     "by_week": {
       "2026-07-27": 86,
