@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-27 00:32:27",
+  "update_time": "2026-07-27 05:21:46",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -296,11 +296,11 @@
         {
           "id": "1165152329001223143",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.8】标准化标签体系（7人天）-需求熟悉方案设计",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-07-24",
           "due": "2026-07-24",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001221108",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -5547,9 +5547,9 @@
   "summary": {
     "total_tasks": 356,
     "by_status": {
-      "done": 168,
+      "done": 169,
       "pending": 180,
-      "overdue": 8
+      "overdue": 7
     },
     "by_week": {
       "2026-07-20": 176,
