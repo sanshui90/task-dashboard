@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-27 11:02:31",
+  "update_time": "2026-07-27 13:49:49",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -219,7 +219,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 12,
+      "task_count": 13,
       "tasks": [
         {
           "id": "1165152329001222726",
@@ -306,6 +306,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001223871",
+          "name": "【长江证券三期】售后维保-文件导出&敏感词记录数据问题处理",
+          "status": "done",
+          "begin": "2026-07-27",
+          "due": "2026-07-27",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001184133",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001223016",
           "name": "【无锡农商行一期】线索、管户名单加好友增加是否自动认证配置-方案设计+评审",
           "status": "pending",
@@ -367,6 +379,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-27": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-07-24": {
           "hours": 4,
           "task_count": 1,
@@ -388,11 +405,6 @@
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-27": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2220,7 +2232,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 38,
+      "task_count": 40,
       "tasks": [
         {
           "id": "1165152329001222743",
@@ -2403,13 +2415,37 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001223688",
-          "name": "【重庆农商行三期】【P10】新增非营销类任务维护功能(6人天) 功能测试",
-          "status": "pending",
+          "id": "1165152329001223872",
+          "name": "【财信吉祥人寿一期】企微管家开发/测试环境部署 测试问题处理",
+          "status": "done",
+          "begin": "2026-07-27",
+          "due": "2026-07-27",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001213562",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001223868",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）前端功能梳理",
+          "status": "done",
           "begin": "2026-07-27",
           "due": "2026-07-27",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001223688",
+          "name": "【重庆农商行三期】【P10】新增非营销类任务维护功能(6人天) 功能测试",
+          "status": "done",
+          "begin": "2026-07-27",
+          "due": "2026-07-27",
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001220478",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2417,11 +2453,11 @@
         {
           "id": "1165152329001223687",
           "name": "【重庆农商行三期】【P10】防打扰计算规则迭代(4人天) 功能测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-27",
           "due": "2026-07-27",
-          "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001221481",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2681,9 +2717,9 @@
       ],
       "daily_data": {
         "2026-07-27": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
+          "hours": 9,
+          "task_count": 4,
+          "saturation": "busy"
         },
         "2026-08-25": {
           "hours": 8,
@@ -2820,7 +2856,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 51,
+      "task_count": 52,
       "tasks": [
         {
           "id": "1165152329001222740",
@@ -3111,13 +3147,25 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001220717",
-          "name": "【银河证券三期】【25.12】企微管家测试环境升级（50人天），历史定开功能测试",
-          "status": "pending",
+          "id": "1165152329001223867",
+          "name": "【天府证券一期】【P1】业务标签同步企业微信（20人天），客户画像&标签产品走查及走查问题回归",
+          "status": "done",
           "begin": "2026-07-27",
           "due": "2026-07-27",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001205102",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001220717",
+          "name": "【银河证券三期】【25.12】企微管家测试环境升级（50人天），历史定开功能测试（组合素材、群风险提醒、批量修改权限组，群发支持筛选标签）",
+          "status": "done",
+          "begin": "2026-07-27",
+          "due": "2026-07-27",
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001216730",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3436,6 +3484,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-27": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
         "2026-07-26": {
           "hours": 8,
           "task_count": 1,
@@ -3562,11 +3615,6 @@
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-27": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -5545,15 +5593,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 356,
+    "total_tasks": 360,
     "by_status": {
-      "done": 171,
-      "pending": 178,
+      "done": 178,
+      "pending": 175,
       "overdue": 7
     },
     "by_week": {
+      "2026-07-27": 90,
       "2026-07-20": 176,
-      "2026-07-27": 86,
       "2026-08-03": 49,
       "2026-08-24": 12,
       "2026-08-10": 21,
