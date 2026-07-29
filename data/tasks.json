@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-29 05:08:13",
+  "update_time": "2026-07-29 10:51:43",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -219,7 +219,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 14,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001222726",
@@ -332,24 +332,60 @@
         {
           "id": "1165152329001223016",
           "name": "【无锡农商行一期】线索、管户名单加好友增加是否自动认证配置-方案设计+评审",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-07-27",
           "due": "2026-07-27",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001223004",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001224030",
+          "name": "【长江证券三期】售后维保-历史会话检索文件导出目录切换问题处理",
+          "status": "done",
+          "begin": "2026-07-28",
+          "due": "2026-07-28",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001184133",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001223898",
+          "name": "【无锡农商行一期】【合入25.12基线】线索、管户名单加好友增加是否自动认证配置-代码合入基线",
+          "status": "done",
+          "begin": "2026-07-28",
+          "due": "2026-07-28",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001223798",
           "workspace_id": "65152329",
           "owner": "翔宇;"
         },
         {
           "id": "1165152329001223017",
           "name": "【无锡农商行一期】线索、管户名单加好友增加是否自动认证配置-需求开发",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-07-28",
           "due": "2026-07-28",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001223004",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001224016",
+          "name": "【无锡农商行一期】【合入25.12基线】线索、管户名单加好友增加是否自动认证配置-基线环境自测",
+          "status": "done",
+          "begin": "2026-07-29",
+          "due": "2026-07-29",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001223798",
           "workspace_id": "65152329",
           "owner": "翔宇;"
         },
@@ -391,6 +427,16 @@
         }
       ],
       "daily_data": {
+        "2026-07-28": {
+          "hours": 10,
+          "task_count": 3,
+          "saturation": "busy"
+        },
+        "2026-07-29": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-07-23": {
           "hours": 4,
           "task_count": 1,
@@ -412,16 +458,6 @@
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-29": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-28": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -1637,11 +1673,11 @@
         {
           "id": "1165152329001219412",
           "name": "【国投证券】安全问题处理支持-输出部署架构&内部沟通讨论",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-29",
           "due": "2026-07-29",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001218860",
           "workspace_id": "65152329",
           "owner": "时光;"
@@ -5544,12 +5580,12 @@
         },
         {
           "id": "1165152329001223642",
-          "name": "【重庆农商行】支持重庆P10需求测试",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持重庆P10需求测试及bug修复; 2.重庆生产问题排查;",
+          "status": "done",
           "begin": "2026-07-29",
           "due": "2026-07-29",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -5634,14 +5670,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 363,
+    "total_tasks": 366,
     "by_status": {
-      "done": 187,
-      "pending": 145,
-      "overdue": 31
+      "done": 194,
+      "pending": 143,
+      "overdue": 29
     },
     "by_week": {
-      "2026-07-27": 95,
+      "2026-07-27": 98,
       "2026-07-20": 174,
       "2026-08-03": 49,
       "2026-08-24": 12,
