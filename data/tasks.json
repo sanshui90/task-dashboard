@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-30 10:42:14",
+  "update_time": "2026-07-30 13:36:04",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -433,11 +433,11 @@
         {
           "id": "1165152329001224498",
           "name": "【国投证券二期】企微管家生产环境升级+定制适配-认证客户统计问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001205910",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -445,11 +445,11 @@
         {
           "id": "1165152329001223141",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.10】人群包同步（7人天）-需求熟悉技术方案设计",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001221109",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -945,7 +945,7 @@
     {
       "name": "阿栋;",
       "avatar": "阿",
-      "task_count": 21,
+      "task_count": 22,
       "tasks": [
         {
           "id": "1165152329001222430",
@@ -1092,13 +1092,25 @@
           "owner": "阿栋;"
         },
         {
+          "id": "1165152329001224561",
+          "name": "【国盛证券二期】国盛Oracle数据同步异常处理支持",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001208697",
+          "workspace_id": "65152329",
+          "owner": "阿栋;"
+        },
+        {
           "id": "1165152329001223040",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.1】通讯录管理部分变更实时同步",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001218985",
           "workspace_id": "65152329",
           "owner": "阿栋;"
@@ -1201,6 +1213,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-30": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-07-28": {
           "hours": 4,
           "task_count": 1,
@@ -1251,11 +1268,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-07-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-07-27": {
           "hours": 8,
           "task_count": 1,
@@ -1296,7 +1308,7 @@
     {
       "name": "左耳;",
       "avatar": "左",
-      "task_count": 23,
+      "task_count": 25,
       "tasks": [
         {
           "id": "1165152329001222979",
@@ -1479,13 +1491,37 @@
           "owner": "左耳;"
         },
         {
-          "id": "1165152329001224163",
-          "name": "【金城银行三期】外呼系统新增好友功能(43人天)-发布正式环境",
-          "status": "pending",
+          "id": "1165152329001224567",
+          "name": "【天府证券一期】【P1】业务标签同步企业微信（20人天）-自动标签bug处理",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001205102",
+          "workspace_id": "65152329",
+          "owner": "左耳;"
+        },
+        {
+          "id": "1165152329001224566",
+          "name": "【东证期货五期】企微管家测试环境升级26.05-pg+定制适配-定开服务部署、启动报错问题排查",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001221683",
+          "workspace_id": "65152329",
+          "owner": "左耳;"
+        },
+        {
+          "id": "1165152329001224163",
+          "name": "【金城银行三期】外呼系统新增好友功能(43人天)-发布正式环境",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001213050",
           "workspace_id": "65152329",
           "owner": "左耳;"
@@ -1493,10 +1529,10 @@
         {
           "id": "1165152329001223299",
           "name": "【金城银行三期】外呼系统新增好友功能(43人天)-上线SOP整理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
-          "effort": 8.0,
+          "effort": 1.0,
           "effort_completed": 1.0,
           "story_id": "1165152329001213050",
           "workspace_id": "65152329",
@@ -1576,14 +1612,14 @@
         }
       ],
       "daily_data": {
+        "2026-07-30": {
+          "hours": 7,
+          "task_count": 4,
+          "saturation": "low"
+        },
         "2026-07-29": {
           "hours": 15,
           "task_count": 3,
-          "saturation": "overload"
-        },
-        "2026-07-30": {
-          "hours": 16,
-          "task_count": 2,
           "saturation": "overload"
         },
         "2026-07-28": {
@@ -2757,6 +2793,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001220890",
+          "name": "【财信吉祥人寿一期】客户认证及360画像同步 详情tab定制开发",
+          "status": "pending",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001222879",
           "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
           "status": "pending",
@@ -2765,18 +2813,6 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001220823",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001220890",
-          "name": "【财信吉祥人寿一期】客户认证及360画像同步 详情tab定制开发",
-          "status": "pending",
-          "begin": "2026-08-03",
-          "due": "2026-08-03",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001218988",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -3065,9 +3101,9 @@
           "saturation": "normal"
         },
         "2026-07-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-07-21": {
           "hours": 10,
@@ -3103,18 +3139,13 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-08-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 56,
+      "task_count": 58,
       "tasks": [
         {
           "id": "1165152329001222740",
@@ -3501,13 +3532,37 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001221689",
-          "name": "【银河证券三期】【25.12】企微管家测试环境升级（50人天），历史定开功能测试",
-          "status": "pending",
+          "id": "1165152329001224570",
+          "name": "【东证期货五期】企微管家测试环境升级26.05-pg+定制适配，标品主流程测试",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001221683",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001224569",
+          "name": "【重庆农商行三期】【P10】新增任务创建情况明细统计(13人天)，售后在职继承、MOT待办问题测试环境验证",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220482",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001221689",
+          "name": "【银河证券三期】【25.12】企微管家测试环境升级（50人天），历史定开功能测试（域账号管理、开户二维码、获客链接、存量客户线索添加、移动端客户列表筛选、企微登录二次验证等需求测试）",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001216730",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3790,6 +3845,11 @@
         }
       ],
       "daily_data": {
+        "2026-07-30": {
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-07-29": {
           "hours": 9,
           "task_count": 3,
@@ -3911,11 +3971,6 @@
           "saturation": "normal"
         },
         "2026-07-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-30": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -5857,12 +5912,12 @@
         },
         {
           "id": "1165152329001223643",
-          "name": "【重庆农商行】支持重庆P10需求行内sit测试",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持重庆P10需求测试及bug修复; 2.支持内网改造网络适配调试;",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -5935,16 +5990,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 386,
+    "total_tasks": 391,
     "by_status": {
-      "done": 246,
-      "pending": 128,
+      "done": 258,
+      "pending": 121,
       "overdue": 12
     },
     "by_week": {
-      "2026-07-27": 118,
+      "2026-07-27": 124,
       "2026-07-20": 171,
-      "2026-08-03": 49,
+      "2026-08-03": 48,
       "2026-08-10": 24,
       "2026-08-24": 12,
       "2026-08-17": 12
