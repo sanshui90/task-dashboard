@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-31 00:30:32",
+  "update_time": "2026-07-31 05:14:00",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -2139,7 +2139,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 30,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001223137",
@@ -2478,6 +2478,18 @@
           "owner": "阿彭;"
         },
         {
+          "id": "1165152329001224752",
+          "name": "【东莞银行框架四期】客户认证活动需求（26人天）-  H5拉起微信小程序页面&逻辑开发",
+          "status": "pending",
+          "begin": "2026-08-11",
+          "due": "2026-08-11",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223440",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
           "id": "1165152329001221792",
           "name": "【北京农商行一期】产品库对接(20人天) - 前后端联调",
           "status": "pending",
@@ -2486,6 +2498,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001217700",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001224753",
+          "name": "【东莞银行框架四期】客户认证活动需求（26人天）- 微信小程序活码展示新页面开发",
+          "status": "pending",
+          "begin": "2026-08-12",
+          "due": "2026-08-12",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223440",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -2500,9 +2524,87 @@
           "story_id": "1165152329001212498",
           "workspace_id": "65152329",
           "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001224755",
+          "name": "【东莞银行框架四期】客户认证活动需求（26人天）- 小程序中间页&逻辑开发",
+          "status": "pending",
+          "begin": "2026-08-13",
+          "due": "2026-08-13",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223440",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001224758",
+          "name": "【东莞银行框架四期】客户认证活动需求（26人天）- 前后端联调",
+          "status": "pending",
+          "begin": "2026-08-14",
+          "due": "2026-08-14",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223440",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001224761",
+          "name": "【东莞银行框架四期】客户认证活动需求（26人天）- 整理流程自测&自测问题优化",
+          "status": "pending",
+          "begin": "2026-08-17",
+          "due": "2026-08-17",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223440",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001224762",
+          "name": "【北京农商行一期】产品库对接(20人天) - 产品库素材跳转拼接参数处理",
+          "status": "pending",
+          "begin": "2026-08-18",
+          "due": "2026-08-18",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001217700",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
         }
       ],
       "daily_data": {
+        "2026-08-18": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-17": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-14": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-12": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-08-11": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
         "2026-07-30": {
           "hours": 9,
           "task_count": 3,
@@ -2573,17 +2675,7 @@
           "task_count": 2,
           "saturation": "busy"
         },
-        "2026-08-12": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-08-06": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-11": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -5585,48 +5677,48 @@
         },
         {
           "id": "1165152329001222529",
-          "name": "活动认证需求设计文档编写",
-          "status": "overdue",
+          "name": "活动认证技术方案会议 编写ESB活动平台解密接口代码",
+          "status": "done",
           "begin": "2026-07-27",
           "due": "2026-07-27",
-          "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort": 8.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220916",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
           "id": "1165152329001222530",
-          "name": "活动认证需求，代码编写",
-          "status": "overdue",
+          "name": "活动认证需求-编写代码提供客户认证ESB接口，编写ESB的客户认证文档和解密文档提供发布接口",
+          "status": "done",
           "begin": "2026-07-28",
           "due": "2026-07-28",
-          "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort": 8.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220916",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
           "id": "1165152329001222531",
-          "name": "活动认证需求代码编写",
-          "status": "overdue",
+          "name": "跟进产能回检售后问题，已经编写产能回检二批提测文档，对齐意向需求工时提供给行方，以及编写活动认证需求代码",
+          "status": "done",
           "begin": "2026-07-29",
           "due": "2026-07-29",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220916",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
           "id": "1165152329001222532",
-          "name": "活动认证需求代码编写",
-          "status": "overdue",
+          "name": "配合行方sit测试远程视频银行渠道的需求测试以及产能回检二批次需求 和梁老师对齐意向需求的工时 售后问题排查：在职继承无法转交问题",
+          "status": "done",
           "begin": "2026-07-30",
           "due": "2026-07-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220916",
           "workspace_id": "65152329",
           "owner": "花洲;"
@@ -5686,14 +5778,14 @@
           "saturation": "normal"
         },
         "2026-07-28": {
-          "hours": 4,
+          "hours": 8,
           "task_count": 1,
-          "saturation": "low"
+          "saturation": "normal"
         },
         "2026-07-27": {
-          "hours": 4,
+          "hours": 8,
           "task_count": 1,
-          "saturation": "low"
+          "saturation": "normal"
         }
       }
     },
@@ -6091,19 +6183,19 @@
     }
   ],
   "summary": {
-    "total_tasks": 399,
+    "total_tasks": 405,
     "by_status": {
-      "done": 268,
-      "pending": 112,
-      "overdue": 19
+      "pending": 118,
+      "done": 272,
+      "overdue": 15
     },
     "by_week": {
+      "2026-08-17": 14,
+      "2026-08-10": 28,
       "2026-07-20": 173,
       "2026-07-27": 129,
       "2026-08-03": 49,
-      "2026-08-10": 24,
-      "2026-08-24": 12,
-      "2026-08-17": 12
+      "2026-08-24": 12
     }
   }
 }
