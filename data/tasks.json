@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-07-31 13:34:59",
+  "update_time": "2026-08-01 00:29:24",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-08-30",
@@ -1506,7 +1506,7 @@
         {
           "id": "1165152329001223041",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.1】通讯录管理员工变更同步",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-07-31",
           "due": "2026-07-31",
           "effort": 8.0,
@@ -3049,7 +3049,7 @@
         {
           "id": "1165152329001223325",
           "name": "【人保科技一期】人保科技一期定制需求 - 智能管家前后端功能联调",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-07-31",
           "due": "2026-07-31",
           "effort": 8.0,
@@ -4916,7 +4916,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 55,
+      "task_count": 57,
       "tasks": [
         {
           "id": "1165152329001223228",
@@ -5291,6 +5291,18 @@
           "owner": "盘古;"
         },
         {
+          "id": "1165152329001225252",
+          "name": "【重庆农商行】【腾讯】企微管家2026~2027维保-nacos cpu问题排查",
+          "status": "done",
+          "begin": "2026-07-30",
+          "due": "2026-07-30",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001225251",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
           "id": "1165152329001224935",
           "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署-测试环境部署",
           "status": "done",
@@ -5335,6 +5347,18 @@
           "effort": 2.0,
           "effort_completed": 2.0,
           "story_id": "1165152329001189024",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001225253",
+          "name": "【重庆农商行】【腾讯】企微管家2026~2027维保-jvm参数调优，cpu问题排查",
+          "status": "done",
+          "begin": "2026-07-31",
+          "due": "2026-07-31",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001225251",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -5580,6 +5604,16 @@
         }
       ],
       "daily_data": {
+        "2026-07-31": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
+        "2026-07-30": {
+          "hours": 10,
+          "task_count": 5,
+          "saturation": "busy"
+        },
         "2026-08-07": {
           "hours": 8,
           "task_count": 1,
@@ -5603,11 +5637,6 @@
         "2026-08-03": {
           "hours": 8,
           "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-07-30": {
-          "hours": 8,
-          "task_count": 4,
           "saturation": "normal"
         },
         "2026-07-29": {
@@ -5669,11 +5698,6 @@
           "hours": 16,
           "task_count": 2,
           "saturation": "overload"
-        },
-        "2026-07-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-08-11": {
           "hours": 8,
@@ -6489,7 +6513,7 @@
           "begin": "2026-07-28",
           "due": "2026-07-28",
           "effort": 8.0,
-          "effort_completed": 8.0,
+          "effort_completed": 0.0,
           "story_id": "1165152329001220916",
           "workspace_id": "65152329",
           "owner": "花洲;"
@@ -6521,7 +6545,7 @@
         {
           "id": "1165152329001223566",
           "name": "活动认证需求代码测试-跟进意向需求进度和需求情况",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-07-31",
           "due": "2026-07-31",
           "effort": 8.0,
@@ -7063,13 +7087,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 460,
+    "total_tasks": 462,
     "by_status": {
-      "done": 300,
-      "pending": 160
+      "done": 302,
+      "pending": 157,
+      "overdue": 3
     },
     "by_week": {
-      "2026-07-27": 133,
+      "2026-07-27": 135,
       "2026-08-03": 88,
       "2026-08-17": 16,
       "2026-08-10": 36,
