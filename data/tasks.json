@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-03 05:16:56",
+  "update_time": "2026-08-03 11:02:38",
   "date_range": {
     "start": "2026-07-27",
     "end": "2026-09-06",
@@ -2228,7 +2228,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 29,
+      "task_count": 30,
       "tasks": [
         {
           "id": "1165152329001223872",
@@ -2359,6 +2359,18 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001222878",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
+          "status": "pending",
+          "begin": "2026-08-03",
+          "due": "2026-08-03",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220823",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2671,9 +2683,9 @@
           "saturation": "normal"
         },
         "2026-08-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-08-07": {
           "hours": 8,
@@ -4672,12 +4684,12 @@
         },
         {
           "id": "1165152329001225074",
-          "name": "【重庆农商行】1.支持重庆P10需求sit测试;2.梳理重庆财经早报需求技术方案;",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持重庆P10需求sit测试; 2.支持内网改造测试问题排查; 3.支持测试环境nginx安全漏洞修复; 4.支持测试环境大数据模型切换问题排查;",
+          "status": "done",
           "begin": "2026-08-03",
           "due": "2026-08-03",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4786,15 +4798,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 299,
+    "total_tasks": 300,
     "by_status": {
-      "done": 130,
+      "done": 131,
       "pending": 164,
       "overdue": 5
     },
     "by_week": {
       "2026-07-27": 135,
-      "2026-08-03": 88,
+      "2026-08-03": 89,
       "2026-08-17": 16,
       "2026-08-10": 36,
       "2026-08-31": 9,
