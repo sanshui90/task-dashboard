@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-04 00:29:50",
+  "update_time": "2026-08-04 05:07:15",
   "date_range": {
     "start": "2026-07-27",
     "end": "2026-09-06",
@@ -236,7 +236,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 15,
+      "task_count": 16,
       "tasks": [
         {
           "id": "1165152329001223871",
@@ -371,6 +371,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001225418",
+          "name": "【财信吉祥人寿一期】【金融标品】认证关系优化-需求评审&问题点梳理",
+          "status": "done",
+          "begin": "2026-08-04",
+          "due": "2026-08-04",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001223031",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001224817",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.8】标准化标签体系（7人天）-客户打标签",
           "status": "pending",
@@ -420,6 +432,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-04": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-08-07": {
           "hours": 8,
           "task_count": 1,
@@ -431,11 +448,6 @@
           "saturation": "normal"
         },
         "2026-08-05": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-04": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4810,14 +4822,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 301,
+    "total_tasks": 302,
     "by_status": {
-      "done": 137,
+      "done": 138,
       "pending": 146,
       "overdue": 18
     },
     "by_week": {
-      "2026-08-03": 90,
+      "2026-08-03": 91,
       "2026-07-27": 135,
       "2026-08-17": 16,
       "2026-08-10": 36,
