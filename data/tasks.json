@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-10 05:28:02",
+  "update_time": "2026-08-10 10:57:45",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -1292,7 +1292,7 @@
     {
       "name": "时光;",
       "avatar": "时",
-      "task_count": 10,
+      "task_count": 11,
       "tasks": [
         {
           "id": "1165152329001223430",
@@ -1369,23 +1369,23 @@
         {
           "id": "1165152329001226118",
           "name": "【长安AI风控】0-1广宣AI风险治理系统-阅读长安相关需求材料",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-10",
           "due": "2026-08-10",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001225259",
           "workspace_id": "65152329",
           "owner": "时光;"
         },
         {
           "id": "1165152329001226081",
-          "name": "【国投证券】安全问题处理支持-安全部门对生产系统进行操作演示-进一步评估沟通",
-          "status": "pending",
+          "name": "【国投证券】安全问题处理支持-安全部门mot列表接口异常调用排查处理",
+          "status": "done",
           "begin": "2026-08-10",
           "due": "2026-08-10",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001218860",
           "workspace_id": "65152329",
           "owner": "时光;"
@@ -1413,18 +1413,35 @@
           "story_id": "1165152329001225259",
           "workspace_id": "65152329",
           "owner": "时光;"
+        },
+        {
+          "id": "1165152329001226240",
+          "name": "【国投证券】安全问题处理支持-安全部门对生产系统进行操作演示-进一步评估沟通",
+          "status": "pending",
+          "begin": "2026-08-13",
+          "due": "2026-08-13",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001218860",
+          "workspace_id": "65152329",
+          "owner": "时光;"
         }
       ],
       "daily_data": {
+        "2026-08-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-08-12": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-08-10": {
-          "hours": 12,
+          "hours": 8,
           "task_count": 2,
-          "saturation": "busy"
+          "saturation": "normal"
         },
         "2026-08-07": {
           "hours": 8,
@@ -4547,11 +4564,11 @@
         {
           "id": "1165152329001226090",
           "name": "【重庆农商行】1.编写AI需求技术方案文档;2.开发AI智能回复功能",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-10",
           "due": "2026-08-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4660,15 +4677,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 291,
+    "total_tasks": 292,
     "by_status": {
-      "done": 131,
-      "pending": 146,
+      "pending": 144,
+      "done": 134,
       "overdue": 14
     },
     "by_week": {
+      "2026-08-10": 76,
       "2026-08-03": 145,
-      "2026-08-10": 75,
       "2026-08-24": 25,
       "2026-08-17": 29,
       "2026-08-31": 9,
