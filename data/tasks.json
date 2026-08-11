@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-11 05:10:10",
+  "update_time": "2026-08-11 10:41:27",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -1773,7 +1773,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 29,
+      "task_count": 30,
       "tasks": [
         {
           "id": "1165152329001225958",
@@ -1880,6 +1880,18 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001216730",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001226299",
+          "name": "【晋商二期】【合入25.8基线】员工待办分析 - 前端基线合入",
+          "status": "done",
+          "begin": "2026-08-06",
+          "due": "2026-08-06",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001222696",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -2125,6 +2137,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-06": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-08-05": {
           "hours": 10,
           "task_count": 2,
@@ -2206,11 +2223,6 @@
           "saturation": "normal"
         },
         "2026-08-11": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-06": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4677,15 +4689,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 292,
+    "total_tasks": 293,
     "by_status": {
+      "done": 139,
       "pending": 129,
-      "done": 138,
       "overdue": 25
     },
     "by_week": {
+      "2026-08-03": 146,
       "2026-08-10": 76,
-      "2026-08-03": 145,
       "2026-08-24": 25,
       "2026-08-17": 29,
       "2026-08-31": 9,
