@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-12 05:38:37",
+  "update_time": "2026-08-12 10:51:07",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -4660,11 +4660,11 @@
         {
           "id": "1165152329001226095",
           "name": "【重庆农商行】开发AI智能回复功能",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-12",
           "due": "2026-08-12",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4751,8 +4751,8 @@
   "summary": {
     "total_tasks": 298,
     "by_status": {
-      "done": 149,
-      "pending": 115,
+      "done": 150,
+      "pending": 114,
       "overdue": 34
     },
     "by_week": {
