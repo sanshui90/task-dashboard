@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-13 01:22:24",
+  "update_time": "2026-08-13 05:40:38",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -3434,7 +3434,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 41,
+      "task_count": 48,
       "tasks": [
         {
           "id": "1165152329001225878",
@@ -3617,25 +3617,109 @@
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001225902",
-          "name": "【江海证券一期】企微管家私有化-测试环境部署-测试环境提测",
-          "status": "overdue",
+          "id": "1165152329001226427",
+          "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署",
+          "status": "done",
           "begin": "2026-08-10",
           "due": "2026-08-10",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001220050",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226426",
+          "name": "【长江证券三期】售后维保-会话存档问题重启，售后问题解决",
+          "status": "done",
+          "begin": "2026-08-10",
+          "due": "2026-08-10",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001184133",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226425",
+          "name": "【华创证券26年维保】【自拓】企微管家私有化+定制26年维保-售后问题处理",
+          "status": "done",
+          "begin": "2026-08-10",
+          "due": "2026-08-10",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001214807",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001225902",
+          "name": "【江海证券一期】企微管家私有化-测试环境部署-测试环境提测",
+          "status": "done",
+          "begin": "2026-08-10",
+          "due": "2026-08-10",
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001220632",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226431",
+          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-信创环境漏洞修复",
+          "status": "done",
+          "begin": "2026-08-11",
+          "due": "2026-08-11",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001210905",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226430",
+          "name": "【天府证券一期】企微管家私有化生产环境部署（30人天）-高可用演练文档编写",
+          "status": "done",
+          "begin": "2026-08-11",
+          "due": "2026-08-11",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001189024",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226429",
+          "name": "【重庆农商行】【腾讯】企微管家2026~2027维保-nginx升级沟通",
+          "status": "done",
+          "begin": "2026-08-11",
+          "due": "2026-08-11",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001225251",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001226428",
+          "name": "【奇瑞呱蛋圈-2026维保】企微管家私有化维保-售后问题处理",
+          "status": "done",
+          "begin": "2026-08-11",
+          "due": "2026-08-11",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001205809",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
         {
           "id": "1165152329001225904",
           "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署-提测问题处理",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-08-11",
           "due": "2026-08-11",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 3.0,
+          "effort_completed": 3.0,
           "story_id": "1165152329001220050",
           "workspace_id": "65152329",
           "owner": "盘古;"
@@ -3930,6 +4014,16 @@
         }
       ],
       "daily_data": {
+        "2026-08-11": {
+          "hours": 9,
+          "task_count": 5,
+          "saturation": "busy"
+        },
+        "2026-08-10": {
+          "hours": 9,
+          "task_count": 4,
+          "saturation": "busy"
+        },
         "2026-08-07": {
           "hours": 9,
           "task_count": 3,
@@ -3950,17 +4044,7 @@
           "task_count": 2,
           "saturation": "overload"
         },
-        "2026-08-11": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-08-08": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-10": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4809,14 +4893,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 303,
+    "total_tasks": 310,
     "by_status": {
-      "done": 159,
+      "done": 168,
       "pending": 100,
-      "overdue": 44
+      "overdue": 42
     },
     "by_week": {
-      "2026-08-10": 86,
+      "2026-08-10": 93,
       "2026-08-03": 146,
       "2026-08-24": 25,
       "2026-08-17": 29,
