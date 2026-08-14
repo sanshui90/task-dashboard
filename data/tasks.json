@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-14 17:56:44",
+  "update_time": "2026-08-14 10:49:02",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -2126,12 +2126,12 @@
         },
         {
           "id": "1165152329001226240",
-          "name": "【国投证券】安全问题处理支持-安全部门对生产系统进行操作演示-进一步评估沟通",
-          "status": "pending",
+          "name": "【国投证券】安全问题处理支持-协调uaa接口安全会议&零信任方案进度沟通",
+          "status": "done",
           "begin": "2026-08-14",
           "due": "2026-08-14",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001218860",
           "workspace_id": "65152329",
           "owner": "时光;"
@@ -2681,7 +2681,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 39,
+      "task_count": 41,
       "tasks": [
         {
           "id": "1165152329001225958",
@@ -2936,6 +2936,18 @@
           "owner": "阿彭;"
         },
         {
+          "id": "1165152329001227026",
+          "name": "【东莞银行框架四期】增加运营渠道请求埋点及渠道整合优化产品管理规则（9人天）- 首页新增入口&企微业绩表格统计增加排序",
+          "status": "done",
+          "begin": "2026-08-12",
+          "due": "2026-08-12",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001223169",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
           "id": "1165152329001225969",
           "name": "【诺亚财富四期】【自拓】导出按钮权限控制（22人天）- 导出权限按钮控制前端开发",
           "status": "done",
@@ -2956,6 +2968,18 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001225429",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001227044",
+          "name": "【深农商行二期】客户认证(自动+主动+辅助)（22人天）- 参与需求评审",
+          "status": "done",
+          "begin": "2026-08-14",
+          "due": "2026-08-14",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001226796",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -3153,6 +3177,16 @@
         }
       ],
       "daily_data": {
+        "2026-08-14": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
+        "2026-08-12": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-03": {
           "hours": 8,
           "task_count": 1,
@@ -3213,11 +3247,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-08-12": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-08-07": {
           "hours": 10,
           "task_count": 2,
@@ -3249,11 +3278,6 @@
           "saturation": "normal"
         },
         "2026-08-20": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-14": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -3552,11 +3576,11 @@
         {
           "id": "1165152329001225937",
           "name": "【重庆农商行三期】【P10】AI小助手新增服务小秘书功能(26人天) 功能开发",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-14",
           "due": "2026-08-14",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001225894",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -6295,7 +6319,7 @@
     {
       "name": "恒华;",
       "avatar": "恒",
-      "task_count": 10,
+      "task_count": 16,
       "tasks": [
         {
           "id": "1165152329001225074",
@@ -6407,10 +6431,82 @@
         },
         {
           "id": "1165152329001226100",
-          "name": "【重庆农商行】开发AI小秘书功能",
-          "status": "pending",
+          "name": "【重庆农商行】1.开发AI小秘书功能;2.重庆生产问题排查",
+          "status": "done",
           "begin": "2026-08-14",
           "due": "2026-08-14",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227017",
+          "name": "【重庆农商行】1.开发AI小秘书功能;2.联调Ai智能回复需求;",
+          "status": "pending",
+          "begin": "2026-08-15",
+          "due": "2026-08-15",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227018",
+          "name": "【重庆农商行】1.开发AI小秘书功能;2.联调Ai需求;",
+          "status": "pending",
+          "begin": "2026-08-17",
+          "due": "2026-08-17",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227020",
+          "name": "【重庆农商行】1.联调AI需求;2.AI需求提测;",
+          "status": "pending",
+          "begin": "2026-08-18",
+          "due": "2026-08-18",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227021",
+          "name": "【重庆农商行】1.支持AI需求测试;",
+          "status": "pending",
+          "begin": "2026-08-19",
+          "due": "2026-08-19",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227022",
+          "name": "【重庆农商行】1.支持AI需求测试;",
+          "status": "pending",
+          "begin": "2026-08-20",
+          "due": "2026-08-20",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001220917",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001227023",
+          "name": "【重庆农商行】1.支持AI需求测试;",
+          "status": "pending",
+          "begin": "2026-08-21",
+          "due": "2026-08-21",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001220917",
@@ -6419,6 +6515,36 @@
         }
       ],
       "daily_data": {
+        "2026-08-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-20": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-19": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-18": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-17": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-08-15": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-08-14": {
           "hours": 8,
           "task_count": 1,
@@ -6473,17 +6599,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 415,
+    "total_tasks": 423,
     "by_status": {
-      "pending": 147,
-      "done": 254,
+      "done": 259,
+      "pending": 150,
       "overdue": 14
     },
     "by_week": {
+      "2026-08-10": 132,
+      "2026-08-17": 73,
       "2026-08-31": 21,
       "2026-08-24": 39,
-      "2026-08-17": 68,
-      "2026-08-10": 129,
       "2026-08-03": 150,
       "2026-09-07": 8
     }
