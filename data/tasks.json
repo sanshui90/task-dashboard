@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-15 00:53:21",
+  "update_time": "2026-08-15 04:32:30",
   "date_range": {
     "start": "2026-08-03",
     "end": "2026-09-13",
@@ -3307,7 +3307,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 38,
+      "task_count": 39,
       "tasks": [
         {
           "id": "1165152329001225383",
@@ -3610,6 +3610,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001227079",
+          "name": "【重庆农商行三期】【P11】财经早报(21人天) 功能适配处理",
+          "status": "pending",
+          "begin": "2026-08-19",
+          "due": "2026-08-19",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223439",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001223175",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）功能联调",
           "status": "pending",
@@ -3767,6 +3779,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-19": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
         "2026-08-13": {
           "hours": 10,
           "task_count": 3,
@@ -3853,11 +3870,6 @@
           "saturation": "normal"
         },
         "2026-08-20": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-19": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -6647,15 +6659,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 427,
+    "total_tasks": 428,
     "by_status": {
+      "pending": 146,
       "done": 265,
-      "pending": 145,
       "overdue": 17
     },
     "by_week": {
+      "2026-08-17": 74,
       "2026-08-10": 136,
-      "2026-08-17": 73,
       "2026-08-31": 21,
       "2026-08-24": 39,
       "2026-08-03": 150,
