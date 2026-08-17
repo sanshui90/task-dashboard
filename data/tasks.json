@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-17 00:54:01",
+  "update_time": "2026-08-17 04:42:52",
   "date_range": {
     "start": "2026-08-10",
     "end": "2026-09-20",
@@ -212,7 +212,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 12,
+      "task_count": 13,
       "tasks": [
         {
           "id": "1165152329001225898",
@@ -283,6 +283,18 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001221109",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001227095",
+          "name": "烟台银行-ka会话存档生产环境部署-生产环境问题支持",
+          "status": "done",
+          "begin": "2026-08-14",
+          "due": "2026-08-14",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001212679",
           "workspace_id": "65152329",
           "owner": "翔宇;"
         },
@@ -360,6 +372,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-14": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-08-21": {
           "hours": 8,
           "task_count": 1,
@@ -381,11 +398,6 @@
           "saturation": "normal"
         },
         "2026-08-17": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-14": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4532,14 +4544,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 282,
+    "total_tasks": 283,
     "by_status": {
-      "done": 126,
+      "done": 127,
       "pending": 144,
       "overdue": 12
     },
     "by_week": {
-      "2026-08-10": 138,
+      "2026-08-10": 139,
       "2026-08-17": 74,
       "2026-08-31": 21,
       "2026-08-24": 39,
