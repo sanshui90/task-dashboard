@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-18 04:36:45",
+  "update_time": "2026-08-18 10:17:54",
   "date_range": {
     "start": "2026-08-10",
     "end": "2026-09-20",
@@ -4486,11 +4486,11 @@
         {
           "id": "1165152329001227020",
           "name": "【重庆农商行】1.联调AI需求;2.AI需求提测;",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-18",
           "due": "2026-08-18",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4594,8 +4594,8 @@
   "summary": {
     "total_tasks": 287,
     "by_status": {
-      "done": 135,
-      "pending": 128,
+      "done": 136,
+      "pending": 127,
       "overdue": 24
     },
     "by_week": {
