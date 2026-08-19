@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-19 00:53:03",
+  "update_time": "2026-08-19 10:18:29",
   "date_range": {
     "start": "2026-08-10",
     "end": "2026-09-20",
@@ -4533,12 +4533,12 @@
         },
         {
           "id": "1165152329001227021",
-          "name": "【重庆农商行】1.支持AI需求测试;",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持AI需求测试; 2.支持内网改造需求问题排查及修复; 3.重庆生产问题排查;",
+          "status": "done",
           "begin": "2026-08-19",
           "due": "2026-08-19",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4630,8 +4630,8 @@
   "summary": {
     "total_tasks": 290,
     "by_status": {
-      "done": 143,
-      "pending": 114,
+      "done": 144,
+      "pending": 113,
       "overdue": 33
     },
     "by_week": {
