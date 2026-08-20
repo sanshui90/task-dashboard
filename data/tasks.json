@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-20 04:37:58",
+  "update_time": "2026-08-20 10:19:31",
   "date_range": {
     "start": "2026-08-10",
     "end": "2026-09-20",
@@ -4557,12 +4557,12 @@
         },
         {
           "id": "1165152329001227022",
-          "name": "【重庆农商行】1.支持AI需求测试;",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持AI需求测试; 2.支持测试环境nacos集群服务器CPU异常增高问题排查;",
+          "status": "done",
           "begin": "2026-08-20",
           "due": "2026-08-20",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4642,8 +4642,8 @@
   "summary": {
     "total_tasks": 291,
     "by_status": {
-      "done": 148,
-      "pending": 100,
+      "done": 149,
+      "pending": 99,
       "overdue": 43
     },
     "by_week": {
