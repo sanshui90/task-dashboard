@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-22 13:28:47",
+  "update_time": "2026-08-23 00:57:06",
   "date_range": {
     "start": "2026-08-10",
     "end": "2026-09-20",
@@ -5383,7 +5383,7 @@
         {
           "id": "1165152329001227471",
           "name": "【深农商行二期】企微管家私有化测试环境部署",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-08-22",
           "due": "2026-08-22",
           "effort": 8.0,
@@ -6170,8 +6170,8 @@
     "total_tasks": 397,
     "by_status": {
       "done": 269,
-      "overdue": 18,
-      "pending": 110
+      "overdue": 19,
+      "pending": 109
     },
     "by_week": {
       "2026-08-17": 143,
