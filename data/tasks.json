@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-24 10:27:44",
+  "update_time": "2026-08-24 13:48:58",
   "date_range": {
     "start": "2026-08-17",
     "end": "2026-09-27",
@@ -325,11 +325,11 @@
         {
           "id": "1165152329001227801",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）-接口联调",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-24",
           "due": "2026-08-24",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001218988",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -1956,7 +1956,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 23,
+      "task_count": 24,
       "tasks": [
         {
           "id": "1165152329001227145",
@@ -2079,13 +2079,25 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001223174",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天） 功能联调",
-          "status": "pending",
+          "id": "1165152329001228145",
+          "name": "【东证期货五期】企微管家测试环境升级26.05-pg+定制适配（20人天）提测问题处理",
+          "status": "done",
           "begin": "2026-08-24",
           "due": "2026-08-24",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001221683",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001223174",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天） 功能联调",
+          "status": "done",
+          "begin": "2026-08-24",
+          "due": "2026-08-24",
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001218988",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2236,6 +2248,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-24": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-08-21": {
           "hours": 9,
           "task_count": 2,
@@ -2301,11 +2318,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-08-24": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-11": {
           "hours": 8,
           "task_count": 1,
@@ -2331,7 +2343,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 31,
+      "task_count": 33,
       "tasks": [
         {
           "id": "1165152329001227132",
@@ -2502,13 +2514,37 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001226698",
-          "name": "【东证期货五期】企微管家测试环境升级26.05-pg+定制适配（20人天），定开适配测试（绩效审批）",
-          "status": "pending",
+          "id": "1165152329001228139",
+          "name": "【江海证券一期】企微管家私有化-测试环境部署，遗留bug回归",
+          "status": "done",
           "begin": "2026-08-24",
           "due": "2026-08-24",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220632",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001228137",
+          "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署，标品测试用例反例补充",
+          "status": "done",
+          "begin": "2026-08-24",
+          "due": "2026-08-24",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001220050",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001226698",
+          "name": "【东证期货五期】企微管家测试环境升级26.05-pg+定制适配（20人天），定开适配测试（绩效审批、账户分析报告等）",
+          "status": "done",
+          "begin": "2026-08-24",
+          "due": "2026-08-24",
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001221683",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2707,6 +2743,11 @@
         }
       ],
       "daily_data": {
+        "2026-08-24": {
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-09-08": {
           "hours": 8,
           "task_count": 1,
@@ -2748,11 +2789,6 @@
           "saturation": "normal"
         },
         "2026-08-21": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-24": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4137,15 +4173,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 257,
+    "total_tasks": 260,
     "by_status": {
-      "done": 134,
+      "done": 140,
       "overdue": 10,
-      "pending": 113
+      "pending": 110
     },
     "by_week": {
+      "2026-08-24": 65,
       "2026-08-17": 143,
-      "2026-08-24": 62,
       "2026-08-31": 26,
       "2026-09-07": 17,
       "2026-09-14": 4,
