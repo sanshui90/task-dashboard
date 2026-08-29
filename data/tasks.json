@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-29 14:48:24",
+  "update_time": "2026-08-29 16:58:09",
   "date_range": {
     "start": "2026-08-17",
     "end": "2026-09-27",
@@ -103,7 +103,7 @@
           "due": "2026-08-24",
           "effort": 6.0,
           "effort_completed": 6.0,
-          "story_id": "1165152329001229267",
+          "story_id": "1165152329001161690",
           "workspace_id": "65152329",
           "owner": "迷雾;"
         },
@@ -139,7 +139,7 @@
           "due": "2026-08-26",
           "effort": 8.0,
           "effort_completed": 8.0,
-          "story_id": "1165152329001229267",
+          "story_id": "1165152329001161690",
           "workspace_id": "65152329",
           "owner": "迷雾;"
         },
@@ -199,7 +199,7 @@
           "due": "2026-08-28",
           "effort": 4.0,
           "effort_completed": 4.0,
-          "story_id": "1165152329001229267",
+          "story_id": "1165152329001161690",
           "workspace_id": "65152329",
           "owner": "迷雾;"
         },
@@ -2060,11 +2060,11 @@
         {
           "id": "1165152329001228448",
           "name": "【北京农商行一期】【P1】通讯录(14人天)-测试环境测试",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-08-28",
           "due": "2026-08-28",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001224851",
           "workspace_id": "65152329",
           "owner": "奎克;"
@@ -6367,9 +6367,9 @@
   "summary": {
     "total_tasks": 411,
     "by_status": {
-      "done": 278,
+      "done": 279,
       "pending": 121,
-      "overdue": 12
+      "overdue": 11
     },
     "by_week": {
       "2026-08-24": 144,
