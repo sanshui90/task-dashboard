@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-30 09:48:20",
+  "update_time": "2026-08-30 14:34:40",
   "date_range": {
     "start": "2026-08-17",
     "end": "2026-09-27",
@@ -583,11 +583,11 @@
         {
           "id": "1165152329001229439",
           "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天）-代码优化",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-30",
           "due": "2026-08-30",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001221113",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -595,11 +595,11 @@
         {
           "id": "1165152329001229437",
           "name": "【长江证券四期】企微管家私有化测试环境升级-定开适配",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-30",
           "due": "2026-08-30",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001220823",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -6554,9 +6554,9 @@
   "summary": {
     "total_tasks": 427,
     "by_status": {
-      "done": 301,
-      "pending": 117,
-      "overdue": 9
+      "done": 303,
+      "overdue": 9,
+      "pending": 115
     },
     "by_week": {
       "2026-08-17": 149,
