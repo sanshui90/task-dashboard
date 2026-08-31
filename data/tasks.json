@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-31 02:56:06",
+  "update_time": "2026-08-31 10:38:19",
   "date_range": {
     "start": "2026-08-24",
     "end": "2026-10-04",
@@ -2370,7 +2370,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 31,
+      "task_count": 32,
       "tasks": [
         {
           "id": "1165152329001228139",
@@ -2589,13 +2589,25 @@
           "owner": "希希;"
         },
         {
+          "id": "1165152329001229654",
+          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境冒烟测试",
+          "status": "done",
+          "begin": "2026-08-31",
+          "due": "2026-08-31",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001221113",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
           "id": "1165152329001227541",
           "name": "【财信吉祥人寿一期】【P0】【职域2.3.1】项目信息自动同步+项目成员自动打标（新增）（21人天），测试环境测试",
-          "status": "overdue",
-          "begin": "2026-08-29",
-          "due": "2026-08-29",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "status": "done",
+          "begin": "2026-08-31",
+          "due": "2026-08-31",
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001221112",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2609,6 +2621,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001221109",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001228473",
+          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境测试",
+          "status": "pending",
+          "begin": "2026-09-01",
+          "due": "2026-09-01",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001221113",
           "workspace_id": "65152329",
           "owner": "希希;"
         },
@@ -2645,18 +2669,6 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001218988",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001228473",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境测试",
-          "status": "pending",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001221113",
           "workspace_id": "65152329",
           "owner": "希希;"
         },
@@ -2746,10 +2758,15 @@
         }
       ],
       "daily_data": {
-        "2026-08-29": {
+        "2026-08-31": {
           "hours": 16,
           "task_count": 3,
           "saturation": "overload"
+        },
+        "2026-08-29": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
         },
         "2026-08-28": {
           "hours": 9,
@@ -2761,10 +2778,10 @@
           "task_count": 2,
           "saturation": "busy"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+        "2026-09-01": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-08-26": {
           "hours": 8,
@@ -2801,16 +2818,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-11": {
           "hours": 8,
           "task_count": 1,
@@ -2841,7 +2848,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 37,
+      "task_count": 41,
       "tasks": [
         {
           "id": "1165152329001228482",
@@ -3132,6 +3139,18 @@
           "owner": "盘古;"
         },
         {
+          "id": "1165152329001229613",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-07",
+          "due": "2026-09-07",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
           "id": "1165152329001223216",
           "name": "【江海证券一期】企微管家私有化-生产环境部署",
           "status": "pending",
@@ -3140,6 +3159,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001216898",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229614",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-08",
+          "due": "2026-09-08",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -3156,6 +3187,18 @@
           "owner": "盘古;"
         },
         {
+          "id": "1165152329001229615",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-09",
+          "due": "2026-09-09",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
           "id": "1165152329001223218",
           "name": "【江海证券一期】企微管家私有化-生产环境部署",
           "status": "pending",
@@ -3164,6 +3207,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001216898",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229616",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-10",
+          "due": "2026-09-10",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -3289,6 +3344,26 @@
         }
       ],
       "daily_data": {
+        "2026-09-10": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-09-09": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-09-08": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-09-07": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
         "2026-08-28": {
           "hours": 8,
           "task_count": 2,
@@ -3345,26 +3420,6 @@
           "saturation": "normal"
         },
         "2026-09-11": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-10": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-09": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-08": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-07": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4299,11 +4354,11 @@
         {
           "id": "1165152329001229065",
           "name": "【重庆农商行】1.编写重庆P12需求技术方案文档及评审;2.编写重庆AI需求-智能回复上线sop",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-08-31",
           "due": "2026-08-31",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4412,17 +4467,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 279,
+    "total_tasks": 284,
     "by_status": {
-      "done": 155,
-      "overdue": 8,
-      "pending": 116
+      "done": 158,
+      "pending": 119,
+      "overdue": 7
     },
     "by_week": {
-      "2026-08-24": 163,
-      "2026-08-31": 74,
+      "2026-08-31": 76,
+      "2026-09-07": 30,
+      "2026-08-24": 162,
       "2026-09-14": 10,
-      "2026-09-07": 26,
       "2026-09-28": 1,
       "2026-09-21": 5
     }
