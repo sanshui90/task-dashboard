@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-01 09:15:00",
+  "update_time": "2026-09-01 14:24:10",
   "date_range": {
     "start": "2026-08-24",
     "end": "2026-10-04",
@@ -402,11 +402,11 @@
         {
           "id": "1165152329001228476",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.10】人群包同步（7人天）-客户侧联调需求提测",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-01",
           "due": "2026-09-01",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001221109",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -1959,7 +1959,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 27,
+      "task_count": 30,
       "tasks": [
         {
           "id": "1165152329001228145",
@@ -2113,6 +2113,42 @@
           "due": "2026-08-31",
           "effort": 8.0,
           "effort_completed": 8.0,
+          "story_id": "1165152329001220823",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001229825",
+          "name": "【东莞证券信创升级】企微管家测试环境升级26.5 活码隐私协议处理",
+          "status": "done",
+          "begin": "2026-09-01",
+          "due": "2026-09-01",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001223124",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001229824",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）提测问题处理",
+          "status": "done",
+          "begin": "2026-09-01",
+          "due": "2026-09-01",
+          "effort": 6.0,
+          "effort_completed": 6.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001229823",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 定制功能适配",
+          "status": "done",
+          "begin": "2026-09-01",
+          "due": "2026-09-01",
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001220823",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2287,6 +2323,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-01": {
+          "hours": 18,
+          "task_count": 4,
+          "saturation": "overload"
+        },
         "2026-08-31": {
           "hours": 9,
           "task_count": 2,
@@ -2352,11 +2393,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-08": {
           "hours": 8,
           "task_count": 1,
@@ -2382,7 +2418,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 32,
+      "task_count": 33,
       "tasks": [
         {
           "id": "1165152329001228139",
@@ -2637,13 +2673,25 @@
           "owner": "希希;"
         },
         {
+          "id": "1165152329001229817",
+          "name": "【财信吉祥人寿一期】【P0】【职域2.3.1】项目信息自动同步+项目成员自动打标（新增）（21人天），测试环境遗留bug回归",
+          "status": "done",
+          "begin": "2026-09-01",
+          "due": "2026-09-01",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001221112",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
           "id": "1165152329001228473",
           "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-01",
           "due": "2026-09-01",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001221113",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2770,6 +2818,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-01": {
+          "hours": 17,
+          "task_count": 3,
+          "saturation": "overload"
+        },
         "2026-08-31": {
           "hours": 16,
           "task_count": 3,
@@ -2789,11 +2842,6 @@
           "hours": 9,
           "task_count": 2,
           "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
         },
         "2026-08-26": {
           "hours": 8,
@@ -4401,12 +4449,12 @@
         },
         {
           "id": "1165152329001229067",
-          "name": "【重庆农商行】1.开发上输功能优化需求;",
-          "status": "pending",
+          "name": "【重庆农商行】1.开发上输功能优化需求;2.重庆生产问题排查",
+          "status": "done",
           "begin": "2026-09-01",
           "due": "2026-09-01",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4503,14 +4551,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 287,
+    "total_tasks": 291,
     "by_status": {
-      "done": 172,
-      "pending": 103,
+      "done": 179,
+      "pending": 100,
       "overdue": 12
     },
     "by_week": {
-      "2026-08-31": 84,
+      "2026-08-31": 88,
       "2026-09-07": 30,
       "2026-08-24": 157,
       "2026-09-14": 10,
