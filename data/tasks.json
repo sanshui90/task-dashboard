@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-03 16:54:51",
+  "update_time": "2026-09-04 02:27:00",
   "date_range": {
     "start": "2026-08-24",
     "end": "2026-10-04",
@@ -463,7 +463,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 21,
+      "task_count": 22,
       "tasks": [
         {
           "id": "1165152329001227801",
@@ -646,6 +646,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001230194",
+          "name": "【无锡农商行一期】企微管家私有化测试环境实施-测试问题处理",
+          "status": "pending",
+          "begin": "2026-09-04",
+          "due": "2026-09-04",
+          "effort": 0.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001212025",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001230151",
           "name": "【财信吉祥人寿一期】短链对接-定开对接接口开发",
           "status": "pending",
@@ -721,7 +733,7 @@
       "daily_data": {
         "2026-09-04": {
           "hours": 8,
-          "task_count": 1,
+          "task_count": 2,
           "saturation": "normal"
         },
         "2026-09-11": {
@@ -804,7 +816,7 @@
     {
       "name": "千尘;",
       "avatar": "千",
-      "task_count": 21,
+      "task_count": 23,
       "tasks": [
         {
           "id": "1165152329001226922",
@@ -1011,6 +1023,18 @@
           "owner": "千尘;"
         },
         {
+          "id": "1165152329001230185",
+          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - dsp数据文件同步数据库功能验证",
+          "status": "done",
+          "begin": "2026-09-03",
+          "due": "2026-09-03",
+          "effort": 6.0,
+          "effort_completed": 6.0,
+          "story_id": "1165152329001226796",
+          "workspace_id": "65152329",
+          "owner": "千尘;"
+        },
+        {
           "id": "1165152329001230156",
           "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - nscrm-api工程适配sofaboot验证",
           "status": "done",
@@ -1019,6 +1043,18 @@
           "effort": 4.0,
           "effort_completed": 4.0,
           "story_id": "1165152329001226796",
+          "workspace_id": "65152329",
+          "owner": "千尘;"
+        },
+        {
+          "id": "1165152329001230202",
+          "name": "【深农商行二期】【P1】会话文件杀毒 - 技术方案调研",
+          "status": "pending",
+          "begin": "2026-09-04",
+          "due": "2026-09-04",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001230195",
           "workspace_id": "65152329",
           "owner": "千尘;"
         },
@@ -1060,6 +1096,16 @@
         }
       ],
       "daily_data": {
+        "2026-09-04": {
+          "hours": 12,
+          "task_count": 2,
+          "saturation": "busy"
+        },
+        "2026-09-03": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-01": {
           "hours": 10,
           "task_count": 2,
@@ -1069,11 +1115,6 @@
           "hours": 10,
           "task_count": 4,
           "saturation": "busy"
-        },
-        "2026-09-03": {
-          "hours": 4,
-          "task_count": 1,
-          "saturation": "low"
         },
         "2026-08-29": {
           "hours": 8,
@@ -1111,11 +1152,6 @@
           "saturation": "normal"
         },
         "2026-09-07": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-04": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -1944,7 +1980,7 @@
         {
           "id": "1165152329001228781",
           "name": "【深农商行二期】客户列表增加筛选项（13人天）- 代码开发",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 8.0,
@@ -2073,7 +2109,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 50,
+      "task_count": 51,
       "tasks": [
         {
           "id": "1165152329001228388",
@@ -2330,7 +2366,7 @@
         {
           "id": "1165152329001229995",
           "name": "【深农商行二期】【P1】管户名单对接（8人天）- 管户名单开发",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 8.0,
@@ -2342,7 +2378,7 @@
         {
           "id": "1165152329001229993",
           "name": "【深农商行二期】【P1】内网登录（15人天）- 内网登录适配&问题修改",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 2.0,
@@ -2420,6 +2456,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001212498",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001229997",
+          "name": "【深农商行二期】【P1】管户名单对接（8人天）-  管户名单前后端联调",
+          "status": "pending",
+          "begin": "2026-09-09",
+          "due": "2026-09-09",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001228095",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -2738,9 +2786,9 @@
           "saturation": "normal"
         },
         "2026-09-09": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-09-03": {
           "hours": 10,
@@ -4285,7 +4333,7 @@
         {
           "id": "1165152329001228500",
           "name": "【中化资本26年维保】企微管家私有化维保-测试环境服务器迁移",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 8.0,
@@ -5603,7 +5651,7 @@
         {
           "id": "1165152329001228986",
           "name": "【意向客户】- 代码编写",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 8.0,
@@ -5782,7 +5830,7 @@
         {
           "id": "1165152329001229037",
           "name": "【意向客户】-编写功能代码",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-03",
           "due": "2026-09-03",
           "effort": 8.0,
@@ -6038,15 +6086,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 392,
+    "total_tasks": 396,
     "by_status": {
-      "done": 241,
-      "pending": 141,
-      "overdue": 10
+      "pending": 138,
+      "done": 242,
+      "overdue": 16
     },
     "by_week": {
-      "2026-08-31": 119,
-      "2026-09-07": 60,
+      "2026-08-31": 122,
+      "2026-09-07": 61,
       "2026-09-14": 34,
       "2026-09-28": 9,
       "2026-09-21": 15,
