@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-08 08:40:15",
+  "update_time": "2026-09-08 13:59:51",
   "date_range": {
     "start": "2026-08-31",
     "end": "2026-10-11",
@@ -414,11 +414,11 @@
         {
           "id": "1165152329001227810",
           "name": "【长江证券四期】企微管家私有化测试环境升级-定开适配",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-08",
           "due": "2026-09-08",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220823",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -2270,26 +2270,26 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001230030",
-          "name": "【中邮证券二期】MOT任务后台统计功能（24人天） 功能开发",
-          "status": "overdue",
-          "begin": "2026-09-07",
-          "due": "2026-09-07",
+          "id": "1165152329001230031",
+          "name": "【中邮证券二期】MOT任务后台统计功能（24人天）功能开发",
+          "status": "done",
+          "begin": "2026-09-08",
+          "due": "2026-09-08",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001211600",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001230031",
-          "name": "【中邮证券二期】MOT任务后台统计功能（24人天）功能开发",
-          "status": "pending",
+          "id": "1165152329001223179",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
+          "status": "done",
           "begin": "2026-09-08",
           "due": "2026-09-08",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001211600",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220823",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2390,14 +2390,14 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001223179",
-          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
+          "id": "1165152329001230030",
+          "name": "【中邮证券二期】MOT任务后台统计功能（24人天） 功能开发",
           "status": "pending",
           "begin": "2026-09-21",
           "due": "2026-09-21",
           "effort": 8.0,
           "effort_completed": 0.0,
-          "story_id": "1165152329001220823",
+          "story_id": "1165152329001211600",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2476,9 +2476,9 @@
       ],
       "daily_data": {
         "2026-09-07": {
-          "hours": 17,
-          "task_count": 3,
-          "saturation": "overload"
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-09-09": {
           "hours": 8,
@@ -2486,6 +2486,11 @@
           "saturation": "normal"
         },
         "2026-09-08": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
+        "2026-09-21": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2565,11 +2570,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-21": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-11": {
           "hours": 8,
           "task_count": 1,
@@ -2590,7 +2590,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 37,
+      "task_count": 40,
       "tasks": [
         {
           "id": "1165152329001229654",
@@ -2773,13 +2773,49 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001224942",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.10】人群包同步（7人天），测试环境测试",
-          "status": "pending",
+          "id": "1165152329001230800",
+          "name": "【东莞证券信创升级】企微管家测试环境升级26.5，升级标品测试用例输出，根据产品屏蔽项文档整理",
+          "status": "done",
           "begin": "2026-09-08",
           "due": "2026-09-08",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.5,
+          "effort_completed": 1.5,
+          "story_id": "1165152329001223124",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001230799",
+          "name": "【江海证券一期】企微管家私有化，客户侧业务测试问题跟进及解答",
+          "status": "done",
+          "begin": "2026-09-08",
+          "due": "2026-09-08",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001216898",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001230797",
+          "name": "【日照银行一期】企微管家私有化测试环境部署，客户侧业务测试问题解答及跟进",
+          "status": "done",
+          "begin": "2026-09-08",
+          "due": "2026-09-08",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220050",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001224942",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.10】人群包同步（7人天），测试环境测试",
+          "status": "done",
+          "begin": "2026-09-08",
+          "due": "2026-09-08",
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001221109",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3038,6 +3074,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-08": {
+          "hours": 8,
+          "task_count": 4,
+          "saturation": "normal"
+        },
         "2026-09-07": {
           "hours": 8,
           "task_count": 3,
@@ -3126,11 +3167,6 @@
         "2026-08-31": {
           "hours": 8,
           "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-08": {
-          "hours": 8,
-          "task_count": 1,
           "saturation": "normal"
         },
         "2026-09-09": {
@@ -4783,12 +4819,12 @@
         },
         {
           "id": "1165152329001230636",
-          "name": "【重庆农商行】1.支持重庆P12需求测试;2.支持网格化留资活动嵌入统一加客码缺陷修复;",
-          "status": "pending",
+          "name": "【重庆农商行】11.支持重庆P12需求测试; 2.支持网格化留资活动嵌入统一加客码缺陷修复; 3.重庆生产问题bug修复; 4.支持客户列表跳转链接逻辑优化需求行内sit测试;",
+          "status": "done",
           "begin": "2026-09-08",
           "due": "2026-09-08",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4885,14 +4921,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 313,
+    "total_tasks": 316,
     "by_status": {
-      "done": 141,
-      "pending": 144,
-      "overdue": 28
+      "done": 149,
+      "pending": 140,
+      "overdue": 27
     },
     "by_week": {
-      "2026-09-07": 83,
+      "2026-09-07": 86,
       "2026-08-31": 149,
       "2026-10-05": 7,
       "2026-09-28": 15,
