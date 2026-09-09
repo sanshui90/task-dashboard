@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-09 02:34:45",
+  "update_time": "2026-09-09 08:44:58",
   "date_range": {
     "start": "2026-08-31",
     "end": "2026-10-11",
@@ -289,7 +289,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 14,
+      "task_count": 15,
       "tasks": [
         {
           "id": "1165152329001229846",
@@ -424,6 +424,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001230831",
+          "name": "【大众安徽一期】日常技术支持-问题处理",
+          "status": "pending",
+          "begin": "2026-09-09",
+          "due": "2026-09-09",
+          "effort": 0.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001229790",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001230104",
           "name": "【长江证券四期】企微管家私有化测试环境升级-定开前后端联调",
           "status": "pending",
@@ -461,6 +473,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-09": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
         "2026-09-04": {
           "hours": 9,
           "task_count": 2,
@@ -472,11 +489,6 @@
           "saturation": "normal"
         },
         "2026-09-10": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-09": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4921,14 +4933,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 316,
+    "total_tasks": 317,
     "by_status": {
+      "pending": 129,
       "done": 149,
-      "pending": 128,
       "overdue": 39
     },
     "by_week": {
-      "2026-09-07": 86,
+      "2026-09-07": 87,
       "2026-08-31": 149,
       "2026-10-05": 7,
       "2026-09-28": 15,
