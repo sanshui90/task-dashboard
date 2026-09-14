@@ -1,124 +1,16 @@
 {
-  "update_time": "2026-09-13 16:48:53",
+  "update_time": "2026-09-14 02:52:41",
   "date_range": {
-    "start": "2026-08-31",
-    "end": "2026-10-11",
-    "this_monday": "2026-09-07"
+    "start": "2026-09-07",
+    "end": "2026-10-18",
+    "this_monday": "2026-09-14"
   },
   "members": [
     {
       "name": "迷雾;",
       "avatar": "迷",
-      "task_count": 25,
+      "task_count": 16,
       "tasks": [
-        {
-          "id": "1165152329001228413",
-          "name": "【日照银行一期】客户侧通讯录数据对接需求梳理",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227418",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229984",
-          "name": "【国投证券一期】售后问题处理",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001161690",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229983",
-          "name": "【日照银行一期】客户认证需求需求方案梳理",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001228502",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229987",
-          "name": "【国投证券一期】售后问题处理及客户侧事项沟通",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001161690",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229985",
-          "name": "【日照银行一期】客户画像需求梳理",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001228504",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229992",
-          "name": "【国投证券一期】售后运维工作支持",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001161690",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229991",
-          "name": "【日照银行一期】客户画像-大零售商机对接行内系统事项沟通",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001228504",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229990",
-          "name": "【日照银行一期】企微通讯录对接行内大零售客户侧沟通",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227418",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
-        {
-          "id": "1165152329001229989",
-          "name": "【日照银行一期】企微通讯录对接行内人力系统事项沟通",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227418",
-          "workspace_id": "65152329",
-          "owner": "迷雾;"
-        },
         {
           "id": "1165152329001227430",
           "name": "【日照银行一期】企微通讯录同步技术方案输出",
@@ -343,26 +235,6 @@
           "task_count": 2,
           "saturation": "normal"
         },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 4,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-16": {
           "hours": 8,
           "task_count": 1,
@@ -388,116 +260,8 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 23,
+      "task_count": 14,
       "tasks": [
-        {
-          "id": "1165152329001229846",
-          "name": "【财信吉祥人寿一期】【p0】客户主动认证（2.3.7.15）-评审+方案设计",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001229734",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001227806",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.8】标准化标签体系（7人天）-接口联调",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001221108",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001229847",
-          "name": "【财信吉祥人寿一期】【p0】客户主动认证（2.3.7.15）-接口开发",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001229734",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001228476",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.10】人群包同步（7人天）-客户侧联调需求提测",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001221109",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001228477",
-          "name": "【财信吉祥人寿一期】【P0】认证关系优化-客户认证优化调整",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001223031",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001230103",
-          "name": "【财信吉祥人寿一期】【P0】认证关系优化-逻辑优化调整",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 5.0,
-          "effort_completed": 5.0,
-          "story_id": "1165152329001223031",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001230101",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.6】智能营销系统素材对接（15人天）-短链对接方案+对接",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001221110",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001230194",
-          "name": "【无锡农商行一期】企微管家私有化测试环境实施-测试问题处理",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001212025",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
-          "id": "1165152329001230151",
-          "name": "【财信吉祥人寿一期】短链对接-定开对接接口开发",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001230125",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
         {
           "id": "1165152329001227809",
           "name": "【长江证券四期】企微管家私有化测试环境升级-定开服务改造",
@@ -713,31 +477,6 @@
           "task_count": 2,
           "saturation": "busy"
         },
-        "2026-09-04": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-03": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-08-31": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-07": {
           "hours": 8,
           "task_count": 1,
@@ -748,176 +487,8 @@
     {
       "name": "千尘;",
       "avatar": "千",
-      "task_count": 28,
+      "task_count": 14,
       "tasks": [
-        {
-          "id": "1165152329001229151",
-          "name": "【深农商行二期】【P1】360客户画像 - 客户信息数仓dsp开发",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227458",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230159",
-          "name": "【深农商行二期】dsp数据文件同步数据库功能",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230158",
-          "name": "【深农商行二期】【P1】管户名单对接 - nscrm-ka工程适配sofaboot验证",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001228095",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230157",
-          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - nscrm-api工程适配sofaboot验证",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230155",
-          "name": "【深农商行二期】【P1】管户名单对接 - 协助刘猛老师验证dsp管户数据",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001228095",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230154",
-          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - 协助刘猛老师验证微信银行认证客户数据",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230153",
-          "name": "【深农商行二期】【P1】组织架构对接 - 协助刘猛老师验证员工标签数据",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230185",
-          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - dsp数据文件同步数据库功能验证",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230156",
-          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - nscrm-api工程适配sofaboot验证",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230599",
-          "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助) - dsp数据文件同步数据库优化",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230202",
-          "name": "【深农商行二期】【P1】会话文件杀毒 - 技术方案调研",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001230195",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230607",
-          "name": "【深农商行二期】360客户画像 - 客户画像dsp接口封装",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227458",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001231290",
-          "name": "【人保科技一期】人保科技客户满意度评价需求 - 功能自测验证",
-          "status": "done",
-          "begin": "2026-09-06",
-          "due": "2026-09-06",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001223370",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
-        {
-          "id": "1165152329001230600",
-          "name": "【深农商行二期】【P1】会话文件杀毒 - 技术方案调研以及沟通",
-          "status": "done",
-          "begin": "2026-09-06",
-          "due": "2026-09-06",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001230195",
-          "workspace_id": "65152329",
-          "owner": "千尘;"
-        },
         {
           "id": "1165152329001231296",
           "name": "【深农商行二期】【P1】管户名单对接 - 增量dsp管户数据开发",
@@ -1017,7 +588,7 @@
         {
           "id": "1165152329001222769",
           "name": "【方正证券三期】企微管家信创需求测试环境适配升级 - 历史会话查询导出功能开发",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-13",
           "due": "2026-09-13",
           "effort": 8.0,
@@ -1133,42 +704,7 @@
           "task_count": 2,
           "saturation": "normal"
         },
-        "2026-09-06": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-05": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-08": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-02": {
-          "hours": 10,
-          "task_count": 4,
-          "saturation": "busy"
-        },
-        "2026-08-31": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -1188,80 +724,8 @@
     {
       "name": "阿栋;",
       "avatar": "阿",
-      "task_count": 17,
+      "task_count": 11,
       "tasks": [
-        {
-          "id": "1165152329001228614",
-          "name": "【深农商行二期】组织架构对接调试",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
-        {
-          "id": "1165152329001230035",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.1】项目信息自动同步+项目成员自动打标-测试支持",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001221112",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
-        {
-          "id": "1165152329001230042",
-          "name": "【深农商行二期】【P1】组织架构对接-员工标签对接",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
-        {
-          "id": "1165152329001230047",
-          "name": "【深农商行二期】【P1】ESB/EMSP对接",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
-        {
-          "id": "1165152329001230545",
-          "name": "【深农商行二期】【P1】智能名片数据对接开发",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227459",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
-        {
-          "id": "1165152329001228650",
-          "name": "【银河证券三期】会话附件定开获取会话文件及ESB对接开发",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001228339",
-          "workspace_id": "65152329",
-          "owner": "阿栋;"
-        },
         {
           "id": "1165152329001228608",
           "name": "【深农商行二期】客户认证主动开发",
@@ -1436,36 +900,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-05": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-09": {
           "hours": 8,
           "task_count": 1,
@@ -1486,116 +920,8 @@
     {
       "name": "左耳;",
       "avatar": "左",
-      "task_count": 23,
+      "task_count": 14,
       "tasks": [
-        {
-          "id": "1165152329001227816",
-          "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天）-Agent工作流搭建",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226191",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230094",
-          "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天）-代码自测",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001226191",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230093",
-          "name": "【东证期货AI】对客智能问答（43人天）-繁微行情MCP对接、财富行情接口对接联调",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 5.0,
-          "effort_completed": 5.0,
-          "story_id": "1165152329001226192",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230089",
-          "name": "【国盛证券二期】企微管家私有化+定制售后工单-MOT数据清理方案沟通、梳理",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001208697",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230088",
-          "name": "【东证期货AI】对客智能问答（43人天）-繁微接口对接",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001226192",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230087",
-          "name": "【广发期货2026维保】售后运维-早报/客户认证问题排查、客户画像对接方案调整",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001204919",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230086",
-          "name": "【国盛证券二期】企微管家私有化+定制售后工单-存量MOT清理",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001208697",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230083",
-          "name": "【华创证券26年维保】【自拓】企微管家私有化+定制26年维保-客户侧技术支持",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001214807",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
-        {
-          "id": "1165152329001230100",
-          "name": "【中邮证券二期】MOT任务后台统计功能（24人天）-功能开发",
-          "status": "done",
-          "begin": "2026-09-06",
-          "due": "2026-09-06",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001211600",
-          "workspace_id": "65152329",
-          "owner": "左耳;"
-        },
         {
           "id": "1165152329001230990",
           "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天）-代码调试、工作流联调",
@@ -1791,11 +1117,6 @@
           "task_count": 5,
           "saturation": "normal"
         },
-        "2026-09-06": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-09-17": {
           "hours": 8,
           "task_count": 1,
@@ -1804,16 +1125,6 @@
         "2026-09-16": {
           "hours": 8,
           "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 4,
           "saturation": "normal"
         },
         "2026-09-15": {
@@ -1825,79 +1136,14 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "奎克;",
       "avatar": "奎",
-      "task_count": 15,
+      "task_count": 10,
       "tasks": [
-        {
-          "id": "1165152329001228777",
-          "name": "【深农商行二期】客户列表增加筛选项（13人天）-完成技术方案",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227462",
-          "workspace_id": "65152329",
-          "owner": "奎克;"
-        },
-        {
-          "id": "1165152329001230085",
-          "name": "【深农商行二期】【P1】组织架构对接-调试同步任务",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "奎克;"
-        },
-        {
-          "id": "1165152329001228779",
-          "name": "【深农商行二期】客户列表增加筛选项（13人天）- 代码开发",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227462",
-          "workspace_id": "65152329",
-          "owner": "奎克;"
-        },
-        {
-          "id": "1165152329001230084",
-          "name": "【深农商行二期】【P1】组织架构对接-测试同步任务",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001226794",
-          "workspace_id": "65152329",
-          "owner": "奎克;"
-        },
-        {
-          "id": "1165152329001228782",
-          "name": "【深农商行二期】客户列表增加筛选项（13人天）- 代码开发",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227462",
-          "workspace_id": "65152329",
-          "owner": "奎克;"
-        },
         {
           "id": "1165152329001230090",
           "name": "【深农商行二期】【P1】管户名单对接（8人天）- 对接管户名单",
@@ -2069,214 +1315,14 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 45,
+      "task_count": 31,
       "tasks": [
-        {
-          "id": "1165152329001229709",
-          "name": "【中信信托一期】企微管家私有化测试环境部署 - 项目排期会议沟通",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001226459",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001228400",
-          "name": "【深农商行二期】客户认证(自动+主动+辅助)（22人天）- 客户解绑前端屏蔽处理",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001226796",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001228396",
-          "name": "【深农商行二期】客户列表增加筛选项（13人天）- 前端屏蔽项处理",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001227462",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001229986",
-          "name": "【国投证券三期】售后运维工作 - 消息中心接口异常调用问题排查",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001229267",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001229982",
-          "name": "【昆山农商行2026运维】【自拓】企微管家私有化+定制 - 小程序短链问题沟通",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001214941",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001228395",
-          "name": "【深农商行二期】「金融标品」客户脱敏字段增加客户号（变更）- 客户信息支持脱敏功能开发",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227553",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001229988",
-          "name": "【国联期货2026年维保】【自拓】企微管家私有化+定制2026年维保 -  登录页接口安全漏洞问题处理",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001212378",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001228390",
-          "name": "【深农商行二期】源码扫描漏洞处理 -  移动&微信端漏洞梳理与修改",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001227419",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001229995",
-          "name": "【深农商行二期】【P1】管户名单对接（8人天）- 管户名单PC端筛选项及表格列支持定开配置开发",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001228095",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001229993",
-          "name": "【深农商行二期】【P1】内网登录（15人天）- 内网登录适配&问题修改",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227461",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001230674",
-          "name": "【东莞银行框架四期】客户认证活动需求（26人天）-  客户模版图变更前端同步适配 & 新增微信身份校验",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001223440",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001230002",
-          "name": "【深农商行二期】【P1】[标品]离职继承通知（变更）- 离职继承移动端开发",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227463",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001230000",
-          "name": "【深农商行二期】【P1】智能名片对接（变更）- 微信端智能名片样式优化",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227459",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001230673",
-          "name": "【深农商行二期】【P1】[标品]页面水印优化（变更） -  页面水印员工别名问题定位修复",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001226799",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
-        {
-          "id": "1165152329001230672",
-          "name": "【深农商行二期】【P1】智能名片对接（变更）- 轨迹素材、产品库侧边栏详情员工端&微信端 智能名片样式及宿主页按钮样式定制自测",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001227459",
-          "workspace_id": "65152329",
-          "owner": "阿彭;"
-        },
         {
           "id": "1165152329001228404",
           "name": "【深农商行二期】「金融标品」客户脱敏字段增加客户号（变更）- 客户信息脱敏前后端联调",
@@ -2388,7 +1434,7 @@
         {
           "id": "1165152329001224326",
           "name": "【人保科技一期】人保科技客户满意度评价需求 - 服务评价前后端联调",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-13",
           "due": "2026-09-13",
           "effort": 8.0,
@@ -2636,6 +1682,18 @@
           "story_id": "1165152329001229060",
           "workspace_id": "65152329",
           "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001230017",
+          "name": "【东莞银行框架四期】意向客户需求 - 前后端联调",
+          "status": "pending",
+          "begin": "2026-10-12",
+          "due": "2026-10-12",
+          "effort": 16.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001229060",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
         }
       ],
       "daily_data": {
@@ -2654,15 +1712,10 @@
           "task_count": 2,
           "saturation": "busy"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
-        },
-        "2026-09-05": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
+        "2026-10-12": {
+          "hours": 16,
+          "task_count": 1,
+          "saturation": "overload"
         },
         "2026-10-10": {
           "hours": 8,
@@ -2729,26 +1782,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-03": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-02": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 10,
-          "task_count": 3,
-          "saturation": "busy"
-        },
-        "2026-08-31": {
-          "hours": 9,
-          "task_count": 3,
-          "saturation": "busy"
-        },
         "2026-09-07": {
           "hours": 8,
           "task_count": 1,
@@ -2789,116 +1822,8 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 30,
+      "task_count": 21,
       "tasks": [
-        {
-          "id": "1165152329001229663",
-          "name": "【方正证券三期】企微管家私有化_测试环境信创适配升级",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001219712",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001222878",
-          "name": "【长江证券四期】企微管家私有化测试环境升级 定制内容适配",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220823",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229825",
-          "name": "【东莞证券信创升级】企微管家测试环境升级26.5 活码隐私协议处理",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001223124",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229824",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）提测问题处理",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001218988",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229823",
-          "name": "【长江证券四期】企微管家私有化测试环境升级 定制功能适配",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001220823",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229926",
-          "name": "【长江证券四期】企微管家私有化测试环境升级 定制功能适配",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001220823",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229925",
-          "name": "【财信吉祥人寿一期】【p0】客户主动认证（2.3.7.15） 功能开发",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001229734",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229966",
-          "name": "【重庆农商行三期】【P12】上输功能优化(8.5人天) 功能开发",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001228743",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001229967",
-          "name": "【重庆农商行三期】【P12】上输功能优化(8.5人天) 功能联调",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001228743",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
         {
           "id": "1165152329001230727",
           "name": "【重庆农商行三期】【P11】网格化留资活动嵌入统一加客码(7人天) 前端新增h5分享界面",
@@ -3178,31 +2103,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 10,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 10,
-          "task_count": 3,
-          "saturation": "busy"
-        },
-        "2026-08-31": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
-        },
         "2026-09-16": {
           "hours": 8,
           "task_count": 1,
@@ -3263,152 +2163,8 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 48,
+      "task_count": 36,
       "tasks": [
-        {
-          "id": "1165152329001229654",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境冒烟测试",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001221113",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001227541",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.1】项目信息自动同步+项目成员自动打标（新增）（21人天），测试环境测试",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 7.0,
-          "effort_completed": 7.0,
-          "story_id": "1165152329001221112",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001229817",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.1】项目信息自动同步+项目成员自动打标（新增）（21人天），测试环境遗留bug回归",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001221112",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001228473",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试环境测试",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001221113",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001229924",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.9】吉意保业务系统打通（10人天），测试环境测试",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001221107",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001229923",
-          "name": "【财信吉祥人寿一期】【P0】【职域2.3.3.3】项目群活码（新增）（10人天），测试及问题提单",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001221113",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001229920",
-          "name": "【北京农商行】私有化定制-测试环境部署，客户测试问题提单",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 0.5,
-          "effort_completed": 0.5,
-          "story_id": "1165152329001196300",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001224947",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天），测试环境测试",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001218988",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001230109",
-          "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署，按照客户模板输出测试报告",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001220050",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001224949",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天），客户辅助认证场景测试环境测试",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001218988",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001230632",
-          "name": "【日照银行一期】【P1】企微通讯录同步（13人天），参加与客户侧的需求评审会议",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001227418",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001229959",
-          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天），360画像测试",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 6.0,
-          "effort_completed": 6.0,
-          "story_id": "1165152329001218988",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
         {
           "id": "1165152329001230718",
           "name": "【日照银行一期】企微管家私有化测试环境部署，外部群客户测试问题解答及确认",
@@ -3883,11 +2639,6 @@
           "task_count": 3,
           "saturation": "normal"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
         "2026-10-09": {
           "hours": 8,
           "task_count": 1,
@@ -3933,26 +2684,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-03": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 4,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
         "2026-09-17": {
           "hours": 8,
           "task_count": 1,
@@ -3968,320 +2699,8 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 62,
+      "task_count": 41,
       "tasks": [
-        {
-          "id": "1165152329001229677",
-          "name": "【日照银行一期】【自拓】企微管家私有化+定制测试环境部署-项目文档编写",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001220050",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001229676",
-          "name": "【长江证券四期】企微管家私有化测试环境升级-大数据问题处理",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001220823",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001229675",
-          "name": "【人保科技一期】企微管家私有化生产环境部署-生成环境服务启动",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001192668",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230318",
-          "name": "【中化资本26年维保】企微管家私有化维保-测试环境停服，网络权限沟通",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001205758",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230317",
-          "name": "【昆山农商行2026运维】【自拓】企微管家私有化+定制-短链问题沟通确认",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001214941",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230314",
-          "name": "【国联期货2026年维保】【自拓】企微管家私有化+定制2026年维保-ssl证书替换沟通",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001212378",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230313",
-          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-数据迁移确认、一期服务器下线确认",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001210905",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230312",
-          "name": "【天府证券一期】企微管家私有化生产环境部署（30人天）-异常请求nginx拦截",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001189024",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001228498",
-          "name": "【人保科技一期】企微管家私有化生产环境部署-项目提测",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001192668",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230323",
-          "name": "【广发期货2026维保】售后运维-防火墙问题处理",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001204919",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230322",
-          "name": "【日照银行一期】企微管家私有化生产环境部署-上线文档编写",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001220052",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230321",
-          "name": "【人保科技一期】企微管家私有化生产环境部署-提测问题处理，项目提测",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001192668",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230320",
-          "name": "【长江证券三期】售后维保-测试环境前端发布步骤沟通",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001184133",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230315",
-          "name": "【国联期货2026年维保】【自拓】企微管家私有化+定制2026年维保-安全漏洞发布、验证",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001212378",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001228499",
-          "name": "【中化资本26年维保】企微管家私有化维保-测试环境服务器部署",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001205758",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230327",
-          "name": "【中信信托一期】企微管家私有化生产环境部署-服务器资源沟通调整",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001226460",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230326",
-          "name": "【东吴人寿一期】企微管家运维支持（续保）-修改会存保存时间",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001191085",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230325",
-          "name": "【江海证券一期】企微管家私有化-测试环境部署-小程序问题沟通确认",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001220632",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230324",
-          "name": "【香港AIA一期】企微管家私有化+定制测试环境部署-域名解析验证",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001197915",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230319",
-          "name": "【东吴期货二期】数据库信创适配+数据迁移-测试环境服务器启停",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001228039",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230316",
-          "name": "【国联期货2026年维保】【自拓】企微管家私有化+定制2026年维保-安全漏洞发布验证",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001212378",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001228500",
-          "name": "【中化资本26年维保】企微管家私有化维保-测试环境服务器迁移",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001205758",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230598",
-          "name": "【国信期货2025运维】企微管家私有化维保-时间同步确认，资源情况巡检",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001187221",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230571",
-          "name": "【国投证券三期】售后运维工作-漏洞修复发布",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001229267",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001230570",
-          "name": "【江海证券一期】企微管家私有化-测试环境部署-测试环境bug发布",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001220632",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
-          "id": "1165152329001228501",
-          "name": "【中化资本26年维保】企微管家私有化维保-测试环境服务器迁移",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001205758",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
         {
           "id": "1165152329001230937",
           "name": "【中邮证券三期】【信创】测试环境企微管家私有化-信创迁移方案",
@@ -4713,6 +3132,66 @@
           "story_id": "1165152329001216898",
           "workspace_id": "65152329",
           "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229610",
+          "name": "【中信信托一期】企微管家私有化-测试环境部署",
+          "status": "pending",
+          "begin": "2026-10-12",
+          "due": "2026-10-12",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226459",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229611",
+          "name": "【中信信托一期】企微管家私有化测试环境部署-测试环境部署",
+          "status": "pending",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226459",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229612",
+          "name": "【中信信托一期】企微管家私有化测试环境部署-测试环境部署",
+          "status": "pending",
+          "begin": "2026-10-14",
+          "due": "2026-10-14",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226459",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001223271",
+          "name": "【天府证券一期】企微管家私有化测试环境部署（30人天）-服务器启动",
+          "status": "pending",
+          "begin": "2026-10-14",
+          "due": "2026-10-14",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001189025",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001223270",
+          "name": "【天府证券一期】企微管家私有化测试环境部署（30人天）-服务初始化",
+          "status": "pending",
+          "begin": "2026-10-15",
+          "due": "2026-10-15",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001189025",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
         }
       ],
       "daily_data": {
@@ -4756,37 +3235,32 @@
           "task_count": 4,
           "saturation": "normal"
         },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 4,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 7,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 9,
-          "task_count": 6,
-          "saturation": "busy"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 6,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
-        },
         "2026-09-15": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-09-14": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-14": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
+        "2026-10-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-12": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-15": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4831,236 +3305,8 @@
     {
       "name": "阿政;",
       "avatar": "阿",
-      "task_count": 48,
+      "task_count": 29,
       "tasks": [
-        {
-          "id": "1165152329001229667",
-          "name": "【东莞证券信创升级】企微管家测试环境升级26.5-东莞证券升级问题修复 ",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001223124",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001229666",
-          "name": "【财信吉祥人寿一期】企微管家开发/测试环境部署-财信测试环境新需求发布 ",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001213562",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001229665",
-          "name": "【深农商行二期】企微管家私有化测试环境部署-深圳农商行项目部署，大数据部署sop，配置公众号小程序，说明文档",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230024",
-          "name": "【东莞证券信创升级】企微管家测试环境升级26.5-东莞证券升级问题修复 ",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001223124",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230023",
-          "name": "【财信吉祥人寿一期】企微管家UAT环境部署-财信uat版本发布",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001222395",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230020",
-          "name": "【深农商行二期】企微管家私有化测试环境部署-深圳农商行项目部署，配置公众号小程序开放平台，说明文档",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230025",
-          "name": "【东莞证券信创升级】企微管家测试环境升级26.5-东莞证券测试升级问题修复 ",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001223124",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230022",
-          "name": "【财信吉祥人寿一期】企微管家UAT环境部署-财信人寿服务器评估会，uat内网登录",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001222395",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230021",
-          "name": "【深农商行二期】企微管家私有化测试环境部署-深圳农商行项目部署，第三方开发平台，测试环境自测，生产环境评估 ",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230124",
-          "name": "【金城银行2025年运维项目】-金城银行测试环境改非root",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001178175",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230118",
-          "name": "【财信吉祥人寿一期】企微管家UAT环境部署-财信人寿测试环境发版，uat环境部署2605，生产环境服务器清单 ",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001222395",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230117",
-          "name": "【东莞证券信创升级】企微管家测试环境升级26.5-东莞证券项目，解决项目测试问题",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001223124",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230110",
-          "name": "【深农商行二期】企微管家私有化测试环境部署-深圳农商行项目，解决项目测试问题 ",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230566",
-          "name": "【深农商行26年维保】企微管家私有化维保-深圳农商行售后问题处理",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001191016",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230565",
-          "name": "【北京农商行】私有化定制-生产环境部署-北京农商行准备生产环境材料",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001196298",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230564",
-          "name": "【财信吉祥人寿一期】企微管家UAT环境部署-财信人寿uat环境部署2605，准备生产环境资料",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001222395",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230561",
-          "name": "【深农商行二期】企微管家私有化UAT测试环境部署-深圳农商行项目解决测试问题",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 2.0,
-          "effort_completed": 2.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230902",
-          "name": "【财信吉祥人寿一期】企微管家UAT环境部署-财信人寿uat环境部署2605",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 5.0,
-          "effort_completed": 5.0,
-          "story_id": "1165152329001222395",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001230898",
-          "name": "【深农商行二期】企微管家私有化UAT测试环境部署-深圳农商行项目解决测试问题",
-          "status": "done",
-          "begin": "2026-09-05",
-          "due": "2026-09-05",
-          "effort": 3.0,
-          "effort_completed": 3.0,
-          "story_id": "1165152329001224573",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
         {
           "id": "1165152329001230907",
           "name": "【金城银行2025年运维项目】-金城银行nginx改非root操作手册",
@@ -5431,16 +3677,6 @@
           "task_count": 4,
           "saturation": "normal"
         },
-        "2026-09-05": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 4,
-          "saturation": "normal"
-        },
         "2026-09-19": {
           "hours": 8,
           "task_count": 2,
@@ -5475,94 +3711,14 @@
           "hours": 8,
           "task_count": 2,
           "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 4,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 3,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "花洲;",
       "avatar": "花",
-      "task_count": 15,
+      "task_count": 10,
       "tasks": [
-        {
-          "id": "1165152329001227985",
-          "name": "【意向客户】-编写技术方案文档",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "花洲;"
-        },
-        {
-          "id": "1165152329001227986",
-          "name": "【意向客户】-编写行内技术方案文档",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "花洲;"
-        },
-        {
-          "id": "1165152329001228985",
-          "name": "和大山交接项目资料，以及协助活动认证测试",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "花洲;"
-        },
-        {
-          "id": "1165152329001228986",
-          "name": "【意向客户】- 技术方案方案评审，和大山交接项目资料",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "花洲;"
-        },
-        {
-          "id": "1165152329001228987",
-          "name": "【意向客户】- 意向列达列表页接口代码编写",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "花洲;"
-        },
         {
           "id": "1165152329001231384",
           "name": "【活动认证需求】行内测试问题修复",
@@ -5734,193 +3890,14 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        }
-      }
-    },
-    {
-      "name": "大山;",
-      "avatar": "大",
-      "task_count": 5,
-      "tasks": [
-        {
-          "id": "1165152329001227963",
-          "name": "【意向客户】-需求代码调研，编写技术方案",
-          "status": "overdue",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "大山;"
-        },
-        {
-          "id": "1165152329001227962",
-          "name": "【意向客户】-编写行内文档",
-          "status": "overdue",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "大山;"
-        },
-        {
-          "id": "1165152329001229036",
-          "name": "【意向客户】-编写功能代码",
-          "status": "overdue",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "大山;"
-        },
-        {
-          "id": "1165152329001229037",
-          "name": "【意向客户】-编写功能代码",
-          "status": "overdue",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "大山;"
-        },
-        {
-          "id": "1165152329001229038",
-          "name": "【意向客户】-编写功能代码",
-          "status": "overdue",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001220916",
-          "workspace_id": "65152329",
-          "owner": "大山;"
-        }
-      ],
-      "daily_data": {
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     },
     {
       "name": "恒华;",
       "avatar": "恒",
-      "task_count": 15,
+      "task_count": 10,
       "tasks": [
-        {
-          "id": "1165152329001229065",
-          "name": "【重庆农商行】1.编写重庆P12需求技术方案文档及评审;2.编写重庆AI需求-智能回复上线sop",
-          "status": "done",
-          "begin": "2026-08-31",
-          "due": "2026-08-31",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220917",
-          "workspace_id": "65152329",
-          "owner": "恒华;"
-        },
-        {
-          "id": "1165152329001229067",
-          "name": "【重庆农商行】1.开发上输功能优化需求;2.重庆生产问题排查",
-          "status": "done",
-          "begin": "2026-09-01",
-          "due": "2026-09-01",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220917",
-          "workspace_id": "65152329",
-          "owner": "恒华;"
-        },
-        {
-          "id": "1165152329001229069",
-          "name": "【重庆农商行】1.开发统一加客码规则优化需求;",
-          "status": "done",
-          "begin": "2026-09-02",
-          "due": "2026-09-02",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220917",
-          "workspace_id": "65152329",
-          "owner": "恒华;"
-        },
-        {
-          "id": "1165152329001229071",
-          "name": "【重庆农商行】1.开发统一加客码规则优化需求; 2. 开发商机系统创建任务为空时报警需求 3.支持网格留资行内测试,ai需求行内测试;",
-          "status": "done",
-          "begin": "2026-09-03",
-          "due": "2026-09-03",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220917",
-          "workspace_id": "65152329",
-          "owner": "恒华;"
-        },
-        {
-          "id": "1165152329001229074",
-          "name": "【重庆农商行】1.重庆P12需求一批次联调及提测;2.配合网格化留资活动嵌入统一加客码缺陷修复方案;",
-          "status": "done",
-          "begin": "2026-09-04",
-          "due": "2026-09-04",
-          "effort": 8.0,
-          "effort_completed": 8.0,
-          "story_id": "1165152329001220917",
-          "workspace_id": "65152329",
-          "owner": "恒华;"
-        },
         {
           "id": "1165152329001230635",
           "name": "【重庆农商行】1.支持重庆P12需求测试; 2.重庆生产问题排查; 3.支持测试环境apps服务未打印日志问题排查;",
@@ -6092,49 +4069,24 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-09-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-01": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-08-31": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         }
       }
     }
   ],
   "summary": {
-    "total_tasks": 399,
+    "total_tasks": 257,
     "by_status": {
-      "done": 263,
-      "pending": 120,
-      "overdue": 16
+      "done": 120,
+      "pending": 124,
+      "overdue": 13
     },
     "by_week": {
       "2026-09-07": 133,
       "2026-09-14": 75,
-      "2026-08-31": 148,
       "2026-09-21": 21,
       "2026-10-05": 8,
-      "2026-09-28": 14
+      "2026-09-28": 14,
+      "2026-10-12": 6
     }
   }
 }
