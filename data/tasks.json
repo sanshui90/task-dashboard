@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-14 02:52:41",
+  "update_time": "2026-09-14 09:39:11",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-10-18",
@@ -260,7 +260,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 14,
+      "task_count": 15,
       "tasks": [
         {
           "id": "1165152329001227809",
@@ -371,6 +371,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001231597",
+          "name": "【深农商行二期】企微管家私有化UAT测试环境部署-问题处理",
+          "status": "done",
+          "begin": "2026-09-14",
+          "due": "2026-09-14",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001224573",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001230994",
           "name": "【东吴期货】呼叫中心对接及跟进留痕（22人天）-技术方案设计",
           "status": "pending",
@@ -432,6 +444,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-14": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-11": {
           "hours": 10,
           "task_count": 2,
@@ -453,11 +470,6 @@
           "saturation": "normal"
         },
         "2026-09-15": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-14": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4074,15 +4086,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 257,
+    "total_tasks": 258,
     "by_status": {
-      "done": 120,
+      "done": 121,
       "pending": 124,
       "overdue": 13
     },
     "by_week": {
+      "2026-09-14": 76,
       "2026-09-07": 133,
-      "2026-09-14": 75,
       "2026-09-21": 21,
       "2026-10-05": 8,
       "2026-09-28": 14,
