@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-15 02:55:29",
+  "update_time": "2026-09-15 09:15:33",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-10-18",
@@ -260,7 +260,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 17,
+      "task_count": 18,
       "tasks": [
         {
           "id": "1165152329001227809",
@@ -419,6 +419,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001231654",
+          "name": "【深农商行二期】【[合入基线26.05-sznsh]】管户名单open接口优化-代码合入",
+          "status": "pending",
+          "begin": "2026-09-15",
+          "due": "2026-09-15",
+          "effort": 3.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001231608",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001230995",
           "name": "【东吴期货】呼叫中心对接及跟进留痕（22人天）-需求开发",
           "status": "pending",
@@ -468,6 +480,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-15": {
+          "hours": 11,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-14": {
           "hours": 17,
           "task_count": 4,
@@ -489,11 +506,6 @@
           "saturation": "normal"
         },
         "2026-09-16": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-15": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4110,14 +4122,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 260,
+    "total_tasks": 261,
     "by_status": {
+      "pending": 111,
       "done": 125,
-      "pending": 110,
       "overdue": 25
     },
     "by_week": {
-      "2026-09-14": 78,
+      "2026-09-14": 79,
       "2026-09-07": 133,
       "2026-09-21": 22,
       "2026-10-05": 7,
