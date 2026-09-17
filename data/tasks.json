@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-17 02:55:13",
+  "update_time": "2026-09-17 09:16:35",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-10-18",
@@ -2908,7 +2908,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 41,
+      "task_count": 54,
       "tasks": [
         {
           "id": "1165152329001230937",
@@ -3151,37 +3151,157 @@
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001229613",
-          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
-          "status": "overdue",
+          "id": "1165152329001231862",
+          "name": "【中邮证券26~27年维保】企微管家私有化+定制维保-生产环境漏洞修复",
+          "status": "done",
           "begin": "2026-09-14",
           "due": "2026-09-14",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001226460",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001206929",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001229614",
-          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
-          "status": "overdue",
+          "id": "1165152329001231861",
+          "name": "【江海证券一期】企微管家私有化-测试环境部署-短链部署沟通，生产环境服务器资源沟通",
+          "status": "done",
+          "begin": "2026-09-14",
+          "due": "2026-09-14",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001220632",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231860",
+          "name": "【人保科技一期】企微管家私有化生产环境部署-测试环境网络权限开通",
+          "status": "done",
+          "begin": "2026-09-14",
+          "due": "2026-09-14",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001192668",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231859",
+          "name": "【香港AIA一期】企微管家私有化+定制测试环境部署-测试环境域名ssl证书及配置",
+          "status": "done",
+          "begin": "2026-09-14",
+          "due": "2026-09-14",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001197915",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231857",
+          "name": "【福建联通一期】-售后运维-部署架构图修改",
+          "status": "done",
+          "begin": "2026-09-14",
+          "due": "2026-09-14",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001207567",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231866",
+          "name": "【香港AIA一期】企微管家私有化+定制测试环境部署-测试环境部署",
+          "status": "done",
           "begin": "2026-09-15",
           "due": "2026-09-15",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001226460",
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001197915",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001231223",
-          "name": "【中信信托一期】企微管家私有化生产环境部署",
-          "status": "overdue",
+          "id": "1165152329001231865",
+          "name": "【中邮证券三期】【信创】生产环境企微管家私有化-信创资源提交，网络开通沟通",
+          "status": "done",
+          "begin": "2026-09-15",
+          "due": "2026-09-15",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231864",
+          "name": "【国投证券三期】售后运维工作-售后问题发布",
+          "status": "done",
+          "begin": "2026-09-15",
+          "due": "2026-09-15",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001229267",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231863",
+          "name": "【重庆农商行】【腾讯】企微管家2026~2027维保-superset弱密码配合处理",
+          "status": "done",
+          "begin": "2026-09-15",
+          "due": "2026-09-15",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001225251",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231869",
+          "name": "【香港AIA一期】企微管家私有化+定制测试环境部署-测试环境部署",
+          "status": "done",
           "begin": "2026-09-16",
           "due": "2026-09-16",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001197915",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231868",
+          "name": "【日照银行一期】企微管家私有化生产环境部署-生产环境应急预案编写",
+          "status": "done",
+          "begin": "2026-09-16",
+          "due": "2026-09-16",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001220052",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231867",
+          "name": "【中邮证券26~27年维保】企微管家私有化+定制维保-漏洞修复",
+          "status": "done",
+          "begin": "2026-09-16",
+          "due": "2026-09-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001206929",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231870",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-vpn、堡垒机验证，服务器检查",
+          "status": "done",
+          "begin": "2026-09-17",
+          "due": "2026-09-17",
+          "effort": 3.0,
+          "effort_completed": 3.0,
           "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "盘古;"
@@ -3202,11 +3322,35 @@
           "id": "1165152329001231232",
           "name": "【东吴期货二期】数据库信创适配+数据迁移-生产环境数据迁移",
           "status": "pending",
-          "begin": "2026-09-18",
-          "due": "2026-09-18",
+          "begin": "2026-09-20",
+          "due": "2026-09-20",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001228039",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001231223",
+          "name": "【中信信托一期】企微管家私有化生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229614",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-22",
+          "due": "2026-09-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -3219,6 +3363,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001197916",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001229613",
+          "name": "【中信信托一期】企微管家私有化生产环境部署-生产环境部署",
+          "status": "pending",
+          "begin": "2026-09-23",
+          "due": "2026-09-23",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -3404,22 +3560,37 @@
         }
       ],
       "daily_data": {
+        "2026-09-17": {
+          "hours": 11,
+          "task_count": 2,
+          "saturation": "busy"
+        },
+        "2026-09-16": {
+          "hours": 6,
+          "task_count": 3,
+          "saturation": "low"
+        },
+        "2026-09-15": {
+          "hours": 8,
+          "task_count": 4,
+          "saturation": "normal"
+        },
+        "2026-09-14": {
+          "hours": 8,
+          "task_count": 5,
+          "saturation": "normal"
+        },
         "2026-09-11": {
           "hours": 9,
           "task_count": 5,
           "saturation": "busy"
         },
-        "2026-09-18": {
+        "2026-09-20": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-09-17": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-16": {
+        "2026-09-21": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -3444,15 +3615,15 @@
           "task_count": 4,
           "saturation": "normal"
         },
-        "2026-09-15": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+        "2026-09-22": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
-        "2026-09-14": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+        "2026-09-23": {
+          "hours": 24,
+          "task_count": 3,
+          "saturation": "overload"
         },
         "2026-10-14": {
           "hours": 16,
@@ -3495,16 +3666,6 @@
           "saturation": "normal"
         },
         "2026-09-29": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-23": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
-        },
-        "2026-09-22": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4476,16 +4637,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 288,
+    "total_tasks": 301,
     "by_status": {
-      "done": 162,
-      "pending": 89,
-      "overdue": 37
+      "done": 175,
+      "pending": 92,
+      "overdue": 34
     },
     "by_week": {
-      "2026-09-14": 93,
+      "2026-09-14": 103,
       "2026-09-07": 137,
-      "2026-09-21": 30,
+      "2026-09-21": 33,
       "2026-09-28": 15,
       "2026-10-05": 7,
       "2026-10-12": 6
