@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-17 14:32:19",
+  "update_time": "2026-09-17 17:27:07",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-10-18",
@@ -1517,7 +1517,7 @@
     {
       "name": "奎克;",
       "avatar": "奎",
-      "task_count": 10,
+      "task_count": 15,
       "tasks": [
         {
           "id": "1165152329001230090",
@@ -1638,9 +1638,94 @@
           "story_id": "1165152329001227463",
           "workspace_id": "65152329",
           "owner": "奎克;"
+        },
+        {
+          "id": "1165152329001231997",
+          "name": "【深农商行二期】【P1】客户列表增加筛选项（13人天）-合入基线代码",
+          "status": "pending",
+          "begin": "2026-09-20",
+          "due": "2026-09-20",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001227462",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
+        },
+        {
+          "id": "1165152329001231998",
+          "name": "【深农商行二期】【P1】客户列表增加筛选项（13人天）-合入基线代码",
+          "status": "pending",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001227462",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
+        },
+        {
+          "id": "1165152329001232000",
+          "name": "【深农商行二期】【P1】客户列表增加筛选项（13人天）-合入基线代码",
+          "status": "pending",
+          "begin": "2026-09-22",
+          "due": "2026-09-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001227462",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
+        },
+        {
+          "id": "1165152329001231999",
+          "name": "【深农商行二期】【P1】客户列表增加筛选项（13人天）-合入基线代码",
+          "status": "pending",
+          "begin": "2026-09-23",
+          "due": "2026-09-23",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001227462",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
+        },
+        {
+          "id": "1165152329001231996",
+          "name": "【富国基金】群发任务和跟进任务列表导出，增加任务维度的客户回复率（**人天）-看需求完成技术方案",
+          "status": "pending",
+          "begin": "2026-09-24",
+          "due": "2026-09-24",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001231362",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
         }
       ],
       "daily_data": {
+        "2026-09-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-09-23": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-09-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-09-20": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-09-24": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-09-18": {
           "hours": 8,
           "task_count": 1,
@@ -1696,7 +1781,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 35,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001228404",
@@ -1857,11 +1942,11 @@
         {
           "id": "1165152329001231957",
           "name": "【深农商行二期】【P1】客户认证(自动+主动+辅助)（22人天）- 测试问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-17",
           "due": "2026-09-17",
-          "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001226796",
           "workspace_id": "65152329",
           "owner": "阿彭;"
@@ -1869,12 +1954,24 @@
         {
           "id": "1165152329001231956",
           "name": "【深农商行二期】【P1】管户名单对接（8人天）-  测试问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-17",
           "due": "2026-09-17",
-          "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001228095",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001231983",
+          "name": "【深农商行二期】【P1】360客户画像（19人天）- 360画像测试问题支持",
+          "status": "pending",
+          "begin": "2026-09-18",
+          "due": "2026-09-18",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001227458",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -2120,15 +2217,20 @@
         }
       ],
       "daily_data": {
+        "2026-09-18": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-09-20": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-09-17": {
-          "hours": 6,
+          "hours": 10,
           "task_count": 2,
-          "saturation": "low"
+          "saturation": "busy"
         },
         "2026-09-12": {
           "hours": 8,
@@ -4161,7 +4263,7 @@
     {
       "name": "阿政;",
       "avatar": "阿",
-      "task_count": 43,
+      "task_count": 45,
       "tasks": [
         {
           "id": "1165152329001230907",
@@ -4524,26 +4626,50 @@
           "owner": "阿政;"
         },
         {
-          "id": "1165152329001230144",
-          "name": "【深农商行二期】企微管家私有化生产环境部署",
-          "status": "pending",
+          "id": "1165152329001231982",
+          "name": "【富国基金三期】【自拓】企微管家维保-富国售后",
+          "status": "done",
           "begin": "2026-09-17",
           "due": "2026-09-17",
-          "effort": 4.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001224574",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001187388",
           "workspace_id": "65152329",
           "owner": "阿政;"
         },
         {
-          "id": "1165152329001230137",
-          "name": "【财信吉祥人寿一期】企微管家生产环境部署",
-          "status": "pending",
+          "id": "1165152329001231981",
+          "name": "【亚马逊四期】企微管家私有化维护-亚马逊前端项目发布",
+          "status": "done",
+          "begin": "2026-09-17",
+          "due": "2026-09-17",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001200292",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001231980",
+          "name": "【财信吉祥人寿一期】企微管家生产环境部署-财信人寿生产部署，部署文档，uat需求发布 ",
+          "status": "done",
+          "begin": "2026-09-17",
+          "due": "2026-09-17",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001213563",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001231979",
+          "name": "【深农商行二期】企微管家私有化UAT测试环境部署-深圳农商行准备生产，测试环境排查问题，密码加密，部署superset",
+          "status": "done",
           "begin": "2026-09-17",
           "due": "2026-09-17",
           "effort": 4.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001213563",
+          "effort_completed": 4.0,
+          "story_id": "1165152329001224573",
           "workspace_id": "65152329",
           "owner": "阿政;"
         },
@@ -4681,6 +4807,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-17": {
+          "hours": 8,
+          "task_count": 4,
+          "saturation": "normal"
+        },
         "2026-09-14": {
           "hours": 8,
           "task_count": 4,
@@ -4752,11 +4883,6 @@
           "saturation": "normal"
         },
         "2026-09-18": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-09-17": {
           "hours": 8,
           "task_count": 2,
           "saturation": "normal"
@@ -5123,16 +5249,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 334,
+    "total_tasks": 342,
     "by_status": {
-      "pending": 109,
-      "done": 216,
+      "pending": 111,
+      "done": 222,
       "overdue": 9
     },
     "by_week": {
+      "2026-09-21": 45,
+      "2026-09-14": 121,
       "2026-09-28": 14,
-      "2026-09-21": 41,
-      "2026-09-14": 117,
       "2026-09-07": 139,
       "2026-10-05": 11,
       "2026-10-12": 12
