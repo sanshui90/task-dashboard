@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-20 02:53:00",
+  "update_time": "2026-09-20 09:08:07",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-10-18",
@@ -345,7 +345,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 25,
+      "task_count": 26,
       "tasks": [
         {
           "id": "1165152329001227809",
@@ -588,6 +588,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001232619",
+          "name": "【重庆农商行三期】【合入基线】客户认证发送短信扩展点支持员工id-代码合入",
+          "status": "pending",
+          "begin": "2026-09-20",
+          "due": "2026-09-20",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232173",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001231927",
           "name": "【东吴期货】呼叫中心对接及跟进留痕（22人天）-接口联调",
           "status": "pending",
@@ -649,6 +661,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-20": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-18": {
           "hours": 10,
           "task_count": 2,
@@ -665,11 +682,6 @@
           "saturation": "normal"
         },
         "2026-09-24": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-20": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -6021,14 +6033,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 391,
+    "total_tasks": 392,
     "by_status": {
+      "pending": 117,
       "done": 257,
-      "pending": 116,
       "overdue": 18
     },
     "by_week": {
-      "2026-09-14": 149,
+      "2026-09-14": 150,
       "2026-09-21": 64,
       "2026-10-05": 7,
       "2026-09-07": 140,
