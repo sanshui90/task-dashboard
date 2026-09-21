@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-21 02:49:46",
+  "update_time": "2026-09-21 09:42:45",
   "date_range": {
     "start": "2026-09-14",
     "end": "2026-10-25",
@@ -1810,7 +1810,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 27,
+      "task_count": 26,
       "tasks": [
         {
           "id": "1165152329001230030",
@@ -1969,18 +1969,6 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001232688",
-          "name": "【业务二组】后端开发学习 -变量及运算",
-          "status": "done",
-          "begin": "2026-09-20",
-          "due": "2026-09-20",
-          "effort": 1.5,
-          "effort_completed": 1.5,
-          "story_id": "1165152329001231830",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
           "id": "1165152329001232687",
           "name": "【重庆农商行三期】【P10】内网登录改造需求（7人天） 生产打包准备",
           "status": "done",
@@ -2010,8 +1998,8 @@
           "status": "done",
           "begin": "2026-09-20",
           "due": "2026-09-20",
-          "effort": 6.0,
-          "effort_completed": 6.0,
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001219712",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2139,8 +2127,8 @@
       ],
       "daily_data": {
         "2026-09-20": {
-          "hours": 18,
-          "task_count": 5,
+          "hours": 17,
+          "task_count": 4,
           "saturation": "overload"
         },
         "2026-09-18": {
@@ -4254,14 +4242,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 270,
+    "total_tasks": 269,
     "by_status": {
-      "done": 129,
+      "done": 128,
       "overdue": 30,
       "pending": 111
     },
     "by_week": {
-      "2026-09-14": 159,
+      "2026-09-14": 158,
       "2026-09-21": 64,
       "2026-10-05": 7,
       "2026-09-28": 14,
