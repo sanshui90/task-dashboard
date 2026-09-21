@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-21 09:42:45",
+  "update_time": "2026-09-21 16:05:29",
   "date_range": {
     "start": "2026-09-14",
     "end": "2026-10-25",
@@ -188,7 +188,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 17,
+      "task_count": 18,
       "tasks": [
         {
           "id": "1165152329001231626",
@@ -347,6 +347,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001232753",
+          "name": "【晋商银行2026年维保】【自拓】企微管家私有化+定制2026年维保-售后问题处理",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001217944",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001231931",
           "name": "【长江证券四期】企微管家私有化测试环境升级-定开提测&问题处理",
           "status": "pending",
@@ -396,6 +408,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-21": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-09-20": {
           "hours": 10,
           "task_count": 2,
@@ -407,11 +424,6 @@
           "saturation": "busy"
         },
         "2026-09-23": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-21": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -1810,7 +1822,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 26,
+      "task_count": 28,
       "tasks": [
         {
           "id": "1165152329001230030",
@@ -2005,25 +2017,37 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001228451",
-          "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能开发",
-          "status": "overdue",
-          "begin": "2026-09-20",
-          "due": "2026-09-20",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001223802",
+          "id": "1165152329001232764",
+          "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天） 提测问题处理，新增接口前置判断",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001226191",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001232763",
+          "name": "【重庆农商行三期】【P12】上输功能优化(8.5人天) 上线支持",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001228743",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
           "id": "1165152329001231765",
           "name": "【重庆农商行三期】【P12】客户认证时短信费用归属(7人天) 前端接口适配处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-21",
           "due": "2026-09-21",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001228752",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2031,11 +2055,11 @@
         {
           "id": "1165152329001228456",
           "name": "【方正证券三期】企微管家私有化_测试环境信创适配升级 提测问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-09-21",
           "due": "2026-09-21",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001219712",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2073,6 +2097,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001211600",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001228451",
+          "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能开发",
+          "status": "pending",
+          "begin": "2026-09-24",
+          "due": "2026-09-24",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223802",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2126,10 +2162,15 @@
         }
       ],
       "daily_data": {
-        "2026-09-20": {
-          "hours": 17,
-          "task_count": 4,
+        "2026-09-21": {
+          "hours": 18,
+          "task_count": 5,
           "saturation": "overload"
+        },
+        "2026-09-20": {
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
         },
         "2026-09-18": {
           "hours": 9,
@@ -2145,11 +2186,6 @@
           "hours": 10,
           "task_count": 3,
           "saturation": "busy"
-        },
-        "2026-09-21": {
-          "hours": 24,
-          "task_count": 3,
-          "saturation": "overload"
         },
         "2026-09-30": {
           "hours": 8,
@@ -2177,9 +2213,9 @@
           "saturation": "normal"
         },
         "2026-09-24": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-09-28": {
           "hours": 8,
@@ -2196,7 +2232,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 33,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001231714",
@@ -2415,13 +2451,49 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001231936",
-          "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天），测试环境测试",
-          "status": "pending",
+          "id": "1165152329001232742",
+          "name": "【日照银行一期】企微管家私有化测试环境部署，参加项目计划及进度对齐会议",
+          "status": "done",
           "begin": "2026-09-21",
           "due": "2026-09-21",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001220050",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001232740",
+          "name": "【香港AIA一期】企微管家私有化+定制测试环境部署，测试环境主流程测试",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001197915",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001232739",
+          "name": "【财信吉祥人寿一期】企微管家UAT环境部署，业务测试支持",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001222395",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001231936",
+          "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天），测试环境测试",
+          "status": "done",
+          "begin": "2026-09-21",
+          "due": "2026-09-21",
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001226191",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2596,6 +2668,11 @@
         }
       ],
       "daily_data": {
+        "2026-09-21": {
+          "hours": 8,
+          "task_count": 4,
+          "saturation": "normal"
+        },
         "2026-09-20": {
           "hours": 8,
           "task_count": 3,
@@ -2637,11 +2714,6 @@
           "saturation": "normal"
         },
         "2026-09-28": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-21": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4140,12 +4212,12 @@
         },
         {
           "id": "1165152329001232473",
-          "name": "【重庆农商行】1.支持重庆p12需求生产发版;",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持重庆p12需求生产发版; 2.AI小秘书需求接口优化;",
+          "status": "done",
           "begin": "2026-09-21",
           "due": "2026-09-21",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220917",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4242,15 +4314,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 269,
+    "total_tasks": 275,
     "by_status": {
-      "done": 128,
-      "overdue": 30,
-      "pending": 111
+      "done": 138,
+      "overdue": 29,
+      "pending": 108
     },
     "by_week": {
-      "2026-09-14": 158,
-      "2026-09-21": 64,
+      "2026-09-21": 71,
+      "2026-09-14": 157,
       "2026-10-05": 7,
       "2026-09-28": 14,
       "2026-10-12": 17,
