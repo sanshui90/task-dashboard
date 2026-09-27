@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-26 16:52:20",
+  "update_time": "2026-09-27 03:06:16",
   "date_range": {
     "start": "2026-09-14",
     "end": "2026-10-25",
@@ -134,7 +134,7 @@
         {
           "id": "1165152329001233031",
           "name": "【日照银行一期】管户数据同步对接功能开发",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-09-26",
           "due": "2026-09-26",
           "effort": 8.0,
@@ -5680,8 +5680,8 @@
     "total_tasks": 374,
     "by_status": {
       "done": 268,
-      "pending": 89,
-      "overdue": 17
+      "pending": 88,
+      "overdue": 18
     },
     "by_week": {
       "2026-09-21": 116,
