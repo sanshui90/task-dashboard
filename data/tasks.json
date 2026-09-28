@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-28 03:03:20",
+  "update_time": "2026-09-28 10:40:01",
   "date_range": {
     "start": "2026-09-21",
     "end": "2026-11-01",
@@ -1472,7 +1472,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 18,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001232764",
@@ -1572,7 +1572,7 @@
         },
         {
           "id": "1165152329001228450",
-          "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能开发完成待联调",
+          "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能开发",
           "status": "done",
           "begin": "2026-09-23",
           "due": "2026-09-23",
@@ -1609,24 +1609,12 @@
         {
           "id": "1165152329001228451",
           "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能开发",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-09-24",
           "due": "2026-09-24",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001223802",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001223173",
-          "name": "【方正证券三期】企微管家信创需求测试环境适配升级 定制功能联调",
-          "status": "pending",
-          "begin": "2026-09-28",
-          "due": "2026-09-28",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001219712",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -1679,28 +1667,28 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001228453",
-          "name": "【方正证券三期】历史会话列表增加导出功能（7人天） 功能联调",
+          "id": "1165152329001223173",
+          "name": "【方正证券三期】企微管家信创需求测试环境适配升级 定制功能联调",
           "status": "pending",
-          "begin": "2026-10-09",
-          "due": "2026-10-09",
+          "begin": "2026-10-08",
+          "due": "2026-10-08",
           "effort": 8.0,
           "effort_completed": 0.0,
-          "story_id": "1165152329001223802",
+          "story_id": "1165152329001219712",
           "workspace_id": "65152329",
           "owner": "云燕;"
         }
       ],
       "daily_data": {
         "2026-10-08": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 3,
+          "saturation": "overload"
         },
         "2026-09-24": {
-          "hours": 11,
+          "hours": 8,
           "task_count": 3,
-          "saturation": "busy"
+          "saturation": "normal"
         },
         "2026-09-23": {
           "hours": 10,
@@ -1718,16 +1706,6 @@
           "saturation": "busy"
         },
         "2026-09-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-09": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-09-28": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -3258,15 +3236,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 207,
+    "total_tasks": 206,
     "by_status": {
-      "done": 102,
-      "pending": 91,
-      "overdue": 14
+      "done": 103,
+      "pending": 90,
+      "overdue": 13
     },
     "by_week": {
       "2026-09-21": 116,
-      "2026-09-28": 40,
+      "2026-09-28": 39,
       "2026-10-19": 13,
       "2026-10-12": 16,
       "2026-10-05": 19,
