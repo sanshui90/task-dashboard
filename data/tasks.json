@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-08 03:59:50",
+  "update_time": "2026-10-08 11:10:53",
   "date_range": {
     "start": "2026-09-28",
     "end": "2026-11-08",
@@ -2247,18 +2247,78 @@
           "saturation": "normal"
         }
       }
+    },
+    {
+      "name": "恒华;",
+      "avatar": "恒",
+      "task_count": 3,
+      "tasks": [
+        {
+          "id": "1165152329001234558",
+          "name": "【重庆农商行】1.梳理编写重庆P13需求技术方案文档;",
+          "status": "done",
+          "begin": "2026-10-08",
+          "due": "2026-10-08",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001234559",
+          "name": "【重庆农商行】1.编写重庆P13需求技术方案文档及评审;2.开发重庆对接上游创建应用通知需求;",
+          "status": "pending",
+          "begin": "2026-10-09",
+          "due": "2026-10-09",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001234561",
+          "name": "【重庆农商行】1.开发重庆六、新增任务复核功能需求",
+          "status": "pending",
+          "begin": "2026-10-10",
+          "due": "2026-10-10",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        }
+      ],
+      "daily_data": {
+        "2026-10-10": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-09": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-08": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        }
+      }
     }
   ],
   "summary": {
-    "total_tasks": 142,
+    "total_tasks": 145,
     "by_status": {
-      "done": 66,
-      "pending": 67,
+      "pending": 69,
+      "done": 67,
       "overdue": 9
     },
     "by_week": {
+      "2026-10-05": 25,
       "2026-09-28": 75,
-      "2026-10-05": 22,
       "2026-10-12": 25,
       "2026-10-19": 13,
       "2026-11-02": 4,
