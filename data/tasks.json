@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-09 11:10:05",
+  "update_time": "2026-10-09 16:42:13",
   "date_range": {
     "start": "2026-09-28",
     "end": "2026-11-08",
@@ -1552,11 +1552,11 @@
         {
           "id": "1165152329001234896",
           "name": "【东证期货AI】对客智能问答（43人天）手续费功能优化及侧边栏异常问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
           "effort": 6.0,
-          "effort_completed": 0.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001226192",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -1564,11 +1564,11 @@
         {
           "id": "1165152329001234894",
           "name": "【中邮证券二期】MOT任务后台统计功能（24人天）问题跟进",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001211600",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -1895,11 +1895,11 @@
         {
           "id": "1165152329001234777",
           "name": "【财信吉祥人寿一期】【P0】【定开】生产环境业务验证问题跟进及协助排查、回归",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
           "effort": 1.0,
-          "effort_completed": 0.0,
+          "effort_completed": 1.0,
           "story_id": "1165152329001231422",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -1907,11 +1907,11 @@
         {
           "id": "1165152329001234776",
           "name": "【东证期货AI】AI一句话洞察&服务建议&服务话术（43人天），ADP相关场景测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
-          "effort": 7.0,
-          "effort_completed": 0.0,
+          "effort": 8.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001226191",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2178,9 +2178,9 @@
           "saturation": "normal"
         },
         "2026-10-09": {
-          "hours": 8,
+          "hours": 9,
           "task_count": 2,
-          "saturation": "normal"
+          "saturation": "busy"
         },
         "2026-10-08": {
           "hours": 8,
@@ -3412,8 +3412,8 @@
   "summary": {
     "total_tasks": 215,
     "by_status": {
-      "pending": 112,
-      "done": 98,
+      "pending": 108,
+      "done": 102,
       "overdue": 5
     },
     "by_week": {
