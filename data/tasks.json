@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-11 03:24:15",
+  "update_time": "2026-10-11 10:39:06",
   "date_range": {
     "start": "2026-09-28",
     "end": "2026-11-08",
@@ -2117,11 +2117,11 @@
         {
           "id": "1165152329001234787",
           "name": "【中信信托一期】企微管家私有化生产环境主流程测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-11",
           "due": "2026-10-11",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3811,8 +3811,8 @@
   "summary": {
     "total_tasks": 240,
     "by_status": {
-      "done": 117,
-      "pending": 104,
+      "done": 118,
+      "pending": 103,
       "overdue": 19
     },
     "by_week": {
