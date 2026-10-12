@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-12 03:47:22",
+  "update_time": "2026-10-12 11:42:57",
   "date_range": {
     "start": "2026-10-05",
     "end": "2026-11-15",
@@ -154,7 +154,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 15,
+      "task_count": 16,
       "tasks": [
         {
           "id": "1165152329001234619",
@@ -253,6 +253,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001235539",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）-生产使用问题排查处理",
+          "status": "done",
+          "begin": "2026-10-12",
+          "due": "2026-10-12",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001233124",
           "name": "【日照银行一期】【P1】行内营销活动同步组合素材（ 人天）-技术方案设计",
           "status": "pending",
@@ -338,6 +350,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-12": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
         "2026-10-10": {
           "hours": 7,
           "task_count": 2,
@@ -384,11 +401,6 @@
           "saturation": "normal"
         },
         "2026-10-13": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-12": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -1553,6 +1565,18 @@
           "owner": "希希;"
         },
         {
+          "id": "1165152329001232182",
+          "name": "【东证期货AI】对客智能问答（43人天），测试环境测试",
+          "status": "done",
+          "begin": "2026-10-12",
+          "due": "2026-10-12",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001226192",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
           "id": "1165152329001230582",
           "name": "【日照银行一期】【P1】客户标签同步（11人天），测试用例输出",
           "status": "pending",
@@ -1597,18 +1621,6 @@
           "effort": 2.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001227418",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
-          "id": "1165152329001232182",
-          "name": "【东证期货AI】对客智能问答（43人天），测试环境测试",
-          "status": "pending",
-          "begin": "2026-10-14",
-          "due": "2026-10-14",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001226192",
           "workspace_id": "65152329",
           "owner": "希希;"
         },
@@ -1775,9 +1787,9 @@
           "saturation": "normal"
         },
         "2026-10-12": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-10-11": {
           "hours": 8,
@@ -1805,11 +1817,6 @@
           "saturation": "normal"
         },
         "2026-10-15": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-14": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2696,7 +2703,7 @@
     {
       "name": "恒华;",
       "avatar": "恒",
-      "task_count": 3,
+      "task_count": 6,
       "tasks": [
         {
           "id": "1165152329001234558",
@@ -2733,9 +2740,60 @@
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001235502",
+          "name": "【重庆农商行】1.支持上输功能优化需求缺陷修复测试;2.编写生产环境上线sop;",
+          "status": "done",
+          "begin": "2026-10-12",
+          "due": "2026-10-12",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001235503",
+          "name": "【重庆农商行】1.支持生产环境发版;2.开发对接上游创建应用通知需求;",
+          "status": "pending",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001235504",
+          "name": "【重庆农商行】1.支持对接上游创建应用通知测试;",
+          "status": "pending",
+          "begin": "2026-10-14",
+          "due": "2026-10-14",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
         }
       ],
       "daily_data": {
+        "2026-10-14": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-12": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-10": {
           "hours": 8,
           "task_count": 1,
@@ -2755,15 +2813,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 167,
+    "total_tasks": 171,
     "by_status": {
-      "done": 50,
-      "pending": 101,
+      "done": 53,
+      "pending": 102,
       "overdue": 16
     },
     "by_week": {
+      "2026-10-12": 63,
       "2026-10-05": 66,
-      "2026-10-12": 59,
       "2026-11-02": 7,
       "2026-10-26": 11,
       "2026-10-19": 24
