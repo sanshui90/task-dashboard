@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-13 11:28:59",
+  "update_time": "2026-10-13 17:14:09",
   "date_range": {
     "start": "2026-10-05",
     "end": "2026-11-15",
@@ -1162,7 +1162,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 19,
+      "task_count": 21,
       "tasks": [
         {
           "id": "1165152329001234617",
@@ -1309,13 +1309,37 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001234340",
-          "name": "【国投证券三期】展业素材一键群发 功能自测及发布",
-          "status": "pending",
+          "id": "1165152329001235658",
+          "name": "【重庆农商行三期】【P13】客户认证时短信费用归属(7人天) 上线支持",
+          "status": "done",
           "begin": "2026-10-13",
           "due": "2026-10-13",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001228752",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001235657",
+          "name": "【方正证券三期】企微管家私有化_测试环境信创适配升级 基线问题跟进",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001219712",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001234340",
+          "name": "【国投证券三期】展业素材一键群发 功能参数调整",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001231216",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -1394,6 +1418,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-13": {
+          "hours": 10,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-10-12": {
           "hours": 9,
           "task_count": 4,
@@ -1428,11 +1457,6 @@
           "hours": 9,
           "task_count": 3,
           "saturation": "busy"
-        },
-        "2026-10-13": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-10-15": {
           "hours": 8,
@@ -2816,11 +2840,11 @@
         {
           "id": "1165152329001235503",
           "name": "【重庆农商行】1.支持生产环境发版;2.开发对接上游创建应用通知需求;",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-13",
           "due": "2026-10-13",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -2873,14 +2897,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 176,
+    "total_tasks": 178,
     "by_status": {
-      "done": 60,
-      "pending": 91,
+      "done": 64,
+      "pending": 89,
       "overdue": 25
     },
     "by_week": {
-      "2026-10-12": 68,
+      "2026-10-12": 70,
       "2026-10-05": 66,
       "2026-11-02": 7,
       "2026-10-26": 11,
