@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-13 04:58:57",
+  "update_time": "2026-10-13 11:28:59",
   "date_range": {
     "start": "2026-10-05",
     "end": "2026-11-15",
@@ -1454,7 +1454,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 27,
+      "task_count": 29,
       "tasks": [
         {
           "id": "1165152329001234616",
@@ -1589,18 +1589,6 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001234789",
-          "name": "【中信信托一期】企微管家私有化生产环境测试及bug回归",
-          "status": "overdue",
-          "begin": "2026-10-12",
-          "due": "2026-10-12",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001226460",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
           "id": "1165152329001232182",
           "name": "【东证期货AI】对客智能问答（43人天），测试环境测试",
           "status": "done",
@@ -1609,6 +1597,42 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001226192",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001235648",
+          "name": "【银河证券三期】测试环境客户侧走查疑问解答及问题跟进",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 0.5,
+          "effort_completed": 0.5,
+          "story_id": "1165152329001190370",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001235647",
+          "name": "【方正证券三期】企微管家私有化_测试环境bug回归及相关功能复测，会话存档模块复测",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001219712",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001234789",
+          "name": "【中信信托一期】企微管家私有化生产环境分管测试及bug回归",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001226460",
           "workspace_id": "65152329",
           "owner": "希希;"
         },
@@ -1782,6 +1806,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-13": {
+          "hours": 16,
+          "task_count": 7,
+          "saturation": "overload"
+        },
         "2026-10-10": {
           "hours": 8,
           "task_count": 5,
@@ -1822,11 +1851,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-10-12": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
-        },
         "2026-10-11": {
           "hours": 8,
           "task_count": 1,
@@ -1857,9 +1881,9 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-10-13": {
+        "2026-10-12": {
           "hours": 8,
-          "task_count": 4,
+          "task_count": 1,
           "saturation": "normal"
         }
       }
@@ -2849,14 +2873,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 174,
+    "total_tasks": 176,
     "by_status": {
-      "done": 57,
+      "done": 60,
       "pending": 91,
-      "overdue": 26
+      "overdue": 25
     },
     "by_week": {
-      "2026-10-12": 66,
+      "2026-10-12": 68,
       "2026-10-05": 66,
       "2026-11-02": 7,
       "2026-10-26": 11,
