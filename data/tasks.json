@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-16 08:48:25",
+  "update_time": "2026-10-16 14:24:34",
   "date_range": {
     "start": "2026-10-05",
     "end": "2026-11-15",
@@ -347,7 +347,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 16,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001234619",
@@ -458,6 +458,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001236548",
+          "name": "【财信吉祥人寿一期】P0需求线下推广培训支持",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001235732",
           "name": "【晋商银行三期】项目管理支持-项目转交付&启动会+项目计划跟进客户沟通",
           "status": "done",
@@ -496,11 +508,11 @@
         {
           "id": "1165152329001235863",
           "name": "【晋商银行三期】项目管理支持-详设文档输出",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-16",
           "due": "2026-10-16",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001235698",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -543,6 +555,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-20": {
           "hours": 8,
           "task_count": 1,
@@ -1828,7 +1845,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 31,
+      "task_count": 32,
       "tasks": [
         {
           "id": "1165152329001231950",
@@ -2143,6 +2160,18 @@
           "owner": "阿彭;"
         },
         {
+          "id": "1165152329001223325",
+          "name": "【人保科技一期】人保科技一期定制需求 - 智能管家前后端功能联调",
+          "status": "pending",
+          "begin": "2026-10-27",
+          "due": "2026-10-27",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223061",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
           "id": "1165152329001234930",
           "name": "【中信信托一期】客户认证 - 客户认证功能开发",
           "status": "pending",
@@ -2305,8 +2334,8 @@
           "saturation": "normal"
         },
         "2026-10-27": {
-          "hours": 16,
-          "task_count": 2,
+          "hours": 24,
+          "task_count": 3,
           "saturation": "overload"
         }
       }
@@ -2314,7 +2343,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 33,
+      "task_count": 35,
       "tasks": [
         {
           "id": "1165152329001234617",
@@ -2569,13 +2598,37 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001233032",
-          "name": "【东证期货AI】AI中台审批流程优化处理 新增联系员工",
-          "status": "pending",
+          "id": "1165152329001236607",
+          "name": "【长江证券四期】企微管家私有化测试环境升级 问题跟进及发布处理",
+          "status": "done",
           "begin": "2026-10-16",
           "due": "2026-10-16",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001220823",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001236606",
+          "name": "【南宁市区联社一期】企微管家生产环境部署 pm-前置项跟进",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001235861",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001233032",
+          "name": "【东证期货AI】AI中台审批流程优化处理 新增联系员工 及发布",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001226191",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2714,6 +2767,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-16": {
+          "hours": 8,
+          "task_count": 3,
+          "saturation": "normal"
+        },
         "2026-11-02": {
           "hours": 8,
           "task_count": 1,
@@ -2794,11 +2852,6 @@
           "task_count": 3,
           "saturation": "busy"
         },
-        "2026-10-16": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-10-23": {
           "hours": 8,
           "task_count": 1,
@@ -2809,7 +2862,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 37,
+      "task_count": 42,
       "tasks": [
         {
           "id": "1165152329001234616",
@@ -3124,13 +3177,73 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001234779",
-          "name": "【东证期货AI】对内智能问答机器人（20人天），测试环境测试",
-          "status": "pending",
+          "id": "1165152329001236614",
+          "name": "【北京农商行】私有化定制-测试环境部署，遗留bug验证",
+          "status": "done",
           "begin": "2026-10-16",
           "due": "2026-10-16",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001196300",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001236611",
+          "name": "【日照银行一期】【P1】客户认证（13人天）测试用例评审及修改",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001228502",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001236610",
+          "name": "【日照银行一期】【P1】客户画像（16人天），测试用例评审及修改",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001228503",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001236609",
+          "name": "【日照银行一期】【P1】行内营销活动同步组合素材（ 人天），测试用例编写及评审",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001232800",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001236608",
+          "name": "【日照银行一期】【P1】行内产品库同步产品库（ 人天），用例编写及评审",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001232801",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001234779",
+          "name": "【东证期货AI】对内智能问答机器人（20人天），测试环境测试",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 3.0,
+          "effort_completed": 3.0,
           "story_id": "1165152329001226193",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3257,6 +3370,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-16": {
+          "hours": 8,
+          "task_count": 6,
+          "saturation": "normal"
+        },
         "2026-10-21": {
           "hours": 8,
           "task_count": 1,
@@ -3328,11 +3446,6 @@
           "saturation": "normal"
         },
         "2026-10-19": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-16": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4629,16 +4742,16 @@
     {
       "name": "花洲;",
       "avatar": "花",
-      "task_count": 8,
+      "task_count": 13,
       "tasks": [
         {
           "id": "1165152329001235319",
           "name": "员工侧通知提醒定时任务",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-08",
           "due": "2026-10-08",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234545",
           "workspace_id": "65152329",
           "owner": "花洲;"
@@ -4646,11 +4759,11 @@
         {
           "id": "1165152329001235320",
           "name": "员工侧通知提醒定时任务",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234545",
           "workspace_id": "65152329",
           "owner": "花洲;"
@@ -4658,45 +4771,81 @@
         {
           "id": "1165152329001235321",
           "name": "员工意向跟进状态更新",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-10",
           "due": "2026-10-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234545",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
-          "id": "1165152329001235322",
-          "name": "拉取会话数据跟新跟进状态",
-          "status": "overdue",
+          "id": "1165152329001236549",
+          "name": "【意向需求】自测意向列表，提供通知员工信息",
+          "status": "done",
           "begin": "2026-10-12",
           "due": "2026-10-12",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234545",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
-          "id": "1165152329001235323",
-          "name": "拉取会话数据跟新跟进状态",
-          "status": "overdue",
+          "id": "1165152329001236552",
+          "name": "【意向需求】自测员工统计，以及和数仓的数据",
+          "status": "done",
           "begin": "2026-10-13",
           "due": "2026-10-13",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234545",
           "workspace_id": "65152329",
           "owner": "花洲;"
         },
         {
-          "id": "1165152329001235324",
-          "name": "团队成员汇总跟进客户详情列表",
-          "status": "overdue",
+          "id": "1165152329001236553",
+          "name": "跟进需求投产，和数仓联调",
+          "status": "done",
           "begin": "2026-10-14",
           "due": "2026-10-14",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234545",
+          "workspace_id": "65152329",
+          "owner": "花洲;"
+        },
+        {
+          "id": "1165152329001236554",
+          "name": "和梁老师对接新需求的方案，以及评估工时",
+          "status": "done",
+          "begin": "2026-10-15",
+          "due": "2026-10-15",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234545",
+          "workspace_id": "65152329",
+          "owner": "花洲;"
+        },
+        {
+          "id": "1165152329001236555",
+          "name": "生产售后问题：活动认证小程序跳转问题排查，自测意向需求统计表",
+          "status": "done",
+          "begin": "2026-10-16",
+          "due": "2026-10-16",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234545",
+          "workspace_id": "65152329",
+          "owner": "花洲;"
+        },
+        {
+          "id": "1165152329001235326",
+          "name": "意向客户促成统计列表",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234545",
@@ -4706,9 +4855,9 @@
         {
           "id": "1165152329001235325",
           "name": "团队成员汇总跟进客户详情列表",
-          "status": "overdue",
-          "begin": "2026-10-15",
-          "due": "2026-10-15",
+          "status": "pending",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234545",
@@ -4716,11 +4865,35 @@
           "owner": "花洲;"
         },
         {
-          "id": "1165152329001235326",
-          "name": "意向客户促成统计列表",
+          "id": "1165152329001235324",
+          "name": "团队成员汇总跟进客户详情列表",
           "status": "pending",
-          "begin": "2026-10-16",
-          "due": "2026-10-16",
+          "begin": "2026-10-21",
+          "due": "2026-10-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234545",
+          "workspace_id": "65152329",
+          "owner": "花洲;"
+        },
+        {
+          "id": "1165152329001235323",
+          "name": "拉取会话数据跟新跟进状态",
+          "status": "pending",
+          "begin": "2026-10-22",
+          "due": "2026-10-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234545",
+          "workspace_id": "65152329",
+          "owner": "花洲;"
+        },
+        {
+          "id": "1165152329001235322",
+          "name": "拉取会话数据跟新跟进状态",
+          "status": "pending",
+          "begin": "2026-10-23",
+          "due": "2026-10-23",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234545",
@@ -4754,6 +4927,31 @@
           "task_count": 1,
           "saturation": "normal"
         },
+        "2026-10-19": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-20": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-23": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-10": {
           "hours": 8,
           "task_count": 1,
@@ -4772,13 +4970,223 @@
       }
     },
     {
+      "name": "大山;",
+      "avatar": "大",
+      "task_count": 13,
+      "tasks": [
+        {
+          "id": "1165152329001236556",
+          "name": "客户认证数据回传-编写设计方案文档",
+          "status": "done",
+          "begin": "2026-10-11",
+          "due": "2026-10-11",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236564",
+          "name": "【售后问题】-排查无法进行备注手机号认证问题",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001234547",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236563",
+          "name": "【售后问题】-修复360画像过0点无数据问题",
+          "status": "done",
+          "begin": "2026-10-13",
+          "due": "2026-10-13",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001234547",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236566",
+          "name": "【二阶段需求】-参与二阶段需求评审",
+          "status": "done",
+          "begin": "2026-10-14",
+          "due": "2026-10-14",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001234547",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236565",
+          "name": "【售后问题】-修复管护列表无无客户等级，管护类型问题",
+          "status": "done",
+          "begin": "2026-10-14",
+          "due": "2026-10-14",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001234547",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236557",
+          "name": "客户认证数据回传-开发认证后实时推送认证信息至权益平台接口",
+          "status": "done",
+          "begin": "2026-10-15",
+          "due": "2026-10-15",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236559",
+          "name": "客户认证数据回传-开发T+1推送客户认证信息至数仓接口",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236558",
+          "name": "客户认证数据回传-开发初始化客户首次添加时间，认证时间sql脚本",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236561",
+          "name": "客户认证数据回传-自测功能代码",
+          "status": "pending",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001236560",
+          "name": "客户认证数据回传-完善推送客户认证信息至数仓接口",
+          "status": "pending",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001235073",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001233155",
+          "name": "【内部标签】-完善客户打标定时任务功能代码",
+          "status": "pending",
+          "begin": "2026-10-21",
+          "due": "2026-10-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232024",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001233150",
+          "name": "【内部标签】-开发客户打标定时任务功能代码",
+          "status": "pending",
+          "begin": "2026-10-22",
+          "due": "2026-10-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232024",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        },
+        {
+          "id": "1165152329001233148",
+          "name": "【内部标签】-开发同步增量打标数据功能代码",
+          "status": "pending",
+          "begin": "2026-10-23",
+          "due": "2026-10-23",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232024",
+          "workspace_id": "65152329",
+          "owner": "大山;"
+        }
+      ],
+      "daily_data": {
+        "2026-10-14": {
+          "hours": 6,
+          "task_count": 2,
+          "saturation": "low"
+        },
+        "2026-10-13": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
+        "2026-10-20": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
+        "2026-10-19": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
+        "2026-10-15": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-11": {
+          "hours": 1,
+          "task_count": 1,
+          "saturation": "low"
+        },
+        "2026-10-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-23": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        }
+      }
+    },
+    {
       "name": "恒华;",
       "avatar": "恒",
-      "task_count": 8,
+      "task_count": 13,
       "tasks": [
         {
           "id": "1165152329001234558",
-          "name": "【重庆农商行】1.梳理编写重庆P13需求技术方案文档;",
+          "name": "【重庆农商行】1.梳理编写重庆P14需求技术方案文档;",
           "status": "done",
           "begin": "2026-10-08",
           "due": "2026-10-08",
@@ -4790,7 +5198,7 @@
         },
         {
           "id": "1165152329001234559",
-          "name": "【重庆农商行】1.编写重庆P13需求技术方案文档;2.开发重庆对接上游创建应用通知需求;",
+          "name": "【重庆农商行】1.编写重庆P14需求技术方案文档;2.开发重庆对接上游创建应用通知需求;",
           "status": "done",
           "begin": "2026-10-09",
           "due": "2026-10-09",
@@ -4862,10 +5270,70 @@
         },
         {
           "id": "1165152329001236185",
-          "name": "【重庆农商行】1.重庆农商行周例会;2.编写重庆P13需求技术方案文档;",
-          "status": "pending",
+          "name": "【重庆农商行】1.重庆农商行周例会;2.编写重庆P14需求技术方案文档;",
+          "status": "done",
           "begin": "2026-10-16",
           "due": "2026-10-16",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001236567",
+          "name": "【重庆农商行】1.重庆P14需求技术方案评审;2.开发创建任务时结束时间优化需求;",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001236568",
+          "name": "【重庆农商行】1.开发新增任务复核功能需求;",
+          "status": "pending",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001236569",
+          "name": "【重庆农商行】1.开发新增任务复核功能需求",
+          "status": "pending",
+          "begin": "2026-10-21",
+          "due": "2026-10-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001236570",
+          "name": "【重庆农商行】1.开发任务复核功能需求及自测",
+          "status": "pending",
+          "begin": "2026-10-22",
+          "due": "2026-10-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234546",
+          "workspace_id": "65152329",
+          "owner": "恒华;"
+        },
+        {
+          "id": "1165152329001236571",
+          "name": "【重庆农商行】1.开发任务复核功能需求及自测",
+          "status": "pending",
+          "begin": "2026-10-23",
+          "due": "2026-10-23",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234546",
@@ -4874,6 +5342,31 @@
         }
       ],
       "daily_data": {
+        "2026-10-23": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-20": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-19": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-16": {
           "hours": 8,
           "task_count": 1,
@@ -4918,18 +5411,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 319,
+    "total_tasks": 351,
     "by_status": {
-      "pending": 106,
-      "done": 206,
-      "overdue": 7
+      "done": 232,
+      "pending": 119
     },
     "by_week": {
-      "2026-10-26": 24,
-      "2026-10-19": 59,
-      "2026-10-12": 128,
+      "2026-10-12": 141,
+      "2026-10-19": 76,
+      "2026-10-05": 95,
+      "2026-10-26": 25,
       "2026-11-02": 11,
-      "2026-10-05": 94,
       "2026-11-09": 3
     }
   }
