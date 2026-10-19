@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-19 02:48:35",
+  "update_time": "2026-10-19 09:40:24",
   "date_range": {
     "start": "2026-10-12",
     "end": "2026-11-22",
@@ -296,7 +296,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 9,
+      "task_count": 13,
       "tasks": [
         {
           "id": "1165152329001235539",
@@ -371,6 +371,30 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001236847",
+          "name": "【日照银行一期】将“金融标品”客户认证的管户经理支持为空的功能合并到2605-mysql-代码合入",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001236817",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001236825",
+          "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）-业务监控数据整理",
+          "status": "pending",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001218988",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001235864",
           "name": "【晋商银行三期】项目管理支持-详设文档输出",
           "status": "pending",
@@ -395,6 +419,30 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001236834",
+          "name": "【晋商银行三期】自动在职/离职继承客户-技术方案设计",
+          "status": "pending",
+          "begin": "2026-10-21",
+          "due": "2026-10-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001236770",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001236835",
+          "name": "【晋商银行三期】自动在职/离职继承客户-接口开发",
+          "status": "pending",
+          "begin": "2026-10-22",
+          "due": "2026-10-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001236770",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001234841",
           "name": "【东吴期货】呼叫中心对接及跟进留痕（22人天）-测试问题处理+生产上线",
           "status": "pending",
@@ -408,17 +456,27 @@
         }
       ],
       "daily_data": {
+        "2026-10-19": {
+          "hours": 14,
+          "task_count": 3,
+          "saturation": "overload"
+        },
+        "2026-10-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-10-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-13": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-10-20": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-19": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2622,7 +2680,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 37,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001235838",
@@ -2985,18 +3043,6 @@
           "owner": "盘古;"
         },
         {
-          "id": "1165152329001223186",
-          "name": "【长江证券四期】企微管家私有化+定制-生产环境升级",
-          "status": "pending",
-          "begin": "2026-11-03",
-          "due": "2026-11-03",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001223184",
-          "workspace_id": "65152329",
-          "owner": "盘古;"
-        },
-        {
           "id": "1165152329001223188",
           "name": "【长江证券四期】企微管家私有化+定制-生产环境升级",
           "status": "pending",
@@ -3131,9 +3177,9 @@
           "saturation": "overload"
         },
         "2026-11-03": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
         },
         "2026-10-23": {
           "hours": 8,
@@ -4068,17 +4114,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 257,
+    "total_tasks": 260,
     "by_status": {
+      "pending": 119,
       "done": 137,
-      "pending": 116,
       "overdue": 4
     },
     "by_week": {
+      "2026-10-19": 80,
       "2026-10-12": 141,
-      "2026-10-19": 76,
       "2026-10-26": 25,
-      "2026-11-02": 12,
+      "2026-11-02": 11,
       "2026-11-09": 3
     }
   }
