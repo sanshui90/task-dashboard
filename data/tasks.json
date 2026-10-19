@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-19 09:40:24",
+  "update_time": "2026-10-19 16:42:03",
   "date_range": {
     "start": "2026-10-12",
     "end": "2026-11-22",
@@ -373,11 +373,11 @@
         {
           "id": "1165152329001236847",
           "name": "【日照银行一期】将“金融标品”客户认证的管户经理支持为空的功能合并到2605-mysql-代码合入",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-19",
           "due": "2026-10-19",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001236817",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -385,11 +385,11 @@
         {
           "id": "1165152329001236825",
           "name": "【财信吉祥人寿一期】【P0】【全渠道2.3.7】客户360画像及客户认证（43人天）-业务监控数据整理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-19",
           "due": "2026-10-19",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001218988",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -1816,7 +1816,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 27,
+      "task_count": 26,
       "tasks": [
         {
           "id": "1165152329001235556",
@@ -2011,26 +2011,26 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001236019",
-          "name": "【南宁市区联社一期】企微管家生产环境部署 pm- 前置项准备日常情况核对",
-          "status": "pending",
+          "id": "1165152329001236411",
+          "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 列表功能开发",
+          "status": "done",
           "begin": "2026-10-19",
           "due": "2026-10-19",
-          "effort": 1.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001235861",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001232850",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001234887",
-          "name": "【国投证券三期】群发朋友圈-复杂标签筛选\u0005前端功能开发",
-          "status": "pending",
+          "id": "1165152329001236019",
+          "name": "【南宁市区联社一期】企微管家生产环境部署 pm- 立项会日期确认及前置项跟进",
+          "status": "done",
           "begin": "2026-10-19",
           "due": "2026-10-19",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001231214",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001235861",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2095,18 +2095,6 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001236411",
-          "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 功能开发",
-          "status": "pending",
-          "begin": "2026-10-27",
-          "due": "2026-10-27",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001232850",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
           "id": "1165152329001236412",
           "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 素材展示适配",
           "status": "pending",
@@ -2164,10 +2152,10 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-10-27": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+        "2026-10-19": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-10-26": {
           "hours": 8,
@@ -2178,11 +2166,6 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-10-19": {
-          "hours": 9,
-          "task_count": 2,
-          "saturation": "busy"
         },
         "2026-10-15": {
           "hours": 9,
@@ -4000,12 +3983,12 @@
         },
         {
           "id": "1165152329001236567",
-          "name": "【重庆农商行】1.重庆P14需求技术方案评审;2.开发创建任务时结束时间优化需求;",
-          "status": "pending",
+          "name": "【重庆农商行】1.重庆P14需求技术方案评审;2.支持对接上游应用通知需求行内测试;",
+          "status": "done",
           "begin": "2026-10-19",
           "due": "2026-10-19",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4114,16 +4097,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 260,
+    "total_tasks": 259,
     "by_status": {
-      "pending": 119,
-      "done": 137,
+      "done": 142,
+      "pending": 113,
       "overdue": 4
     },
     "by_week": {
       "2026-10-19": 80,
       "2026-10-12": 141,
-      "2026-10-26": 25,
+      "2026-10-26": 24,
       "2026-11-02": 11,
       "2026-11-09": 3
     }
