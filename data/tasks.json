@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-20 02:59:13",
+  "update_time": "2026-10-20 09:13:55",
   "date_range": {
     "start": "2026-10-12",
     "end": "2026-11-22",
@@ -296,7 +296,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 13,
+      "task_count": 14,
       "tasks": [
         {
           "id": "1165152329001235539",
@@ -407,6 +407,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001236948",
+          "name": "【日照银行一期】金融标品客户认证/取消认证接口，查询管户返回服务类型接口，合入26.5以及26.5-mysql",
+          "status": "pending",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001236926",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001235947",
           "name": "【晋商银行三期】项目管理支持-详设文档输出",
           "status": "pending",
@@ -456,6 +468,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-20": {
+          "hours": 12,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-10-19": {
           "hours": 9,
           "task_count": 3,
@@ -472,11 +489,6 @@
           "saturation": "normal"
         },
         "2026-10-13": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-20": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2663,7 +2675,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 36,
+      "task_count": 38,
       "tasks": [
         {
           "id": "1165152329001235838",
@@ -2882,6 +2894,18 @@
           "owner": "盘古;"
         },
         {
+          "id": "1165152329001236963",
+          "name": "【江海证券一期】企微管家私有化-生产环境部署-测试环境服务器启动，生产环境排期沟通",
+          "status": "done",
+          "begin": "2026-10-19",
+          "due": "2026-10-19",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001216898",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
           "id": "1165152329001235860",
           "name": "【香港AIA一期】企微管家私有化+定制测试环境部署-测试环境域名切换",
           "status": "overdue",
@@ -2902,6 +2926,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001189025",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
+          "id": "1165152329001236964",
+          "name": "【江海证券一期】企微管家私有化-生产环境部署-生产环境网络权限配合申请",
+          "status": "done",
+          "begin": "2026-10-20",
+          "due": "2026-10-20",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001216898",
           "workspace_id": "65152329",
           "owner": "盘古;"
         },
@@ -3099,6 +3135,16 @@
         }
       ],
       "daily_data": {
+        "2026-10-20": {
+          "hours": 17,
+          "task_count": 3,
+          "saturation": "overload"
+        },
+        "2026-10-19": {
+          "hours": 17,
+          "task_count": 3,
+          "saturation": "overload"
+        },
         "2026-10-15": {
           "hours": 9,
           "task_count": 4,
@@ -3108,11 +3154,6 @@
           "hours": 9,
           "task_count": 5,
           "saturation": "busy"
-        },
-        "2026-10-19": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
         },
         "2026-10-13": {
           "hours": 9,
@@ -3138,11 +3179,6 @@
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-10-20": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
         },
         "2026-10-21": {
           "hours": 16,
@@ -4097,14 +4133,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 259,
+    "total_tasks": 262,
     "by_status": {
-      "done": 143,
-      "pending": 98,
+      "done": 145,
+      "pending": 99,
       "overdue": 18
     },
     "by_week": {
-      "2026-10-19": 80,
+      "2026-10-19": 83,
       "2026-10-12": 141,
       "2026-10-26": 24,
       "2026-11-02": 11,
