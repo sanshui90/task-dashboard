@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-21 09:10:46",
+  "update_time": "2026-10-21 14:45:43",
   "date_range": {
     "start": "2026-10-12",
     "end": "2026-11-22",
@@ -433,11 +433,11 @@
         {
           "id": "1165152329001237067",
           "name": "【日照银行一期】金融标品-客户认证/取消认证的时候，外部联系人ID改成非必传-代码合入",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-21",
           "due": "2026-10-21",
           "effort": 1.0,
-          "effort_completed": 0.0,
+          "effort_completed": 1.0,
           "story_id": "1165152329001236918",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -445,11 +445,11 @@
         {
           "id": "1165152329001237066",
           "name": "【日照银行一期】金融标品-使用接口查询管户信息时，需要返回管户客户的服务类型。-代码合入",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-10-21",
           "due": "2026-10-21",
           "effort": 1.0,
-          "effort_completed": 0.0,
+          "effort_completed": 1.0,
           "story_id": "1165152329001236920",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -468,12 +468,12 @@
         },
         {
           "id": "1165152329001236834",
-          "name": "【晋商银行三期】自动在职/离职继承客户-技术方案设计",
-          "status": "pending",
+          "name": "【晋商银行三期】-详细设计文档",
+          "status": "done",
           "begin": "2026-10-21",
           "due": "2026-10-21",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -505,7 +505,7 @@
       ],
       "daily_data": {
         "2026-10-21": {
-          "hours": 12,
+          "hours": 9,
           "task_count": 4,
           "saturation": "busy"
         },
@@ -2269,7 +2269,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 34,
+      "task_count": 35,
       "tasks": [
         {
           "id": "1165152329001232182",
@@ -2584,6 +2584,18 @@
           "owner": "希希;"
         },
         {
+          "id": "1165152329001237114",
+          "name": "【北京农商行】私有化定制-测试环境部署，测试环境tapd待验证bug回归",
+          "status": "done",
+          "begin": "2026-10-21",
+          "due": "2026-10-21",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001196300",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
           "id": "1165152329001236226",
           "name": "【东证期货】通用任务合入，替换MOT（**人天）测试环境测试及问题回归",
           "status": "pending",
@@ -2681,6 +2693,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-21": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-10-20": {
           "hours": 17,
           "task_count": 4,
@@ -2689,11 +2706,6 @@
         "2026-10-16": {
           "hours": 8,
           "task_count": 6,
-          "saturation": "normal"
-        },
-        "2026-10-21": {
-          "hours": 8,
-          "task_count": 1,
           "saturation": "normal"
         },
         "2026-10-15": {
@@ -4129,12 +4141,12 @@
         },
         {
           "id": "1165152329001236569",
-          "name": "【重庆农商行】1.开发新增任务复核功能需求",
-          "status": "pending",
+          "name": "【重庆农商行】1.开发新增任务复核功能需求; 2.重庆生产问题排查; 3.支持Ai小秘书行内测试;",
+          "status": "done",
           "begin": "2026-10-21",
           "due": "2026-10-21",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4219,14 +4231,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 270,
+    "total_tasks": 271,
     "by_status": {
-      "pending": 81,
-      "done": 157,
+      "done": 162,
+      "pending": 77,
       "overdue": 32
     },
     "by_week": {
-      "2026-10-19": 91,
+      "2026-10-19": 92,
       "2026-10-12": 141,
       "2026-10-26": 24,
       "2026-11-02": 11,
