@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-22 02:52:31",
+  "update_time": "2026-10-22 09:13:24",
   "date_range": {
     "start": "2026-10-12",
     "end": "2026-11-22",
@@ -1864,7 +1864,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 33,
+      "task_count": 37,
       "tasks": [
         {
           "id": "1165152329001235556",
@@ -2203,23 +2203,35 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001237163",
+          "name": "【南宁市区联社一期】企微管家生产环境部署 pm-产品对接流程对其",
+          "status": "pending",
+          "begin": "2026-10-23",
+          "due": "2026-10-23",
+          "effort": 1.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001235861",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001236415",
+          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天) 功能开发",
+          "status": "pending",
+          "begin": "2026-10-27",
+          "due": "2026-10-27",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232852",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001236412",
           "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 素材展示适配",
           "status": "pending",
           "begin": "2026-10-28",
           "due": "2026-10-28",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001232850",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001236413",
-          "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 功能联调",
-          "status": "pending",
-          "begin": "2026-10-29",
-          "due": "2026-10-29",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001232850",
@@ -2251,28 +2263,84 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001236415",
-          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天) 功能开发",
+          "id": "1165152329001237159",
+          "name": "【香港AIA一期】单点登录 需求功能开发",
           "status": "pending",
-          "begin": "2026-11-02",
-          "due": "2026-11-02",
+          "begin": "2026-11-03",
+          "due": "2026-11-03",
           "effort": 8.0,
           "effort_completed": 0.0,
-          "story_id": "1165152329001232852",
+          "story_id": "1165152329001234864",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237160",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能开发",
+          "status": "pending",
+          "begin": "2026-11-04",
+          "due": "2026-11-04",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234863",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237161",
+          "name": "【香港AIA一期】公告功能 功能开发",
+          "status": "pending",
+          "begin": "2026-11-05",
+          "due": "2026-11-05",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234865",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001236413",
+          "name": "【重庆农商行三期】【P14】任务复核功能(11人天) 功能联调",
+          "status": "pending",
+          "begin": "2026-11-06",
+          "due": "2026-11-06",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001232850",
           "workspace_id": "65152329",
           "owner": "云燕;"
         }
       ],
       "daily_data": {
+        "2026-10-23": {
+          "hours": 1,
+          "task_count": 1,
+          "saturation": "low"
+        },
+        "2026-11-05": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-04": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-03": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-10-21": {
           "hours": 9,
           "task_count": 4,
           "saturation": "busy"
         },
         "2026-11-02": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
         },
         "2026-10-20": {
           "hours": 10,
@@ -2284,7 +2352,12 @@
           "task_count": 3,
           "saturation": "normal"
         },
-        "2026-10-29": {
+        "2026-10-27": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-06": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4296,15 +4369,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 276,
+    "total_tasks": 280,
     "by_status": {
+      "pending": 69,
       "done": 166,
-      "pending": 65,
       "overdue": 45
     },
     "by_week": {
-      "2026-10-19": 96,
-      "2026-11-02": 12,
+      "2026-10-19": 97,
+      "2026-11-02": 15,
       "2026-10-12": 141,
       "2026-10-26": 24,
       "2026-11-09": 3
