@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-26 02:42:59",
+  "update_time": "2026-10-26 09:50:14",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-11-29",
@@ -296,7 +296,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 18,
+      "task_count": 19,
       "tasks": [
         {
           "id": "1165152329001236847",
@@ -455,6 +455,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001238178",
+          "name": "【财信吉祥人寿一期】监控指标",
+          "status": "done",
+          "begin": "2026-10-26",
+          "due": "2026-10-26",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001237669",
           "name": "【晋商银行三期】自动在职/离职继承客户-需求评审+技术方案设计",
           "status": "pending",
@@ -516,6 +528,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-26": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-10-22": {
           "hours": 9,
           "task_count": 2,
@@ -532,11 +549,6 @@
           "saturation": "normal"
         },
         "2026-10-27": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-26": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2929,7 +2941,7 @@
     {
       "name": "盘古;",
       "avatar": "盘",
-      "task_count": 37,
+      "task_count": 38,
       "tasks": [
         {
           "id": "1165152329001237797",
@@ -3160,6 +3172,18 @@
           "owner": "盘古;"
         },
         {
+          "id": "1165152329001238177",
+          "name": "【中邮证券三期】【信创】测试环境企微管家私有化-测试环境部署、提测",
+          "status": "done",
+          "begin": "2026-10-24",
+          "due": "2026-10-24",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001210905",
+          "workspace_id": "65152329",
+          "owner": "盘古;"
+        },
+        {
           "id": "1165152329001234901",
           "name": "【中邮证券三期】【信创】测试环境企微管家私有化-测试环境继续部署",
           "status": "overdue",
@@ -3377,6 +3401,11 @@
         }
       ],
       "daily_data": {
+        "2026-10-24": {
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
+        },
         "2026-10-29": {
           "hours": 8,
           "task_count": 1,
@@ -3421,11 +3450,6 @@
           "hours": 9,
           "task_count": 6,
           "saturation": "busy"
-        },
-        "2026-10-24": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-11-10": {
           "hours": 16,
@@ -4664,15 +4688,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 300,
+    "total_tasks": 302,
     "by_status": {
-      "done": 149,
+      "done": 151,
       "pending": 141,
       "overdue": 10
     },
     "by_week": {
-      "2026-10-19": 159,
-      "2026-10-26": 85,
+      "2026-10-26": 86,
+      "2026-10-19": 160,
       "2026-11-02": 37,
       "2026-11-09": 15,
       "2026-11-16": 1,
