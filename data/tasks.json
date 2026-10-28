@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-28 03:32:59",
+  "update_time": "2026-10-28 10:23:53",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-11-29",
@@ -1479,7 +1479,7 @@
     {
       "name": "奎克;",
       "avatar": "奎",
-      "task_count": 10,
+      "task_count": 11,
       "tasks": [
         {
           "id": "1165152329001236517",
@@ -1578,6 +1578,18 @@
           "owner": "奎克;"
         },
         {
+          "id": "1165152329001238640",
+          "name": "【北京农商行】私有化定制-测试环境部署-企业微信ip脚本开发测试",
+          "status": "done",
+          "begin": "2026-10-28",
+          "due": "2026-10-28",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001196300",
+          "workspace_id": "65152329",
+          "owner": "奎克;"
+        },
+        {
           "id": "1165152329001237949",
           "name": "【银河证券三期】【自拓】敏感词预警分层通知功能合入银河信创环境_26.5基线（ 人天）-升级合入敏感词功能",
           "status": "pending",
@@ -1603,17 +1615,17 @@
         }
       ],
       "daily_data": {
+        "2026-10-28": {
+          "hours": 12,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-10-26": {
           "hours": 18,
           "task_count": 2,
           "saturation": "overload"
         },
         "2026-10-29": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-10-28": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4872,12 +4884,12 @@
         },
         {
           "id": "1165152329001238007",
-          "name": "【重庆农商行】1.开发任务执行页面新增评论和拒绝功能;2.编写上游创建应用sop",
-          "status": "pending",
+          "name": "【重庆农商行】1.Ai小秘书需求变动开发; 2.支持上游创建应用通知行内uat测试;",
+          "status": "done",
           "begin": "2026-10-28",
           "due": "2026-10-28",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4962,14 +4974,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 324,
+    "total_tasks": 325,
     "by_status": {
-      "done": 177,
-      "pending": 107,
+      "done": 179,
+      "pending": 106,
       "overdue": 40
     },
     "by_week": {
-      "2026-10-26": 104,
+      "2026-10-26": 105,
       "2026-10-19": 163,
       "2026-11-02": 38,
       "2026-11-09": 15,
