@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-31 03:41:03",
+  "update_time": "2026-10-31 10:14:16",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-11-29",
@@ -2894,11 +2894,11 @@
         {
           "id": "1165152329001237568",
           "name": "【深农商行二期】【P2】企业360客户画像对接(变更) - 企业360前端页面开发",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-30",
           "due": "2026-10-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001237069",
           "workspace_id": "65152329",
           "owner": "阿彭;"
@@ -6892,9 +6892,9 @@
   "summary": {
     "total_tasks": 463,
     "by_status": {
-      "done": 341,
+      "done": 342,
       "pending": 114,
-      "overdue": 8
+      "overdue": 7
     },
     "by_week": {
       "2026-10-26": 183,
