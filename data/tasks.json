@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-31 17:30:13",
+  "update_time": "2026-11-01 03:48:19",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-11-29",
@@ -5878,7 +5878,7 @@
         {
           "id": "1165152329001238900",
           "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-10-31",
           "due": "2026-10-31",
           "effort": 8.0,
@@ -6951,8 +6951,8 @@
     "total_tasks": 467,
     "by_status": {
       "done": 346,
-      "pending": 114,
-      "overdue": 7
+      "pending": 113,
+      "overdue": 8
     },
     "by_week": {
       "2026-10-26": 185,
