@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-01 03:48:19",
+  "update_time": "2026-11-01 11:05:18",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-11-29",
@@ -230,11 +230,11 @@
         {
           "id": "1165152329001237726",
           "name": "【东莞证券信创升级】生产部署前置卡点处理",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-30",
           "due": "2026-10-30",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001223124",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -242,11 +242,11 @@
         {
           "id": "1165152329001237714",
           "name": "【日照银行一期】私有化生产环境部署上线文档编写",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-10-30",
           "due": "2026-10-30",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001220052",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -453,7 +453,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 28,
+      "task_count": 29,
       "tasks": [
         {
           "id": "1165152329001236847",
@@ -732,6 +732,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001239985",
+          "name": "【财信吉祥人寿一期】【P0】【定开】查询客户是否存在职域好友关系链-生产问题排查",
+          "status": "done",
+          "begin": "2026-11-01",
+          "due": "2026-11-01",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001231422",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001237671",
           "name": "【晋商银行三期】自动在职/离职继承客户-数据同步定时任务",
           "status": "pending",
@@ -793,6 +805,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-01": {
+          "hours": 1,
+          "task_count": 1,
+          "saturation": "low"
+        },
         "2026-10-30": {
           "hours": 9,
           "task_count": 2,
@@ -3295,7 +3312,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 41,
+      "task_count": 42,
       "tasks": [
         {
           "id": "1165152329001236411",
@@ -3495,8 +3512,8 @@
           "status": "done",
           "begin": "2026-10-26",
           "due": "2026-10-26",
-          "effort": 4.0,
-          "effort_completed": 4.0,
+          "effort": 3.0,
+          "effort_completed": 3.0,
           "story_id": "1165152329001232852",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3519,8 +3536,8 @@
           "status": "done",
           "begin": "2026-10-26",
           "due": "2026-10-26",
-          "effort": 1.0,
-          "effort_completed": 1.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001235861",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3543,8 +3560,8 @@
           "status": "done",
           "begin": "2026-10-27",
           "due": "2026-10-27",
-          "effort": 3.0,
-          "effort_completed": 3.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001197915",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3555,8 +3572,8 @@
           "status": "done",
           "begin": "2026-10-27",
           "due": "2026-10-27",
-          "effort": 1.0,
-          "effort_completed": 1.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001213563",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3567,9 +3584,21 @@
           "status": "done",
           "begin": "2026-10-27",
           "due": "2026-10-27",
-          "effort": 4.0,
-          "effort_completed": 4.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001232849",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001239115",
+          "name": "【财信吉祥人寿一期】技术支持 生产问题排查",
+          "status": "done",
+          "begin": "2026-10-28",
+          "due": "2026-10-28",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001214939",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -3591,8 +3620,8 @@
           "status": "done",
           "begin": "2026-10-28",
           "due": "2026-10-28",
-          "effort": 2.0,
-          "effort_completed": 2.0,
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001197915",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3603,8 +3632,8 @@
           "status": "done",
           "begin": "2026-10-28",
           "due": "2026-10-28",
-          "effort": 6.0,
-          "effort_completed": 6.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001232854",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3615,21 +3644,9 @@
           "status": "done",
           "begin": "2026-10-29",
           "due": "2026-10-29",
-          "effort": 1.0,
-          "effort_completed": 1.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001235861",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001239115",
-          "name": "【财信吉祥人寿一期】技术支持 生产问题排查",
-          "status": "done",
-          "begin": "2026-10-29",
-          "due": "2026-10-29",
-          "effort": 1.0,
-          "effort_completed": 1.0,
-          "story_id": "1165152329001214939",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -3639,8 +3656,8 @@
           "status": "done",
           "begin": "2026-10-29",
           "due": "2026-10-29",
-          "effort": 1.0,
-          "effort_completed": 1.0,
+          "effort": 2.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001223124",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -3651,9 +3668,21 @@
           "status": "done",
           "begin": "2026-10-29",
           "due": "2026-10-29",
-          "effort": 8.0,
-          "effort_completed": 8.0,
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001232852",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001239983",
+          "name": "【国投证券三期】展业素材一键群发 支持客户联调及问题处理",
+          "status": "done",
+          "begin": "2026-10-30",
+          "due": "2026-10-30",
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001231216",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -3675,21 +3704,21 @@
           "status": "done",
           "begin": "2026-10-30",
           "due": "2026-10-30",
-          "effort": 4.0,
-          "effort_completed": 4.0,
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001219713",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001238982",
-          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天)  统计功能开发",
+          "id": "1165152329001239982",
+          "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级 升级功能测试及前端跟进",
           "status": "done",
-          "begin": "2026-10-30",
-          "due": "2026-10-30",
-          "effort": 4.0,
-          "effort_completed": 4.0,
-          "story_id": "1165152329001232852",
+          "begin": "2026-11-01",
+          "due": "2026-11-01",
+          "effort": 6.0,
+          "effort_completed": 6.0,
+          "story_id": "1165152329001219713",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -3796,14 +3825,19 @@
           "task_count": 3,
           "saturation": "busy"
         },
+        "2026-11-01": {
+          "hours": 6,
+          "task_count": 1,
+          "saturation": "low"
+        },
         "2026-10-29": {
-          "hours": 11,
-          "task_count": 4,
+          "hours": 10,
+          "task_count": 3,
           "saturation": "busy"
         },
         "2026-10-28": {
-          "hours": 9,
-          "task_count": 3,
+          "hours": 10,
+          "task_count": 4,
           "saturation": "busy"
         },
         "2026-10-27": {
@@ -6948,14 +6982,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 467,
+    "total_tasks": 469,
     "by_status": {
-      "done": 346,
+      "done": 350,
       "pending": 113,
-      "overdue": 8
+      "overdue": 6
     },
     "by_week": {
-      "2026-10-26": 185,
+      "2026-10-26": 187,
       "2026-10-19": 172,
       "2026-11-02": 74,
       "2026-11-09": 19,
