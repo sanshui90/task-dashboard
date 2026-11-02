@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-02 03:52:45",
+  "update_time": "2026-11-02 12:04:18",
   "date_range": {
     "start": "2026-10-26",
     "end": "2026-12-06",
@@ -320,7 +320,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 15,
+      "task_count": 16,
       "tasks": [
         {
           "id": "1165152329001238263",
@@ -443,13 +443,25 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001240078",
+          "name": "【长江证券2026年维保】企微管家私有化+定制-标签对接问题支持",
+          "status": "done",
+          "begin": "2026-11-02",
+          "due": "2026-11-02",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001238856",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001237671",
           "name": "【晋商银行三期】自动在职/离职继承客户-数据同步定时任务",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-02",
           "due": "2026-11-02",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -504,6 +516,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-02": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-01": {
           "hours": 2,
           "task_count": 1,
@@ -548,11 +565,6 @@
           "hours": 10,
           "task_count": 2,
           "saturation": "busy"
-        },
-        "2026-11-02": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-10-28": {
           "hours": 8,
@@ -4757,14 +4769,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 314,
+    "total_tasks": 315,
     "by_status": {
-      "pending": 119,
-      "done": 187,
+      "done": 189,
+      "pending": 118,
       "overdue": 8
     },
     "by_week": {
-      "2026-11-02": 80,
+      "2026-11-02": 81,
       "2026-11-09": 22,
       "2026-10-26": 195,
       "2026-11-16": 13,
