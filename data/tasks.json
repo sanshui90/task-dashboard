@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-03 04:55:52",
+  "update_time": "2026-11-03 11:41:22",
   "date_range": {
     "start": "2026-10-26",
     "end": "2026-12-06",
@@ -320,7 +320,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 16,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001238263",
@@ -467,13 +467,25 @@
           "owner": "翔宇;"
         },
         {
-          "id": "1165152329001239118",
-          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-接口开发",
+          "id": "1165152329001240152",
+          "name": "【长江证券四期】企微管家私有化+定制-生产环境升级-升级方案评审+定开SOP",
           "status": "pending",
           "begin": "2026-11-03",
           "due": "2026-11-03",
-          "effort": 8.0,
+          "effort": 2.0,
           "effort_completed": 0.0,
+          "story_id": "1165152329001223184",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001239118",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-接口开发",
+          "status": "done",
+          "begin": "2026-11-03",
+          "due": "2026-11-03",
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -516,6 +528,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-03": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-02": {
           "hours": 9,
           "task_count": 2,
@@ -542,11 +559,6 @@
           "saturation": "normal"
         },
         "2026-11-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-03": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2232,7 +2244,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 38,
+      "task_count": 39,
       "tasks": [
         {
           "id": "1165152329001238236",
@@ -2523,14 +2535,26 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001240017",
-          "name": "【重庆农商行】sCRM生产环境问题排查处理",
-          "status": "pending",
+          "id": "1165152329001240151",
+          "name": "【东证期货】通用任务合入，替换MOT（**人天）问题协助定位",
+          "status": "done",
           "begin": "2026-11-03",
           "due": "2026-11-03",
-          "effort": 0.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234546",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001231399",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001240150",
+          "name": "【中邮证券三期】【信创】测试环境企微管家私有化 屏蔽项及问题修复处理， 已发布",
+          "status": "done",
+          "begin": "2026-11-03",
+          "due": "2026-11-03",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001210905",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2555,6 +2579,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234864",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001236415",
+          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天) 功能开发",
+          "status": "done",
+          "begin": "2026-11-03",
+          "due": "2026-11-03",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001232852",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2615,18 +2651,6 @@
           "effort": 0.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234546",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001236415",
-          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天) 功能开发",
-          "status": "pending",
-          "begin": "2026-11-06",
-          "due": "2026-11-06",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001232852",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2692,24 +2716,24 @@
         }
       ],
       "daily_data": {
+        "2026-11-03": {
+          "hours": 17,
+          "task_count": 5,
+          "saturation": "overload"
+        },
         "2026-11-02": {
           "hours": 25,
           "task_count": 6,
           "saturation": "overload"
         },
         "2026-11-06": {
-          "hours": 8,
-          "task_count": 2,
-          "saturation": "normal"
+          "hours": 0,
+          "task_count": 1,
+          "saturation": "idle"
         },
         "2026-11-05": {
           "hours": 8,
           "task_count": 2,
-          "saturation": "normal"
-        },
-        "2026-11-03": {
-          "hours": 8,
-          "task_count": 3,
           "saturation": "normal"
         },
         "2026-11-11": {
@@ -2767,7 +2791,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 37,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001238238",
@@ -3022,25 +3046,13 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001237666",
-          "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级测试验证",
-          "status": "overdue",
-          "begin": "2026-11-01",
-          "due": "2026-11-01",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001219713",
-          "workspace_id": "65152329",
-          "owner": "希希;"
-        },
-        {
           "id": "1165152329001234798",
           "name": "【日照银行一期】【P1】客户认证（13人天），测试环境测试",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-02",
           "due": "2026-11-02",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001228502",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3048,11 +3060,11 @@
         {
           "id": "1165152329001234802",
           "name": "【日照银行一期】【P1】客户画像（16人天）测试环境测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-03",
           "due": "2026-11-03",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001228503",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -3268,11 +3280,6 @@
         "2026-11-16": {
           "hours": 8,
           "task_count": 5,
-          "saturation": "normal"
-        },
-        "2026-11-01": {
-          "hours": 8,
-          "task_count": 1,
           "saturation": "normal"
         },
         "2026-11-06": {
@@ -4805,16 +4812,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 318,
+    "total_tasks": 319,
     "by_status": {
-      "done": 194,
-      "pending": 104,
-      "overdue": 20
+      "pending": 101,
+      "done": 200,
+      "overdue": 18
     },
     "by_week": {
-      "2026-11-02": 84,
+      "2026-11-02": 86,
       "2026-11-09": 22,
-      "2026-10-26": 195,
+      "2026-10-26": 194,
       "2026-11-16": 13,
       "2026-11-23": 4
     }
