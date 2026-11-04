@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 04:25:04",
+  "update_time": "2026-11-04 11:54:37",
   "date_range": {
     "start": "2026-10-26",
     "end": "2026-12-06",
@@ -320,7 +320,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 17,
+      "task_count": 18,
       "tasks": [
         {
           "id": "1165152329001238263",
@@ -469,11 +469,11 @@
         {
           "id": "1165152329001240152",
           "name": "【长江证券四期】企微管家私有化+定制-生产环境升级-升级方案评审+定开SOP",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-03",
           "due": "2026-11-03",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001223184",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -491,13 +491,25 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001240252",
+          "name": "【财信吉祥人寿一期】技术支持-AI竞赛排期+技术调研",
+          "status": "done",
+          "begin": "2026-11-04",
+          "due": "2026-11-04",
+          "effort": 1.5,
+          "effort_completed": 1.5,
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001239119",
           "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-接口开发",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-04",
           "due": "2026-11-04",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -528,6 +540,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-04": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-03": {
           "hours": 9,
           "task_count": 2,
@@ -554,11 +571,6 @@
           "saturation": "normal"
         },
         "2026-11-05": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-04": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -3096,11 +3108,11 @@
         {
           "id": "1165152329001234800",
           "name": "【日照银行一期】【P1】企微通讯录同步（13人天），测试环境测试",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-04",
           "due": "2026-11-04",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001227418",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -4746,12 +4758,12 @@
         },
         {
           "id": "1165152329001239672",
-          "name": "【重庆农商行】1.开发任务执行页面新增评论和拒绝功能;2.编写AI小秘书发版sop;",
-          "status": "pending",
+          "name": "【重庆农商行】1.开发任务执行页面新增评论和拒绝功能;",
+          "status": "done",
           "begin": "2026-11-04",
           "due": "2026-11-04",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4836,14 +4848,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 321,
+    "total_tasks": 322,
     "by_status": {
-      "done": 202,
-      "pending": 86,
-      "overdue": 33
+      "done": 207,
+      "pending": 83,
+      "overdue": 32
     },
     "by_week": {
-      "2026-11-02": 88,
+      "2026-11-02": 89,
       "2026-11-09": 22,
       "2026-10-26": 194,
       "2026-11-16": 13,
