@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-05 04:41:41",
+  "update_time": "2026-11-05 11:57:06",
   "date_range": {
     "start": "2026-10-26",
     "end": "2026-12-06",
@@ -320,7 +320,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 18,
+      "task_count": 20,
       "tasks": [
         {
           "id": "1165152329001238263",
@@ -515,13 +515,37 @@
           "owner": "翔宇;"
         },
         {
-          "id": "1165152329001239120",
-          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-数据对接",
-          "status": "pending",
+          "id": "1165152329001240346",
+          "name": "【财信吉祥人寿一期】技术支持-AI竞赛技术调研",
+          "status": "done",
           "begin": "2026-11-05",
           "due": "2026-11-05",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001240345",
+          "name": "【长江证券四期】-PM工作-部署方案评审",
+          "status": "done",
+          "begin": "2026-11-05",
+          "due": "2026-11-05",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001237753",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001239120",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-数据对接",
+          "status": "done",
+          "begin": "2026-11-05",
+          "due": "2026-11-05",
+          "effort": 5.0,
+          "effort_completed": 5.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -540,6 +564,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-05": {
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-11-04": {
           "hours": 10,
           "task_count": 2,
@@ -566,11 +595,6 @@
           "saturation": "busy"
         },
         "2026-11-06": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-05": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -3171,7 +3195,7 @@
           "status": "pending",
           "begin": "2026-11-05",
           "due": "2026-11-05",
-          "effort": 8.0,
+          "effort": 9.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001228504",
           "workspace_id": "65152329",
@@ -3372,9 +3396,9 @@
           "saturation": "normal"
         },
         "2026-11-05": {
-          "hours": 8,
+          "hours": 9,
           "task_count": 1,
-          "saturation": "normal"
+          "saturation": "busy"
         },
         "2026-11-03": {
           "hours": 8,
@@ -3931,7 +3955,7 @@
     {
       "name": "阿政;",
       "avatar": "阿",
-      "task_count": 25,
+      "task_count": 30,
       "tasks": [
         {
           "id": "1165152329001238862",
@@ -4138,18 +4162,6 @@
           "owner": "阿政;"
         },
         {
-          "id": "1165152329001238900",
-          "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级",
-          "status": "overdue",
-          "begin": "2026-10-31",
-          "due": "2026-10-31",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001219713",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
           "id": "1165152329001239989",
           "name": "【银河证券三期】【26.5】企微管家测试环境升级（50人天）-1. 银河证券测试环境升级2605",
           "status": "done",
@@ -4174,76 +4186,203 @@
           "owner": "阿政;"
         },
         {
-          "id": "1165152329001238901",
-          "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级",
-          "status": "overdue",
-          "begin": "2026-11-01",
-          "due": "2026-11-01",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001219713",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001237353",
-          "name": "【北京农商行】私有化定制-生产环境部署",
-          "status": "overdue",
-          "begin": "2026-11-02",
-          "due": "2026-11-02",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001196298",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001237354",
-          "name": "【北京农商行】私有化定制-生产环境部署",
-          "status": "overdue",
-          "begin": "2026-11-03",
-          "due": "2026-11-03",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001196298",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001237355",
-          "name": "【北京农商行】私有化定制-生产环境部署",
-          "status": "overdue",
-          "begin": "2026-11-04",
-          "due": "2026-11-04",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001196298",
-          "workspace_id": "65152329",
-          "owner": "阿政;"
-        },
-        {
-          "id": "1165152329001237356",
-          "name": "【北京农商行】私有化定制-生产环境部署",
+          "id": "1165152329001240304",
+          "name": "【财信吉祥人寿一期】技术支持-开发环境和taiji",
           "status": "pending",
-          "begin": "2026-11-05",
-          "due": "2026-11-05",
+          "begin": "2026-11-09",
+          "due": "2026-11-09",
           "effort": 8.0,
           "effort_completed": 0.0,
-          "story_id": "1165152329001196298",
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240305",
+          "name": "【财信吉祥人寿一期】技术支持-开发环境和taiji",
+          "status": "pending",
+          "begin": "2026-11-10",
+          "due": "2026-11-10",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240306",
+          "name": "【中航证券四期】企微管家测试环境部署",
+          "status": "pending",
+          "begin": "2026-11-11",
+          "due": "2026-11-11",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001240207",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240307",
+          "name": "【中航证券四期】企微管家测试环境部署",
+          "status": "pending",
+          "begin": "2026-11-12",
+          "due": "2026-11-12",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001240207",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240308",
+          "name": "【中航证券四期】企微管家测试环境部署",
+          "status": "pending",
+          "begin": "2026-11-13",
+          "due": "2026-11-13",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001240207",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240292",
+          "name": "【东莞证券信创升级】企微管家生产环境升级26.5",
+          "status": "pending",
+          "begin": "2026-11-20",
+          "due": "2026-11-20",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240293",
+          "name": "【东莞证券信创升级】企微管家生产环境升级26.5",
+          "status": "pending",
+          "begin": "2026-11-21",
+          "due": "2026-11-21",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240294",
+          "name": "【东莞证券信创升级】企微管家生产环境升级26.5",
+          "status": "pending",
+          "begin": "2026-11-22",
+          "due": "2026-11-22",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240295",
+          "name": "【银河证券三期】【26.5】企微管家生产环境升级（30人天）",
+          "status": "pending",
+          "begin": "2026-11-27",
+          "due": "2026-11-27",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001216732",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240296",
+          "name": "【银河证券三期】【26.5】企微管家生产环境升级（30人天）",
+          "status": "pending",
+          "begin": "2026-11-28",
+          "due": "2026-11-28",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001216732",
+          "workspace_id": "65152329",
+          "owner": "阿政;"
+        },
+        {
+          "id": "1165152329001240297",
+          "name": "【银河证券三期】【26.5】企微管家生产环境升级（30人天）",
+          "status": "pending",
+          "begin": "2026-11-29",
+          "due": "2026-11-29",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001216732",
           "workspace_id": "65152329",
           "owner": "阿政;"
         }
       ],
       "daily_data": {
+        "2026-11-13": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-12": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-11": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-10": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-09": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-29": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-28": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-27": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-22": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-21": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
+        "2026-11-20": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-11-01": {
-          "hours": 16,
-          "task_count": 3,
-          "saturation": "overload"
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
         },
         "2026-10-31": {
-          "hours": 16,
-          "task_count": 2,
-          "saturation": "overload"
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
         },
         "2026-10-30": {
           "hours": 8,
@@ -4268,26 +4407,6 @@
         "2026-10-26": {
           "hours": 8,
           "task_count": 3,
-          "saturation": "normal"
-        },
-        "2026-11-05": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-02": {
-          "hours": 8,
-          "task_count": 1,
           "saturation": "normal"
         }
       }
@@ -4896,18 +5015,18 @@
     }
   ],
   "summary": {
-    "total_tasks": 326,
+    "total_tasks": 333,
     "by_status": {
-      "done": 212,
-      "pending": 66,
-      "overdue": 48
+      "done": 215,
+      "pending": 75,
+      "overdue": 43
     },
     "by_week": {
-      "2026-11-02": 93,
-      "2026-11-09": 22,
-      "2026-10-26": 194,
-      "2026-11-16": 13,
-      "2026-11-23": 4
+      "2026-11-02": 91,
+      "2026-11-09": 27,
+      "2026-11-23": 7,
+      "2026-11-16": 16,
+      "2026-10-26": 192
     }
   }
 }
