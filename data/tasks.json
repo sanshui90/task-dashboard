@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 12:36:00",
+  "update_time": "2026-11-09 20:16:17",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -2553,7 +2553,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 24,
+      "task_count": 25,
       "tasks": [
         {
           "id": "1165152329001234798",
@@ -2628,13 +2628,25 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001240348",
-          "name": "【日照银行一期】【P1】客户画像（16人天），行内测试老师测试支持",
-          "status": "pending",
+          "id": "1165152329001241122",
+          "name": "【东证期货AI】对客智能问答，优化后整体复测",
+          "status": "done",
           "begin": "2026-11-09",
           "due": "2026-11-09",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001226192",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001240348",
+          "name": "【日照银行一期】【P1】客户画像（16人天），行内测试老师测试支持",
+          "status": "done",
+          "begin": "2026-11-09",
+          "due": "2026-11-09",
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001228503",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2845,6 +2857,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-09": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
         "2026-11-20": {
           "hours": 8,
           "task_count": 1,
@@ -2891,11 +2908,6 @@
           "saturation": "normal"
         },
         "2026-11-10": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-09": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4384,14 +4396,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 280,
+    "total_tasks": 281,
     "by_status": {
-      "pending": 125,
-      "done": 142,
+      "done": 144,
+      "pending": 124,
       "overdue": 13
     },
     "by_week": {
-      "2026-11-09": 77,
+      "2026-11-09": 78,
       "2026-11-02": 154,
       "2026-11-23": 15,
       "2026-11-16": 29,
