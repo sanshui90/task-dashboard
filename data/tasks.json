@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 12:14:57",
+  "update_time": "2026-11-10 17:22:39",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -2386,8 +2386,8 @@
           "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
-          "effort": 8.0,
-          "effort_completed": 8.0,
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001234865",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2503,7 +2503,7 @@
       ],
       "daily_data": {
         "2026-11-10": {
-          "hours": 19,
+          "hours": 18,
           "task_count": 5,
           "saturation": "overload"
         },
