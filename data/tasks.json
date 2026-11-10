@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 05:37:14",
+  "update_time": "2026-11-10 12:14:57",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -433,11 +433,11 @@
         {
           "id": "1165152329001240708",
           "name": "【财信吉祥人寿一期】AI中台对接-Agentar适配",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-09",
           "due": "2026-11-09",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -445,11 +445,11 @@
         {
           "id": "1165152329001240709",
           "name": "【财信吉祥人寿一期】AI中台对接-Agentar适配",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -2066,7 +2066,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 35,
+      "task_count": 36,
       "tasks": [
         {
           "id": "1165152329001240093",
@@ -2345,38 +2345,50 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001237160",
-          "name": "【香港AIA一期】通讯录导入与企微同步 功能开发",
-          "status": "overdue",
-          "begin": "2026-11-09",
-          "due": "2026-11-09",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234863",
+          "id": "1165152329001241186",
+          "name": "【国投证券三期】【零售】展业素材一键群发（22人天） 上线支持",
+          "status": "done",
+          "begin": "2026-11-10",
+          "due": "2026-11-10",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001231216",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001241185",
+          "name": "【财信吉祥人寿一期】技术支持-uat打包支持",
+          "status": "done",
+          "begin": "2026-11-10",
+          "due": "2026-11-10",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001214939",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001241184",
+          "name": "【方正证券三期】企微管家私有化_生产环境信创适配升级。打包支持",
+          "status": "done",
+          "begin": "2026-11-10",
+          "due": "2026-11-10",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001219713",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
           "id": "1165152329001240361",
-          "name": "【香港AIA一期】公告功能 移动端列表开发",
-          "status": "pending",
+          "name": "【香港AIA一期】公告功能 移动端对接审批及详情展示",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234865",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001240014",
-          "name": "【重庆农商行三期】【P14】任务执行页面新增评论和拒绝功能(23人天) 功能开发及自测",
-          "status": "pending",
-          "begin": "2026-11-10",
-          "due": "2026-11-10",
-          "effort": 0.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001232852",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2401,18 +2413,6 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234865",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001240015",
-          "name": "【重庆农商行三期】【P14】创建任务时结束时间优化(2人天) 功能开发",
-          "status": "pending",
-          "begin": "2026-11-11",
-          "due": "2026-11-11",
-          "effort": 0.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001232851",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2449,6 +2449,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234865",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237160",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能开发",
+          "status": "pending",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234863",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2490,10 +2502,15 @@
         }
       ],
       "daily_data": {
-        "2026-11-09": {
-          "hours": 17,
-          "task_count": 3,
+        "2026-11-10": {
+          "hours": 19,
+          "task_count": 5,
           "saturation": "overload"
+        },
+        "2026-11-09": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-11-06": {
           "hours": 8,
@@ -2506,9 +2523,9 @@
           "saturation": "busy"
         },
         "2026-11-17": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-11-16": {
           "hours": 8,
@@ -2522,13 +2539,8 @@
         },
         "2026-11-11": {
           "hours": 8,
-          "task_count": 2,
+          "task_count": 1,
           "saturation": "normal"
-        },
-        "2026-11-10": {
-          "hours": 16,
-          "task_count": 3,
-          "saturation": "overload"
         },
         "2026-11-04": {
           "hours": 10,
@@ -2666,11 +2678,11 @@
         {
           "id": "1165152329001240349",
           "name": "【日照银行一期】【P1】客户认证（13人天），行内测试老师测试支持",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001228502",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -4306,12 +4318,12 @@
         },
         {
           "id": "1165152329001241069",
-          "name": "【重庆农商行】1.支持新增任务复核功能需求联调",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持新增任务复核功能需求联调;2.生产问题排查;",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4408,17 +4420,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 282,
+    "total_tasks": 283,
     "by_status": {
-      "done": 146,
-      "pending": 110,
-      "overdue": 26
+      "done": 154,
+      "pending": 105,
+      "overdue": 24
     },
     "by_week": {
       "2026-11-09": 79,
       "2026-11-02": 154,
       "2026-11-23": 15,
-      "2026-11-16": 29,
+      "2026-11-16": 30,
       "2026-11-30": 2,
       "2026-12-07": 3
     }
