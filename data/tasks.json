@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-11 04:10:05",
+  "update_time": "2026-11-11 11:43:23",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -443,6 +443,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001241210",
+          "name": "【日照银行一期】金融标品客户认证/取消认证接口，查询管户返回服务类型接口，合入26.5以及26.5-mysql-bug处理",
+          "status": "done",
+          "begin": "2026-11-10",
+          "due": "2026-11-10",
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001236926",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001240709",
           "name": "【财信吉祥人寿一期】AI中台对接-Agentar适配",
           "status": "done",
@@ -455,25 +467,13 @@
           "owner": "翔宇;"
         },
         {
-          "id": "1165152329001241210",
-          "name": "【日照银行一期】金融标品客户认证/取消认证接口，查询管户返回服务类型接口，合入26.5以及26.5-mysql-bug处理",
-          "status": "pending",
-          "begin": "2026-11-11",
-          "due": "2026-11-11",
-          "effort": 2.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001236926",
-          "workspace_id": "65152329",
-          "owner": "翔宇;"
-        },
-        {
           "id": "1165152329001240736",
           "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-用例评审+演示",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -481,11 +481,11 @@
         {
           "id": "1165152329001240730",
           "name": "【财信吉祥人寿一期】AI中台对接-Agentar适配",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -516,9 +516,14 @@
         }
       ],
       "daily_data": {
+        "2026-11-10": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-11": {
-          "hours": 12,
-          "task_count": 3,
+          "hours": 10,
+          "task_count": 2,
           "saturation": "busy"
         },
         "2026-11-13": {
@@ -527,11 +532,6 @@
           "saturation": "normal"
         },
         "2026-11-12": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-10": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2107,7 +2107,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 36,
+      "task_count": 37,
       "tasks": [
         {
           "id": "1165152329001240093",
@@ -2434,25 +2434,25 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001237857",
-          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
-          "status": "overdue",
-          "begin": "2026-11-10",
-          "due": "2026-11-10",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234863",
+          "id": "1165152329001241282",
+          "name": "【国投证券三期】【零售】完善国投客户画像（10人天）需求梳理及排期",
+          "status": "done",
+          "begin": "2026-11-11",
+          "due": "2026-11-11",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001238798",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
           "id": "1165152329001240362",
-          "name": "【香港AIA一期】公告功能 移动端详情功能开发",
-          "status": "pending",
+          "name": "【香港AIA一期】公告功能 移动端接入审批及统计处理",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234865",
           "workspace_id": "65152329",
           "owner": "云燕;"
@@ -2506,6 +2506,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001237857",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
+          "status": "pending",
+          "begin": "2026-11-18",
+          "due": "2026-11-18",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234863",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001237858",
           "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
           "status": "pending",
@@ -2543,10 +2555,15 @@
         }
       ],
       "daily_data": {
+        "2026-11-11": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-10": {
-          "hours": 18,
-          "task_count": 5,
-          "saturation": "overload"
+          "hours": 10,
+          "task_count": 4,
+          "saturation": "busy"
         },
         "2026-11-09": {
           "hours": 9,
@@ -2578,11 +2595,6 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-11-11": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-11-04": {
           "hours": 10,
           "task_count": 5,
@@ -2603,6 +2615,11 @@
           "task_count": 1,
           "saturation": "normal"
         },
+        "2026-11-18": {
+          "hours": 8,
+          "task_count": 1,
+          "saturation": "normal"
+        },
         "2026-11-24": {
           "hours": 8,
           "task_count": 1,
@@ -2618,7 +2635,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 25,
+      "task_count": 28,
       "tasks": [
         {
           "id": "1165152329001234798",
@@ -2725,6 +2742,42 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001228502",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001241291",
+          "name": "【银河证券三期】【26.5】企微管家测试环境升级（50人天），升级26.5定开适配测试",
+          "status": "done",
+          "begin": "2026-11-11",
+          "due": "2026-11-11",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001216730",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001241290",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)，测试用例评审+提测演示",
+          "status": "done",
+          "begin": "2026-11-11",
+          "due": "2026-11-11",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001236770",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001241289",
+          "name": "【日照银行一期】【P1】客户画像（16人天）测试环境遗留问题回归，生产上线验证与业务老师和行内测试老师沟通",
+          "status": "done",
+          "begin": "2026-11-11",
+          "due": "2026-11-11",
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001228503",
           "workspace_id": "65152329",
           "owner": "希希;"
         },
@@ -2922,6 +2975,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-11": {
+          "hours": 8,
+          "task_count": 3,
+          "saturation": "normal"
+        },
         "2026-11-09": {
           "hours": 8,
           "task_count": 2,
@@ -4372,11 +4430,11 @@
         {
           "id": "1165152329001241070",
           "name": "【重庆农商行】1.支持任务执行页面新增评论和拒绝功能联调",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4461,17 +4519,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 286,
+    "total_tasks": 290,
     "by_status": {
-      "pending": 94,
-      "done": 157,
-      "overdue": 35
+      "done": 166,
+      "pending": 90,
+      "overdue": 34
     },
     "by_week": {
-      "2026-11-09": 82,
+      "2026-11-09": 85,
       "2026-11-02": 154,
       "2026-11-23": 15,
-      "2026-11-16": 30,
+      "2026-11-16": 31,
       "2026-11-30": 2,
       "2026-12-07": 3
     }
