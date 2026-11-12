@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-12 12:17:19",
+  "update_time": "2026-11-12 17:47:44",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -1855,7 +1855,7 @@
     {
       "name": "阿彭;",
       "avatar": "阿",
-      "task_count": 29,
+      "task_count": 32,
       "tasks": [
         {
           "id": "1165152329001237572",
@@ -1866,6 +1866,18 @@
           "effort": 8.0,
           "effort_completed": 8.0,
           "story_id": "1165152329001229727",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001241453",
+          "name": "【日照银行一期】【P1】行内产品库同步产品库（ 人天）- 测试问题跟进处理",
+          "status": "done",
+          "begin": "2026-11-03",
+          "due": null,
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001232801",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -1974,6 +1986,30 @@
           "effort": 2.0,
           "effort_completed": 3.0,
           "story_id": "1165152329001228503",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001241452",
+          "name": "【银河证券三期】【26.5】企微管家测试环境升级（50人天）- 升级测试问题处理",
+          "status": "done",
+          "begin": "2026-11-06",
+          "due": null,
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001216730",
+          "workspace_id": "65152329",
+          "owner": "阿彭;"
+        },
+        {
+          "id": "1165152329001241451",
+          "name": "【深农商行二期】【P2】企业360客户画像对接(变更) - 接口对接",
+          "status": "done",
+          "begin": "2026-11-06",
+          "due": null,
+          "effort": 2.0,
+          "effort_completed": 2.0,
+          "story_id": "1165152329001237069",
           "workspace_id": "65152329",
           "owner": "阿彭;"
         },
@@ -2207,6 +2243,16 @@
         }
       ],
       "daily_data": {
+        "2026-11-03": {
+          "hours": 13,
+          "task_count": 4,
+          "saturation": "overload"
+        },
+        "2026-11-06": {
+          "hours": 13,
+          "task_count": 3,
+          "saturation": "overload"
+        },
         "2026-11-08": {
           "hours": 8,
           "task_count": 4,
@@ -2230,11 +2276,6 @@
         "2026-11-04": {
           "hours": 10,
           "task_count": 2,
-          "saturation": "busy"
-        },
-        "2026-11-03": {
-          "hours": 10,
-          "task_count": 3,
           "saturation": "busy"
         },
         "2026-11-24": {
@@ -2268,11 +2309,6 @@
           "saturation": "normal"
         },
         "2026-11-10": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-06": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2665,12 +2701,24 @@
         {
           "id": "1165152329001240363",
           "name": "【香港AIA一期】公告功能 pc接入审批",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-12",
           "due": "2026-11-12",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 7.0,
+          "effort_completed": 7.0,
           "story_id": "1165152329001234865",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237856",
+          "name": "【香港AIA一期】单点登录 功能开发",
+          "status": "done",
+          "begin": "2026-11-12",
+          "due": "2026-11-12",
+          "effort": 3.0,
+          "effort_completed": 3.0,
+          "story_id": "1165152329001234864",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2745,18 +2793,6 @@
           "story_id": "1165152329001234864",
           "workspace_id": "65152329",
           "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001237856",
-          "name": "【香港AIA一期】单点登录 功能开发",
-          "status": "pending",
-          "begin": "2026-11-24",
-          "due": "2026-11-24",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234864",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
         }
       ],
       "daily_data": {
@@ -2796,9 +2832,9 @@
           "saturation": "normal"
         },
         "2026-11-12": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-11-04": {
           "hours": 10,
@@ -2821,11 +2857,6 @@
           "saturation": "normal"
         },
         "2026-11-18": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-24": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4724,17 +4755,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 305,
+    "total_tasks": 308,
     "by_status": {
-      "pending": 89,
-      "done": 178,
+      "done": 183,
+      "pending": 87,
       "overdue": 38
     },
     "by_week": {
+      "2026-11-02": 157,
       "2026-11-16": 45,
-      "2026-11-09": 86,
-      "2026-11-02": 154,
-      "2026-11-23": 15,
+      "2026-11-09": 87,
+      "2026-11-23": 14,
       "2026-11-30": 2,
       "2026-12-07": 3
     }
