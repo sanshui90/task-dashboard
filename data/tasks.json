@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-12 05:21:36",
+  "update_time": "2026-11-12 12:17:19",
   "date_range": {
     "start": "2026-11-02",
     "end": "2026-12-13",
@@ -9,7 +9,7 @@
     {
       "name": "迷雾;",
       "avatar": "迷",
-      "task_count": 20,
+      "task_count": 34,
       "tasks": [
         {
           "id": "1165152329001239122",
@@ -110,11 +110,11 @@
         {
           "id": "1165152329001239144",
           "name": "【东莞证券信创升级】信创升级+定开PM管理工作",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-06",
           "due": "2026-11-06",
           "effort": 2.0,
-          "effort_completed": 0.0,
+          "effort_completed": 2.0,
           "story_id": "1165152329001223425",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -122,11 +122,11 @@
         {
           "id": "1165152329001239127",
           "name": "【国投证券三期】展业素材一键群发客户侧对接支持",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-06",
           "due": "2026-11-06",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001231216",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -134,11 +134,11 @@
         {
           "id": "1165152329001240664",
           "name": "【日照银行一期】现场项目管理工作推进",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-09",
           "due": "2026-11-09",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001237283",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -146,11 +146,11 @@
         {
           "id": "1165152329001240663",
           "name": "【中邮证券三期】【信创】升级日常项目管理卡点事项推进",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-09",
           "due": "2026-11-09",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001210906",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -158,11 +158,11 @@
         {
           "id": "1165152329001240667",
           "name": "【日照银行一期】项目上线前置项目问题跟进处理",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001237283",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -170,11 +170,11 @@
         {
           "id": "1165152329001240665",
           "name": "【中邮证券三期】【信创】上线文档及定开事项问题处理",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-10",
           "due": "2026-11-10",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001210906",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -182,11 +182,11 @@
         {
           "id": "1165152329001240673",
           "name": "【中邮证券三期】【信创】中邮证券信创升级日例会+常规事项处理",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001210906",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -194,11 +194,11 @@
         {
           "id": "1165152329001240672",
           "name": "【日照银行一期】【P1】业务测试相关事项支持",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-11",
           "due": "2026-11-11",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001228503",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -206,11 +206,11 @@
         {
           "id": "1165152329001240682",
           "name": "【东莞证券信创升级】周例会及渗透测试复扫相关问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-12",
           "due": "2026-11-12",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001223124",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -218,11 +218,11 @@
         {
           "id": "1165152329001240676",
           "name": "【中邮证券三期】【信创】升级日例会及渗透测试日常问题处理",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-12",
           "due": "2026-11-12",
           "effort": 4.0,
-          "effort_completed": 0.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001210906",
           "workspace_id": "65152329",
           "owner": "迷雾;"
@@ -250,9 +250,202 @@
           "story_id": "1165152329001238763",
           "workspace_id": "65152329",
           "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241409",
+          "name": "【中邮证券三期】【信创】信创生产升级项目推进",
+          "status": "pending",
+          "begin": "2026-11-16",
+          "due": "2026-11-16",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241407",
+          "name": "【日照银行一期】一阶段上线评审及文档整理",
+          "status": "pending",
+          "begin": "2026-11-16",
+          "due": "2026-11-16",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001237283",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241406",
+          "name": "【国投证券三期】智能名片安全改造进展推进及排期",
+          "status": "pending",
+          "begin": "2026-11-16",
+          "due": "2026-11-16",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238801",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241413",
+          "name": "【中邮证券三期】【信创】日常项目推进及资源协调",
+          "status": "pending",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241412",
+          "name": "【中邮证券三期】【信创】升级定开功能生产发版整理",
+          "status": "pending",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241411",
+          "name": "【国投证券三期】【零售】P1需求项目排期及进展推进",
+          "status": "pending",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238794",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241415",
+          "name": "【东莞证券信创升级】生产信创升级项目协调及定开发版整理",
+          "status": "pending",
+          "begin": "2026-11-18",
+          "due": "2026-11-18",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241414",
+          "name": "【中邮证券三期】【信创】生产升级渗透测试漏洞修复问题跟进",
+          "status": "pending",
+          "begin": "2026-11-18",
+          "due": "2026-11-18",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241423",
+          "name": "【日照银行一期】项目管理支持及上线SOP整理",
+          "status": "pending",
+          "begin": "2026-11-19",
+          "due": "2026-11-19",
+          "effort": 3.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001237283",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241421",
+          "name": "【国投证券三期】【零售】P1需求问题管理及推进",
+          "status": "pending",
+          "begin": "2026-11-19",
+          "due": "2026-11-19",
+          "effort": 3.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238763",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241420",
+          "name": "【东莞证券信创升级】信创升级周例会及项目问题推进",
+          "status": "pending",
+          "begin": "2026-11-19",
+          "due": "2026-11-19",
+          "effort": 3.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241427",
+          "name": "【国投证券三期】【零售】P1定开需求相关问题支持",
+          "status": "pending",
+          "begin": "2026-11-20",
+          "due": "2026-11-20",
+          "effort": 4.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238762",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241425",
+          "name": "【中邮证券三期】【信创】生产升级项目渗透测试等问题跟进",
+          "status": "pending",
+          "begin": "2026-11-20",
+          "due": "2026-11-20",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001210906",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
+        },
+        {
+          "id": "1165152329001241424",
+          "name": "【日照银行一期】项目周例会及卡点问题处理",
+          "status": "pending",
+          "begin": "2026-11-20",
+          "due": "2026-11-20",
+          "effort": 2.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001237283",
+          "workspace_id": "65152329",
+          "owner": "迷雾;"
         }
       ],
       "daily_data": {
+        "2026-11-20": {
+          "hours": 8,
+          "task_count": 3,
+          "saturation": "normal"
+        },
+        "2026-11-19": {
+          "hours": 9,
+          "task_count": 3,
+          "saturation": "busy"
+        },
+        "2026-11-18": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
+        "2026-11-17": {
+          "hours": 8,
+          "task_count": 3,
+          "saturation": "normal"
+        },
+        "2026-11-16": {
+          "hours": 10,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-11-13": {
           "hours": 8,
           "task_count": 2,
@@ -308,7 +501,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 17,
+      "task_count": 18,
       "tasks": [
         {
           "id": "1165152329001240078",
@@ -491,6 +684,18 @@
           "owner": "翔宇;"
         },
         {
+          "id": "1165152329001241405",
+          "name": "【晋商银行三期】[标品]群发客户支持创建人群包(导入客户ID、客户号)(37人天)-需求评审",
+          "status": "done",
+          "begin": "2026-11-12",
+          "due": "2026-11-12",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001238595",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
           "id": "1165152329001240732",
           "name": "【财信吉祥人寿一期】AI中台对接-服务部署+配置",
           "status": "pending",
@@ -516,6 +721,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-12": {
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-10": {
           "hours": 10,
           "task_count": 2,
@@ -527,11 +737,6 @@
           "saturation": "busy"
         },
         "2026-11-13": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-12": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4441,12 +4646,12 @@
         },
         {
           "id": "1165152329001241071",
-          "name": "【重庆农商行】1.支持任务执行页面新增评论和拒绝功能联调",
-          "status": "pending",
+          "name": "【重庆农商行】1.支持任务执行页面新增评论和拒绝功能联调; 2.重庆农商Ai需求讨论;",
+          "status": "done",
           "begin": "2026-11-12",
           "due": "2026-11-12",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4519,17 +4724,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 290,
+    "total_tasks": 305,
     "by_status": {
-      "done": 166,
-      "pending": 78,
-      "overdue": 46
+      "pending": 89,
+      "done": 178,
+      "overdue": 38
     },
     "by_week": {
-      "2026-11-09": 85,
+      "2026-11-16": 45,
+      "2026-11-09": 86,
       "2026-11-02": 154,
       "2026-11-23": 15,
-      "2026-11-16": 31,
       "2026-11-30": 2,
       "2026-12-07": 3
     }
