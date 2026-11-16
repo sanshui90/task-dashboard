@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-16 04:18:07",
+  "update_time": "2026-11-16 12:29:43",
   "date_range": {
     "start": "2026-11-09",
     "end": "2026-12-20",
@@ -356,7 +356,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 15,
+      "task_count": 16,
       "tasks": [
         {
           "id": "1165152329001240708",
@@ -433,11 +433,11 @@
         {
           "id": "1165152329001240732",
           "name": "【财信吉祥人寿一期】AI中台对接-服务部署+配置",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-12",
           "due": "2026-11-12",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -445,11 +445,11 @@
         {
           "id": "1165152329001241534",
           "name": "【财信吉祥人寿一期】技术支持-标签问题排查",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-13",
           "due": "2026-11-13",
           "effort": 1.0,
-          "effort_completed": 0.0,
+          "effort_completed": 1.0,
           "story_id": "1165152329001214939",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -457,23 +457,35 @@
         {
           "id": "1165152329001240734",
           "name": "【财信吉祥人寿一期】AI中台对接-Agent应用配置+工作流",
-          "status": "overdue",
+          "status": "done",
           "begin": "2026-11-13",
           "due": "2026-11-13",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001242175",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-测试问题处理",
+          "status": "done",
+          "begin": "2026-11-16",
+          "due": "2026-11-16",
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "翔宇;"
         },
         {
           "id": "1165152329001241471",
           "name": "【财信吉祥人寿一期】AI中台对接-taiji对接Agentar调式",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-16",
           "due": "2026-11-16",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -540,6 +552,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-16": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
         "2026-11-13": {
           "hours": 9,
           "task_count": 2,
@@ -561,11 +578,6 @@
           "saturation": "normal"
         },
         "2026-11-17": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-16": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2322,7 +2334,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 22,
+      "task_count": 23,
       "tasks": [
         {
           "id": "1165152329001241122",
@@ -2433,13 +2445,25 @@
           "owner": "希希;"
         },
         {
+          "id": "1165152329001242181",
+          "name": "【银河证券三期】【26.5】企微管家测试环境升级（50人天），测试环境bug回归",
+          "status": "done",
+          "begin": "2026-11-16",
+          "due": "2026-11-16",
+          "effort": 0.5,
+          "effort_completed": 0.5,
+          "story_id": "1165152329001216730",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
           "id": "1165152329001240390",
-          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)，测试环境测试",
-          "status": "pending",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)，测试环境测试，进度85%，正常场景已测试完成",
+          "status": "done",
           "begin": "2026-11-16",
           "due": "2026-11-16",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001236770",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2590,6 +2614,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-16": {
+          "hours": 8,
+          "task_count": 2,
+          "saturation": "normal"
+        },
         "2026-11-13": {
           "hours": 9,
           "task_count": 2,
@@ -2619,11 +2648,6 @@
           "hours": 16,
           "task_count": 4,
           "saturation": "overload"
-        },
-        "2026-11-16": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
         },
         "2026-11-27": {
           "hours": 8,
@@ -4112,12 +4136,12 @@
         },
         {
           "id": "1165152329001241942",
-          "name": "【重庆农商行】1.重庆P14需求提测及演示;2.支持客户信息中间跑批sql迁移doris;3.转介绍素材问题排查;",
-          "status": "pending",
+          "name": "【重庆农商行】1.重庆P14需求测试;2.支持客户信息中间跑批sql迁移doris;3.转介绍素材问题排查;",
+          "status": "done",
           "begin": "2026-11-16",
           "due": "2026-11-16",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4226,15 +4250,15 @@
     }
   ],
   "summary": {
-    "total_tasks": 271,
+    "total_tasks": 273,
     "by_status": {
-      "done": 136,
-      "overdue": 20,
-      "pending": 115
+      "done": 144,
+      "overdue": 17,
+      "pending": 112
     },
     "by_week": {
+      "2026-11-16": 82,
       "2026-11-09": 156,
-      "2026-11-16": 80,
       "2026-11-23": 28,
       "2026-11-30": 7
     }
