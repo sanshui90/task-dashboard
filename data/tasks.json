@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-17 06:02:17",
+  "update_time": "2026-11-17 12:50:39",
   "date_range": {
     "start": "2026-11-09",
     "end": "2026-12-20",
@@ -356,7 +356,7 @@
     {
       "name": "翔宇;",
       "avatar": "翔",
-      "task_count": 16,
+      "task_count": 17,
       "tasks": [
         {
           "id": "1165152329001240708",
@@ -491,13 +491,25 @@
           "owner": "翔宇;"
         },
         {
-          "id": "1165152329001241472",
-          "name": "【财信吉祥人寿一期】AI中台对接-Agentar智能体应用配置",
-          "status": "pending",
+          "id": "1165152329001242297",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)-测试问题处理",
+          "status": "done",
           "begin": "2026-11-17",
           "due": "2026-11-17",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 4.0,
+          "effort_completed": 4.0,
+          "story_id": "1165152329001236770",
+          "workspace_id": "65152329",
+          "owner": "翔宇;"
+        },
+        {
+          "id": "1165152329001241472",
+          "name": "【财信吉祥人寿一期】AI中台对接-Agentar智能体应用配置",
+          "status": "done",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 6.0,
+          "effort_completed": 6.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -552,6 +564,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-17": {
+          "hours": 10,
+          "task_count": 2,
+          "saturation": "busy"
+        },
         "2026-11-16": {
           "hours": 8,
           "task_count": 2,
@@ -573,11 +590,6 @@
           "saturation": "normal"
         },
         "2026-11-18": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-17": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -2358,7 +2370,7 @@
     {
       "name": "希希;",
       "avatar": "希",
-      "task_count": 23,
+      "task_count": 25,
       "tasks": [
         {
           "id": "1165152329001241122",
@@ -2493,13 +2505,37 @@
           "owner": "希希;"
         },
         {
-          "id": "1165152329001238971",
-          "name": "【银河证券三期】信创适配升级26.5定开主流程测试",
-          "status": "pending",
+          "id": "1165152329001242303",
+          "name": "【晋商银行三期】自动在职/离职继承客户(40人天)，遗留场景测试及问题回归",
+          "status": "done",
           "begin": "2026-11-17",
           "due": "2026-11-17",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort": 5.5,
+          "effort_completed": 5.5,
+          "story_id": "1165152329001236770",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001242302",
+          "name": "【东证期货AI】对内智能问答机器人（20人天），产品梳理场景后需求重新评审，及问题提单跟进",
+          "status": "done",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 1.5,
+          "effort_completed": 1.5,
+          "story_id": "1165152329001226193",
+          "workspace_id": "65152329",
+          "owner": "希希;"
+        },
+        {
+          "id": "1165152329001238971",
+          "name": "【银河证券三期】信创适配升级26.5，定开测试进度对齐、遗留bug回归",
+          "status": "done",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 1.0,
+          "effort_completed": 1.0,
           "story_id": "1165152329001216730",
           "workspace_id": "65152329",
           "owner": "希希;"
@@ -2638,6 +2674,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-17": {
+          "hours": 8,
+          "task_count": 3,
+          "saturation": "normal"
+        },
         "2026-11-16": {
           "hours": 8,
           "task_count": 2,
@@ -2699,11 +2740,6 @@
           "saturation": "normal"
         },
         "2026-11-10": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-17": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4172,12 +4208,12 @@
         },
         {
           "id": "1165152329001241943",
-          "name": "【重庆农商行】1.支持重庆P14需求行内冒烟测试;",
-          "status": "pending",
+          "name": "【重庆农商行】1.重庆P14需求提测演示; 2.支持重庆生产问题排查; 3.支持客户信息中间跑批sql迁移doris;",
+          "status": "done",
           "begin": "2026-11-17",
           "due": "2026-11-17",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001234546",
           "workspace_id": "65152329",
           "owner": "恒华;"
@@ -4274,14 +4310,14 @@
     }
   ],
   "summary": {
-    "total_tasks": 275,
+    "total_tasks": 278,
     "by_status": {
-      "done": 147,
+      "done": 153,
       "overdue": 30,
-      "pending": 98
+      "pending": 95
     },
     "by_week": {
-      "2026-11-16": 84,
+      "2026-11-16": 87,
       "2026-11-09": 156,
       "2026-11-23": 28,
       "2026-11-30": 7
