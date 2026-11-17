@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-17 12:50:39",
+  "update_time": "2026-11-17 18:51:58",
   "date_range": {
     "start": "2026-11-09",
     "end": "2026-12-20",
@@ -1998,7 +1998,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 24,
+      "task_count": 26,
       "tasks": [
         {
           "id": "1165152329001241140",
@@ -2169,14 +2169,38 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001237160",
-          "name": "【香港AIA一期】通讯录导入与企微同步 功能开发",
+          "id": "1165152329001242314",
+          "name": "【国投证券三期】【零售】完善国投客户画像（10人天）梳理对接地址及问题对齐",
+          "status": "done",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001238798",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001242313",
+          "name": "【东莞证券信创升级】企微管家生产环境升级26.5 小程序打包支持",
+          "status": "done",
+          "begin": "2026-11-17",
+          "due": "2026-11-17",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001223425",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001240366",
+          "name": "【香港AIA一期】公告功能 功能联调",
           "status": "pending",
           "begin": "2026-11-17",
           "due": "2026-11-17",
           "effort": 8.0,
           "effort_completed": 0.0,
-          "story_id": "1165152329001234863",
+          "story_id": "1165152329001234865",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2189,18 +2213,6 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001234863",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001240366",
-          "name": "【香港AIA一期】公告功能 功能联调",
-          "status": "pending",
-          "begin": "2026-11-19",
-          "due": "2026-11-19",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234865",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2277,6 +2289,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001237160",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能开发",
+          "status": "done",
+          "begin": "2026-11-26",
+          "due": "2026-11-26",
+          "effort": 8.0,
+          "effort_completed": 8.0,
+          "story_id": "1165152329001234863",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001241485",
           "name": "【国投证券三期】【零售】埋点规范适配（13人天） 功能开发",
           "status": "pending",
@@ -2290,6 +2314,11 @@
         }
       ],
       "daily_data": {
+        "2026-11-17": {
+          "hours": 10,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-11-16": {
           "hours": 10,
           "task_count": 3,
@@ -2306,9 +2335,9 @@
           "saturation": "normal"
         },
         "2026-11-26": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-11-25": {
           "hours": 8,
@@ -2340,11 +2369,6 @@
           "task_count": 2,
           "saturation": "busy"
         },
-        "2026-11-19": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
         "2026-11-12": {
           "hours": 10,
           "task_count": 2,
@@ -2356,11 +2380,6 @@
           "saturation": "normal"
         },
         "2026-11-18": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-17": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4310,16 +4329,16 @@
     }
   ],
   "summary": {
-    "total_tasks": 278,
+    "total_tasks": 280,
     "by_status": {
-      "done": 153,
+      "done": 156,
       "overdue": 30,
-      "pending": 95
+      "pending": 94
     },
     "by_week": {
-      "2026-11-16": 87,
+      "2026-11-16": 88,
       "2026-11-09": 156,
-      "2026-11-23": 28,
+      "2026-11-23": 29,
       "2026-11-30": 7
     }
   }
