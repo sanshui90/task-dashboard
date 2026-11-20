@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-20 12:34:27",
+  "update_time": "2026-11-20 18:08:14",
   "date_range": {
     "start": "2026-11-09",
     "end": "2026-12-20",
@@ -758,11 +758,11 @@
         {
           "id": "1165152329001241476",
           "name": "【财信吉祥人寿一期】AI中台对接-分析智能体对接",
-          "status": "pending",
+          "status": "done",
           "begin": "2026-11-20",
           "due": "2026-11-20",
           "effort": 8.0,
-          "effort_completed": 0.0,
+          "effort_completed": 8.0,
           "story_id": "1165152329001240686",
           "workspace_id": "65152329",
           "owner": "翔宇;"
@@ -6643,8 +6643,8 @@
   "summary": {
     "total_tasks": 441,
     "by_status": {
-      "done": 306,
-      "pending": 135
+      "done": 307,
+      "pending": 134
     },
     "by_week": {
       "2026-11-16": 163,
