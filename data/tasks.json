@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-21 19:55:11",
+  "update_time": "2026-11-22 04:36:20",
   "date_range": {
     "start": "2026-11-09",
     "end": "2026-12-20",
@@ -5629,7 +5629,7 @@
         {
           "id": "1165152329001242532",
           "name": "【东莞证券信创升级】企微管家生产环境升级26.5",
-          "status": "pending",
+          "status": "overdue",
           "begin": "2026-11-21",
           "due": "2026-11-21",
           "effort": 8.0,
@@ -6673,8 +6673,8 @@
     "total_tasks": 443,
     "by_status": {
       "done": 309,
-      "pending": 124,
-      "overdue": 10
+      "pending": 123,
+      "overdue": 11
     },
     "by_week": {
       "2026-11-16": 165,
