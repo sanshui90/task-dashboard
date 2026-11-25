@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-25 13:58:26",
+  "update_time": "2026-11-25 19:39:58",
   "date_range": {
     "start": "2026-11-16",
     "end": "2026-12-27",
@@ -2218,7 +2218,7 @@
     {
       "name": "云燕;",
       "avatar": "云",
-      "task_count": 38,
+      "task_count": 39,
       "tasks": [
         {
           "id": "1165152329001242186",
@@ -2485,18 +2485,6 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001242595",
-          "name": "【中航证券四期】企微管家测试环境部署 定制适配",
-          "status": "overdue",
-          "begin": "2026-11-24",
-          "due": "2026-11-24",
-          "effort": 4.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001240207",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
           "id": "1165152329001241482",
           "name": "【国投证券三期】【零售】AI总结对客服务记录（34人天） 功能开发",
           "status": "done",
@@ -2509,38 +2497,38 @@
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001241479",
-          "name": "【国投证券三期】【零售】完善国投客户画像（10人天） 功能开发",
-          "status": "overdue",
-          "begin": "2026-11-24",
-          "due": "2026-11-24",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001238798",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001237857",
-          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
-          "status": "pending",
+          "id": "1165152329001243865",
+          "name": "【东莞证券信创升级】企微管家生产环境升级26.5 生产问题处理",
+          "status": "done",
           "begin": "2026-11-25",
           "due": "2026-11-25",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234863",
+          "effort": 1.0,
+          "effort_completed": 1.0,
+          "story_id": "1165152329001223425",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
         {
-          "id": "1165152329001242596",
-          "name": "【中航证券四期】企微管家测试环境部署 定制适配联调",
-          "status": "pending",
-          "begin": "2026-11-26",
-          "due": "2026-11-26",
-          "effort": 8.0,
-          "effort_completed": 0.0,
+          "id": "1165152329001242595",
+          "name": "【中航证券四期】企微管家测试环境部署 定制适配",
+          "status": "done",
+          "begin": "2026-11-25",
+          "due": "2026-11-25",
+          "effort": 4.0,
+          "effort_completed": 4.0,
           "story_id": "1165152329001240207",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001241479",
+          "name": "【国投证券三期】【零售】完善国投客户画像（10人天） 功能开发",
+          "status": "done",
+          "begin": "2026-11-25",
+          "due": "2026-11-25",
+          "effort": 5.0,
+          "effort_completed": 5.0,
+          "story_id": "1165152329001238798",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2548,47 +2536,11 @@
           "id": "1165152329001242597",
           "name": "【中航证券四期】企微管家测试环境部署 定制适配联调",
           "status": "pending",
-          "begin": "2026-11-27",
-          "due": "2026-11-27",
+          "begin": "2026-11-30",
+          "due": "2026-11-30",
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001240207",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001241485",
-          "name": "【国投证券三期】【零售】埋点规范适配（13人天） 功能开发",
-          "status": "pending",
-          "begin": "2026-11-27",
-          "due": "2026-11-27",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001238799",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001241478",
-          "name": "【国投证券三期】【零售】完善国投客户画像（10人天） 功能开发",
-          "status": "pending",
-          "begin": "2026-11-27",
-          "due": "2026-11-27",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001238798",
-          "workspace_id": "65152329",
-          "owner": "云燕;"
-        },
-        {
-          "id": "1165152329001237858",
-          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
-          "status": "pending",
-          "begin": "2026-11-27",
-          "due": "2026-11-27",
-          "effort": 8.0,
-          "effort_completed": 0.0,
-          "story_id": "1165152329001234863",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2601,6 +2553,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001238794",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001242596",
+          "name": "【中航证券四期】企微管家测试环境部署 定制适配联调",
+          "status": "pending",
+          "begin": "2026-12-01",
+          "due": "2026-12-01",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001240207",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2629,6 +2593,18 @@
           "owner": "云燕;"
         },
         {
+          "id": "1165152329001241478",
+          "name": "【国投证券三期】【零售】完善国投客户画像（10人天） 功能开发",
+          "status": "pending",
+          "begin": "2026-12-03",
+          "due": "2026-12-03",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238798",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
           "id": "1165152329001242590",
           "name": "【国投证券三期】【零售】AI总结对客服务记录（34人天）功能联调",
           "status": "pending",
@@ -2637,6 +2613,18 @@
           "effort": 8.0,
           "effort_completed": 0.0,
           "story_id": "1165152329001238794",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001241485",
+          "name": "【国投证券三期】【零售】埋点规范适配（13人天） 功能开发",
+          "status": "pending",
+          "begin": "2026-12-04",
+          "due": "2026-12-04",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001238799",
           "workspace_id": "65152329",
           "owner": "云燕;"
         },
@@ -2675,13 +2663,42 @@
           "story_id": "1165152329001238762",
           "workspace_id": "65152329",
           "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237857",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
+          "status": "pending",
+          "begin": "2026-12-09",
+          "due": "2026-12-09",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234863",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
+        },
+        {
+          "id": "1165152329001237858",
+          "name": "【香港AIA一期】通讯录导入与企微同步 功能联调",
+          "status": "pending",
+          "begin": "2026-12-10",
+          "due": "2026-12-10",
+          "effort": 8.0,
+          "effort_completed": 0.0,
+          "story_id": "1165152329001234863",
+          "workspace_id": "65152329",
+          "owner": "云燕;"
         }
       ],
       "daily_data": {
+        "2026-11-25": {
+          "hours": 10,
+          "task_count": 3,
+          "saturation": "busy"
+        },
         "2026-11-24": {
-          "hours": 21,
-          "task_count": 4,
-          "saturation": "overload"
+          "hours": 9,
+          "task_count": 2,
+          "saturation": "busy"
         },
         "2026-11-23": {
           "hours": 9,
@@ -2693,20 +2710,20 @@
           "task_count": 2,
           "saturation": "normal"
         },
-        "2026-11-27": {
-          "hours": 32,
-          "task_count": 4,
+        "2026-11-30": {
+          "hours": 16,
+          "task_count": 2,
           "saturation": "overload"
         },
-        "2026-11-26": {
+        "2026-12-01": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
         },
         "2026-12-09": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-12-08": {
           "hours": 8,
@@ -2724,19 +2741,14 @@
           "saturation": "normal"
         },
         "2026-12-04": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-12-03": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
-        },
-        "2026-11-30": {
-          "hours": 8,
-          "task_count": 1,
-          "saturation": "normal"
+          "hours": 16,
+          "task_count": 2,
+          "saturation": "overload"
         },
         "2026-11-19": {
           "hours": 10,
@@ -2763,7 +2775,7 @@
           "task_count": 1,
           "saturation": "normal"
         },
-        "2026-11-25": {
+        "2026-12-10": {
           "hours": 8,
           "task_count": 1,
           "saturation": "normal"
@@ -4674,17 +4686,17 @@
     }
   ],
   "summary": {
-    "total_tasks": 305,
+    "total_tasks": 306,
     "by_status": {
-      "done": 181,
+      "done": 184,
       "pending": 83,
-      "overdue": 41
+      "overdue": 39
     },
     "by_week": {
-      "2026-11-23": 105,
+      "2026-11-23": 100,
       "2026-11-16": 168,
-      "2026-12-07": 7,
-      "2026-11-30": 25
+      "2026-11-30": 29,
+      "2026-12-07": 9
     }
   }
 }
